@@ -43,7 +43,7 @@ So far, this is a really really early draft.
 
 ## Credits
 
-![MercadoLibre](http://static.mlstatic.com/org-img/chico/img/logo-mercadolibre-new.png)
+![MercadoPago](https://a248.e.akamai.net/secure.mlstatic.com/components/resources/mp/css/assets/desktop-logo-mercadopago.png)
 
 ## License
 Licensed under the MIT license.
