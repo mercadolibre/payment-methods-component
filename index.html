@@ -1,0 +1,262 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>	<html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+
+<head> 
+	<script></script> 
+	<meta charset="utf-8"> 
+	<title>Payment Methods Component</title>
+	<meta name="HandheldFriendly" content="True">  
+	<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="http://static.mlstatic.com/org-img/ch/ui/1.0.0/chico.css">
+	<link rel="stylesheet" type="text/css" href="http://static.mlstatic.com/org-img/ch/mesh/2.2/mesh.min.css">
+	
+
+	<!-- Components -->
+	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
+	<link rel="stylesheet" type="text/css" href="css/countries/ar/payment-methods.css">
+	<link rel="stylesheet" type="text/css" href="css/countries/ar/default/payment-methods.css">
+	<link rel="stylesheet" type="text/css" href="css/countries/ar/large/payment-methods.css">
+
+
+	<style type="text/css">
+		body {
+		    min-width: 320px;
+		    max-width: 100%;
+		    text-align: center;
+		}
+
+		header {
+			text-align: center;
+			padding: 30px;
+		}
+
+		header h1 {
+			color: #dc7b1c;
+			font-size: 40px;
+		}
+
+		section {
+			margin-bottom: 40px;
+		}
+
+		section h1 {
+			background: #ddd;
+			padding: 10px;
+			text-align: center;
+			margin: 20px 0 40px;
+		}
+
+		h2 {
+			margin-top: 30px;
+		}
+
+		.thiner-list {
+			width: 350px; 
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.noise {
+			background: #FFF0BA;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Argentina Payment Methods</h1>
+	</header>
+
+	<section>
+		<h1>Default size</h1>
+
+		<h2>List</h2>
+		<div class="ch-box-lite">
+			<ul>
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-naranja">Naranja</li>
+				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
+				<li class="paymentmethod-nativa">Nativa</li>
+				<li class="paymentmethod-cencosud">Cencosud</li>
+				<li class="paymentmethod-cabal">Cabal</li>
+				<li class="paymentmethod-argencard">Argencard</li>
+				<li class="paymentmethod-pagofacil">Pago Fácil</li>
+				<li class="paymentmethod-redlink">Red Link</li>
+				<li class="paymentmethod-rapipago">Rapipago</li>
+				<li class="paymentmethod-bapropagos">BaproPagos</li>
+				<li class="paymentmethod-banelco">Banelco</li>
+			</ul>
+		</div>
+
+		<h2>Thiner List</h2>
+		<div class="ch-box-lite">
+			<ul class="thiner-list">
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-naranja">Naranja</li>
+				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
+				<li class="paymentmethod-nativa">Nativa</li>
+				<li class="paymentmethod-cencosud">Cencosud</li>
+				<li class="paymentmethod-cabal">Cabal</li>
+				<li class="paymentmethod-argencard">Argencard</li>
+				<li class="paymentmethod-pagofacil">Pago Fácil</li>
+				<li class="paymentmethod-redlink">Red Link</li>
+				<li class="paymentmethod-rapipago">Rapipago</li>
+				<li class="paymentmethod-bapropagos">BaproPagos</li>
+				<li class="paymentmethod-banelco">Banelco</li>
+			</ul>
+		</div>
+		<h2>List w/ background</h2>
+		<div class="ch-box-lite noise">
+			<ul>
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-naranja">Naranja</li>
+				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
+				<li class="paymentmethod-nativa">Nativa</li>
+				<li class="paymentmethod-cencosud">Cencosud</li>
+				<li class="paymentmethod-cabal">Cabal</li>
+				<li class="paymentmethod-argencard">Argencard</li>
+				<li class="paymentmethod-pagofacil">Pago Fácil</li>
+				<li class="paymentmethod-redlink">Red Link</li>
+				<li class="paymentmethod-rapipago">Rapipago</li>
+				<li class="paymentmethod-bapropagos">BaproPagos</li>
+				<li class="paymentmethod-banelco">Banelco</li>
+			</ul>
+		</div>
+		<h2>Spans</h2>
+		<div class="ch-box-lite">
+			<span class="paymentmethod-account_money">Dinero en cuenta MercadoPago</span>
+			<span class="paymentmethod-visa">Visa</span>
+			<span class="paymentmethod-master">Mastercard</span>
+			<span class="paymentmethod-amex">American Express</span>
+			<span class="paymentmethod-naranja">Naranja</span>
+			<span class="paymentmethod-tarshop">Tarjeta Shopping</span>
+			<span class="paymentmethod-nativa">Nativa</span>
+			<span class="paymentmethod-cencosud">Cencosud</span>
+			<span class="paymentmethod-cabal">Cabal</span>
+			<span class="paymentmethod-argencard">Argencard</span>
+			<span class="paymentmethod-pagofacil">Pago Fácil</span>
+			<span class="paymentmethod-redlink">Red Link</span>
+			<span class="paymentmethod-rapipago">Rapipago</span>
+			<span class="paymentmethod-bapropagos">BaproPagos</span>
+			<span class="paymentmethod-banelco">Banelco</span>
+		</div>
+					
+		<h2>Divs</h2>
+		<div class="ch-box-lite">
+			<div class="paymentmethod-account_money">Dinero en cuenta MercadoPago</div>
+			<div class="paymentmethod-visa">Visa</div>
+			<div class="paymentmethod-master">Mastercard</div>
+			<div class="paymentmethod-amex">American Express</div>
+			<div class="paymentmethod-naranja">Naranja</div>
+			<div class="paymentmethod-tarshop">Tarjeta Shopping</div>
+			<div class="paymentmethod-nativa">Nativa</div>
+			<div class="paymentmethod-cencosud">Cencosud</div>
+			<div class="paymentmethod-cabal">Cabal</div>
+			<div class="paymentmethod-argencard">Argencard</div>
+			<div class="paymentmethod-pagofacil">Pago Fácil</div>
+			<div class="paymentmethod-redlink">Red Link</div>
+			<div class="paymentmethod-rapipago">Rapipago</div>
+			<div class="paymentmethod-bapropagos">BaproPagos</div>
+			<div class="paymentmethod-banelco">Banelco</div>
+		</div>
+
+		<h2>Inline with text</h2>
+		<div class="ch-box-lite">
+			<p>
+				<span class="paymentmethod-visa">Visa</span> terminada en 1234.
+			</p>
+			<p>
+				<span class="paymentmethod-amex">American Express</span> terminada en 1234.
+			</p>
+			<p>
+				<span class="paymentmethod-master">Mastercard</span> terminada en 1234.
+			</p>
+			<p>
+				<span class="paymentmethod-argencard">Argencard</span> terminada en 1234.
+			</p>
+		</div>
+
+	</section>
+
+	<section>
+	<h1>Large size</h1>
+
+	<h2>List</h2>
+	<div class="ch-box-lite">
+		<ul>
+			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
+			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
+			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
+			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
+			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
+			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
+			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
+			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
+			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
+			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
+			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
+			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
+			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
+			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
+		</ul>
+	</div>
+
+	<h2>Thiner List</h2>
+	<div class="ch-box-lite">
+		<ul class="thiner-list">
+			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
+			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
+			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
+			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
+			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
+			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
+			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
+			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
+			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
+			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
+			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
+			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
+			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
+			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
+		</ul>
+	</div>
+
+	<h2>List w/ background</h2>
+	<div class="ch-box-lite noise">
+		<ul>
+			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
+			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
+			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
+			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
+			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
+			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
+			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
+			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
+			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
+			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
+			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
+			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
+			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
+			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
+		</ul>
+	</div>
+	</section>
+</body>
+</html>
+

@@ -1,7 +1,7 @@
-MercadoPago Payment Methods Component
+Payment Methods Component
 =====================================
 
-Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
+MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
 
 So far, this is a really really early draft. 
 
