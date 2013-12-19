@@ -27,6 +27,8 @@ So far, this is a really really early draft.
 
 ## Generate the files
 
+        grunt build --country=ar
+
 [WIP]
 
 
