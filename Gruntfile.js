@@ -7,7 +7,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         'pkg': grunt.file.readJSON('package.json'),
         'concat': {
-            'dist': {
+            'build': {
                 'src': ['css/payment-methods.css', 'css/countries/' + country + '/payment-methods.css', 'css/countries/' + country + '/' + size + '/payment-methods.css'],
                 'dest': 'build/payment-methods.' + country + '.css'
             }
