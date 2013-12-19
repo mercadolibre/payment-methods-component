@@ -9,13 +9,13 @@ So far, this is a really really early draft.
 
 1. Install [Git](http://git-scm.com/) and [NodeJS](http://nodejs.org/).
 
-2. Open your terminal and clone `mercadolibre/component-payment-methods` by running:
+2. Open your terminal and clone `mercadolibre/payment-methods-component` by running:
 
-        $ git clone git@github.com:mercadolibre/component-payment-methods.git
+        $ git clone git@github.com:mercadolibre/payment-methods-component.git
 
 3. Now go to the project's folder:
 
-        $ cd component-payment-methods
+        $ cd payment-methods-component
 
 4. Install its dependencies:
 
