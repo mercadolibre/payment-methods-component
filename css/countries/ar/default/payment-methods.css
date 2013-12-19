@@ -1,0 +1,78 @@
+/* Argentina Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Argentina Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    height: 14px;
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-naranja { 
+    height: 18px;
+    width: 16px;
+}
+
+.paymentmethod-nativa {
+    height: 15px;
+    width: 36px;
+}
+
+.paymentmethod-tarshop {
+    width: 27px;
+}
+
+.paymentmethod-cencosud {
+    width: 25px;
+}
+
+.paymentmethod-cabal {
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-argencard {
+    height: 18px;
+    width: 17px;
+}
+
+.paymentmethod-pagofacil,
+.paymentmethod-redlink {
+    height: 20px;
+    width: 19px;
+}
+
+.paymentmethod-rapipago {
+    height: 11px;
+    width: 59px;
+}
+
+.paymentmethod-banelco {
+    width: 46px;
+}
+
+.paymentmethod-bapropagos {
+    width: 51px;
+}

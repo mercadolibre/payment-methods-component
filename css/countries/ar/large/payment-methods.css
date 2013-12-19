@@ -1,0 +1,80 @@
+/* Argentina Sprite for Large Size 
+---------------------------------------------------------------*/
+
+.paymentmethod-large {
+    background-image: url('payment-methods-large.png');
+    height: 26px; /* most common height */
+}
+
+li.paymentmethod-large {
+    margin: 5px;
+}
+
+/* Argentina Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large {
+    height: 21px;
+    width: 60px;
+}
+
+.paymentmethod-master.paymentmethod-large {
+    height: 28px;
+    width: 46px;
+}
+
+.paymentmethod-amex.paymentmethod-large {
+    height: 27px;
+    width: 26px;
+}
+
+.paymentmethod-naranja.paymentmethod-large {
+    height: 29px;
+    width: 25px;
+}
+
+.paymentmethod-nativa.paymentmethod-large {
+    width: 58px;
+}
+
+.paymentmethod-tarshop.paymentmethod-large {
+    width: 42px;
+}
+
+.paymentmethod-cencosud.paymentmethod-large {
+    width: 40px;
+}
+
+.paymentmethod-cabal.paymentmethod-large {
+    width: 26px;
+}
+
+.paymentmethod-argencard.paymentmethod-large {
+    height: 28px;
+    width: 28px;
+}
+
+.paymentmethod-pagofacil.paymentmethod-large,
+.paymentmethod-redlink.paymentmethod-large {
+    height: 31px;
+    width: 31px;
+}
+
+.paymentmethod-rapipago.paymentmethod-large {
+    height: 19px;
+    width: 96px;
+}
+
+.paymentmethod-banelco.paymentmethod-large {
+    height: 25px;
+    width: 74px;
+}
+
+.paymentmethod-bapropagos.paymentmethod-large {
+    width: 82px;
+}
