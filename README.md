@@ -25,15 +25,15 @@ So far, this is a really really early draft.
 
         $ npm install grunt-cli -g
 
-## Files generation
+## File generation
 
 You can generate a file by country and by size using Grunt commands:
 
-    Ex: payment methods for Argentina with the default size:
+Ex: payment methods for Argentina with the default size:
 
         grunt build --country=ar
 
-    Ex: Payment methods for Argentina and large size:
+Ex: Payment methods for Argentina and large size:
 
         grunt build --country=ar --size=large
 
@@ -56,9 +56,9 @@ Once you've got a css file for the component, you can add it to your css bundles
 
 ### Guidelines
 
-    - Use one file per country. Only load the component for that country.
+- Use one file per country. Only load the component for that country.
 
-    - Add it to your own bundles, don't make an extra request for it.
+- Add it to your own bundles, don't make an extra request for it.
 
 ### HTML Markup
 
@@ -82,7 +82,6 @@ Once you've got a css file for the component, you can add it to your css bundles
     ```html
     <!-- Span -->
     <span class="paymentmethod-visa">Visa</span>
-    
     ```
 
     ```html
@@ -90,7 +89,6 @@ Once you've got a css file for the component, you can add it to your css bundles
     <p>
         <span class="paymentmethod-visa">Visa</span> terminada en 1234
     </p>
-    
     ```
 
 - Extend the size for large files using the `paymentmethod-large` class:
@@ -98,14 +96,12 @@ Once you've got a css file for the component, you can add it to your css bundles
     ```html
     <!-- This is a large logo -->
     <span class="paymentmethod-visa paymentmethod-large">Visa</span>
-    
     ```
 
 - Each payment method class uses the id field from the [MercadoPago Payment Methods API](https://api.mercadolibre.com/sites/MLA/payment_methods), so you can use variables to be able to use this service and load the logos dinamically.
 
      ```html
     <li class="paymentmethod-${id}">${name}</li>
-
     ```
 
 
