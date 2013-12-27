@@ -11,15 +11,11 @@
 [class*='paymentmethod'] {
     background-repeat: no-repeat;
     display: inline-block;
-    margin: 0;
+    margin: 2px;
     overflow: hidden;
     text-indent: 100%;
     vertical-align: middle;
     white-space: nowrap;
-}
-
-li[class*='paymentmethod'] {
-    margin: 2px;
 }
 
 /* Common Payment Methods to all Contries 

@@ -4,9 +4,6 @@
 .paymentmethod-large {
     background-image: url('payment-methods-large.png');
     height: 26px; /* most common height */
-}
-
-li.paymentmethod-large {
     margin: 5px;
 }
 
@@ -47,7 +44,7 @@ li.paymentmethod-large {
 }
 
 .paymentmethod-cencosud.paymentmethod-large {
-    width: 40px;
+    width: 41px;
 }
 
 .paymentmethod-cabal.paymentmethod-large {
@@ -66,8 +63,8 @@ li.paymentmethod-large {
 }
 
 .paymentmethod-rapipago.paymentmethod-large {
-    height: 19px;
-    width: 96px;
+    height: 16px;
+    width: 86px;
 }
 
 .paymentmethod-banelco.paymentmethod-large {

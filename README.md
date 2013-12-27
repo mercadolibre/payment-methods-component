@@ -37,6 +37,9 @@ Ex: Payment methods for Argentina and large size:
 
         grunt build --country=ar --size=large
 
+
+You'll find the generated files in a `build` folder.
+
 ### Country List
 
 - ar (Argentina)

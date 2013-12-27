@@ -16,7 +16,7 @@
 }
 
 .paymentmethod-visa {
-    height: 14px;
+    height: 16px;
     width: 38px;
 }
 
@@ -45,7 +45,8 @@
 }
 
 .paymentmethod-cencosud {
-    width: 25px;
+    height: 17px;
+    width: 26px;
 }
 
 .paymentmethod-cabal {
@@ -66,7 +67,7 @@
 
 .paymentmethod-rapipago {
     height: 11px;
-    width: 59px;
+    width: 56px;
 }
 
 .paymentmethod-banelco {
