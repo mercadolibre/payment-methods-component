@@ -1,0 +1,22 @@
+/* Sprite position for Brazil Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-hipercard { 
+	background-position: 0 -200px; 
+}
+
+.paymentmethod-diners { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-elo { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-melicard { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-bolbradesco { 
+	background-position: 0 -400px; 
+}
