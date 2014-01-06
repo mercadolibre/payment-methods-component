@@ -94,7 +94,7 @@ Once you've got a css file for the component, you can add it to your css bundles
     </p>
     ```
 
-- Extend the size for large files using the `paymentmethod-large` class:
+- Extend the size for large logos using the `paymentmethod-large` class:
     
     ```html
     <!-- This is a large logo -->
@@ -124,5 +124,5 @@ Once you've got a css file for the component, you can add it to your css bundles
 ## License
 Licensed under the MIT license.
 
-Copyright (c) 2013 [MercadoLibre](http://github.com/mercadolibre).
+Copyright (c) 2014 [MercadoLibre](http://github.com/mercadolibre).
 

@@ -1,0 +1,52 @@
+/* Brazil Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Brazil Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-hipercard { 
+    width: 35px;
+}
+
+.paymentmethod-diners {
+    width: 20px;
+}
+
+.paymentmethod-elo {
+    width: 16px;
+}
+
+.paymentmethod-melicard {
+    height: 15px;
+    width: 20px;
+}
+
+.paymentmethod-bolbradesco {
+    height: 14px;
+    width: 21px;
+}
