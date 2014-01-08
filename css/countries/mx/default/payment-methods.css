@@ -1,0 +1,50 @@
+/* Mexico Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Mexico Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-bancomer { 
+    height: 20px;
+    width: 70px;
+}
+
+.paymentmethod-banamex {
+    height: 13px;
+    width: 57px;
+}
+
+.paymentmethod-serfin {
+    height: 13px;
+    width: 62px;
+}
+
+.paymentmethod-oxxo {
+    height: 15px;
+    width: 33px;
+}

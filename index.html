@@ -17,9 +17,10 @@
 
 	<!-- Components -->
 	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
-	<link rel="stylesheet" type="text/css" href="css/countries/ar/payment-methods.css">
-	<link rel="stylesheet" type="text/css" href="css/countries/ar/default/payment-methods.css">
-	<link rel="stylesheet" type="text/css" href="css/countries/ar/large/payment-methods.css">
+	<link rel="stylesheet" id="country" type="text/css" href="css/countries/ar/payment-methods.css">
+	<link rel="stylesheet" id="country-default" type="text/css" href="css/countries/ar/default/payment-methods.css">
+	<link rel="stylesheet" id="country-large" type="text/css" href="css/countries/ar/large/payment-methods.css">
+
 
 
 	<style type="text/css">
@@ -68,14 +69,24 @@
 </head>
 <body>
 	<header>
-		<h1>Argentina Payment Methods</h1>
+		<h1>Payment Methods</h1>
+		<nav>
+			Choose a Country:
+			<select id="country-select">
+				<option value="ar">Argentina</option>
+				<option value="br">Brazil</option>
+				<option value="mx">Mexico</option>
+				<option value="ve" disabled="disabled">Venezuela</option>
+				<option value="co" disabled="disabled">Colombia</option>
+			</select>
 	</header>
+
 
 	<section>
 		<h1>Default size</h1>
-
-		<h2>List</h2>
-		<div class="ch-box-lite">
+		
+		<div class="ch-box-lite country-box ar">
+			<h3>Argentina</h3>
 			<ul>
 				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
 				<li class="paymentmethod-visa">Visa</li>
@@ -94,7 +105,36 @@
 				<li class="paymentmethod-banelco">Banelco</li>
 			</ul>
 		</div>
+		
+		<div class="ch-box-lite country-box br" style="display: none">
+			<h3>Brazil</h3>
+			<ul>
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-hipercard">Hipercard</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-diners">Diners</li>
+				<li class="paymentmethod-elo">Elo</li>
+				<li class="paymentmethod-melicard">MercadoLivre Card</li>
+				<li class="paymentmethod-bolbradesco">Boleto</li>
+			</ul>
+		</div>
 
+		<div class="ch-box-lite country-box mx" style="display: none">
+			<h3>Mexico</h3>
+			<ul>
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-bancomer">Bancomer</li>
+				<li class="paymentmethod-banamex">Banamex</li>
+				<li class="paymentmethod-serfin">Santander Serfin</li>
+				<li class="paymentmethod-oxxo">Oxxo</li>
+			</ul>
+		</div>
+<!--
 		<h2>Thiner List</h2>
 		<div class="ch-box-lite">
 			<ul class="thiner-list">
@@ -190,12 +230,13 @@
 		</div>
 
 	</section>
-
+-->
 	<section>
 	<h1>Large size</h1>
 
-	<h2>List</h2>
-	<div class="ch-box-lite">
+	
+	<div class="ch-box-lite country-box ar">
+		<h2>Argentina</h2>
 		<ul>
 			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
 			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
@@ -212,9 +253,39 @@
 			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
 			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
 			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
+			
 		</ul>
 	</div>
 
+		<div class="ch-box-lite country-box br" style="display: none">
+		<h2>Brazil</h2>
+		<ul>
+			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
+				<li class="paymentmethod-hipercard paymentmethod-large">Hipercard</li>
+				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
+				<li class="paymentmethod-diners paymentmethod-large">Diners</li>
+				<li class="paymentmethod-elo paymentmethod-large">Elo</li>
+				<li class="paymentmethod-melicard paymentmethod-large">MercadoLivre Card</li>
+				<li class="paymentmethod-bolbradesco paymentmethod-large">Boleto</li>
+		</ul>
+	</div>
+
+	<div class="ch-box-lite country-box mx" style="display: none">
+			<h3>Mexico</h3>
+			<ul>
+				<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
+				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
+				<li class="paymentmethod-bancomer paymentmethod-large">Bancomer</li>
+				<li class="paymentmethod-banamex paymentmethod-large">Banamex</li>
+				<li class="paymentmethod-serfin paymentmethod-large">Santander Serfin</li>
+				<li class="paymentmethod-oxxo paymentmethod-large">Oxxo</li>
+			</ul>
+		</div>
+<!--
 	<h2>Thiner List</h2>
 	<div class="ch-box-lite">
 		<ul class="thiner-list">
@@ -255,8 +326,32 @@
 			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
 			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
 		</ul>
-	</div>
-	</section>
+	</div>-->
+	</section> 
+
+	<script src="http://static.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+
+	$("#country-select").on('change', function(){
+		var country = $(this).val();
+		switchCss(country);
+		showDemo(country)
+	})
+
+	function switchCss(i) {
+		$("#country").attr("href", "css/countries/" + i + "/payment-methods.css");
+		$("#country-default").attr("href", "css/countries/" + i + "/default/payment-methods.css");
+		$("#country-large").attr("href", "css/countries/" + i + "/large/payment-methods.css");
+	}
+	
+	function showDemo(j) {
+		$(".country-box").hide();
+		$("." + j).show();
+
+	}
+	
+
+	</script>
 </body>
 </html>
 
