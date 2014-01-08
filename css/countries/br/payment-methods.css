@@ -1,11 +1,10 @@
 /* Sprite position for Brazil Logos
 ---------------------------------------------------------------*/
-
-.paymentmethod-hipercard { 
-	background-position: 0 -200px; 
+.paymentmethod-diners { 
+    background-position: 0 -200px; 
 }
 
-.paymentmethod-diners { 
+.paymentmethod-hipercard { 
 	background-position: 0 -250px; 
 }
 
