@@ -1,0 +1,17 @@
+/* Sprite position for Brazil Logos
+---------------------------------------------------------------*/
+.paymentmethod-bancomer { 
+    background-position: 0 -200px; 
+}
+
+.paymentmethod-banamex { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-serfin { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-oxxo { 
+	background-position: 0 -450px; 
+}
