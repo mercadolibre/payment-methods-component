@@ -1,0 +1,111 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola
+ * @description: common component for each country's payment methods logos.
+ * @version: 0.1
+ */
+
+/* Common Structure 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries 
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex {
+    background-position: 0 -150px;
+}
+/* Sprite position for Brazil Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners { 
+    background-position: 0 -200px; 
+}
+
+.paymentmethod-hipercard { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-elo { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-melicard { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-bolbradesco { 
+	background-position: 0 -400px; 
+}
+/* Brazil Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Brazil Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-hipercard { 
+    width: 35px;
+}
+
+.paymentmethod-diners {
+    width: 20px;
+}
+
+.paymentmethod-elo {
+    width: 16px;
+}
+
+.paymentmethod-melicard {
+    height: 15px;
+    width: 20px;
+}
+
+.paymentmethod-bolbradesco {
+    height: 14px;
+    width: 21px;
+}

@@ -1,24 +1,52 @@
 module.exports = function(grunt) {
 
     var country = grunt.option('country'),
-        size = grunt.option('size') || 'default';
+        size = grunt.option('size') || 'default',
+        files = [
+            'css/payment-methods.css', 
+            'css/countries/' + country + '/payment-methods.css'
+        ],
+        sizeCollection = size.split(','),
+        destination = 'build/payment-methods.' + country + '__' + size + '.css'
+
+
+    sizeCollection.forEach(function (e) {
+        files.push('css/countries/' + country + '/' + e + '/payment-methods.css');
+    });
+
+    if (sizeCollection.length > 1) {
+        // Rename file when all sizes
+        destination = destination.replace(size, 'all');
+    }
 
     // Project configuration.
     grunt.initConfig({
         'pkg': grunt.file.readJSON('package.json'),
         'concat': {
-            'build': {
-                'src': ['css/payment-methods.css', 'css/countries/' + country + '/payment-methods.css', 'css/countries/' + country + '/' + size + '/payment-methods.css'],
-                'dest': 'build/payment-methods.' + country + '.css'
+
+            'build': {                
+                'src': files,
+                'dest': destination
             }
         },
+
         'copy': {
             'main': {
                 'files': [{
                     'expand': true,
-                    'cwd': 'css/countries/' + country + '/' + size + '/',
-                    'src': ['payment-methods-' + size + '.png'],
-                    'dest': 'build/'
+
+                    // Source folder
+                    'cwd': 'build/',
+                    
+                    // Source files
+                    'src': ['payment-methods.' + country + '__default.css'],
+                    
+                    // Destination folder
+                    'dest': 'dist/',
+
+                    'rename': function (dest, src) {
+                        return dest + src.replace(/__default/, '');
+                    }
                 }]
             }
         }
@@ -29,6 +57,7 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', []);
-    grunt.registerTask('build', ['concat', 'copy']);
+    grunt.registerTask('build', ['concat']);
+    grunt.registerTask('dist', ['build', 'copy']);
 
 };
