@@ -5,7 +5,7 @@ MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes
 
 ## Usage
 
-For default size logos, just copy the css file for each country ([1](#guidelines-and-good-practices)) (you'll find them inside the `dist` folder) into your project and add them to your css bundles ([2](#guidelines-and-good-practices)).
+For default size logos, just copy the css file for each country ([1](#guidelines-and-good-practices)) from the `dist` folder into your project and add them to your css bundles ([2](#guidelines-and-good-practices)).
 
 In case you need a bigger size, or both sizes, you need to generate the custom files following the [Development setup](#development-setup) and [File generation](#file-generation) instructions.
 
