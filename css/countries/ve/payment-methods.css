@@ -1,17 +1,9 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-bancomer { 
+.paymentmethod-mercantil { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-banamex { 
+.paymentmethod-provincial { 
 	background-position: 0 -250px; 
-}
-
-.paymentmethod-serfin { 
-	background-position: 0 -350px; 
-}
-
-.paymentmethod-oxxo { 
-	background-position: 0 -400px; 
 }

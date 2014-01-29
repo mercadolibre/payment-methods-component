@@ -3,7 +3,11 @@ Payment Methods Component
 
 MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
 
-So far, this is a really really early draft. 
+## Usage
+
+For default size logos, just copy the css file for each country (you'll find them inside the `dist` folder) into your project and add them to your css bundles in your project.
+
+In case you need a bigger size, or both sizes, you need to generate the custom files following the [Development setup](#development-setup) and [File generation](#file-generation) instructions.
 
 ## Development setup
 
@@ -37,8 +41,12 @@ Ex: Payment methods for Argentina and large size:
 
         grunt build --country=ar --size=large
 
+Ex: Payment methods for Argentina with both default and large size:
 
-You'll find the generated files in a `build` folder.
+        grunt build --country=ar --size=defaul,large
+
+
+You'll find the generated files in the `build` folder.
 
 ### Country List
 
@@ -53,17 +61,13 @@ You'll find the generated files in a `build` folder.
 - default 
 - large
 
-## Usage
-
-Once you've got a css file for the component, you can add it to your css bundles in your project.
-
-### Guidelines
+## Guidelines and good practices
 
 - Use one file per country. Only load the component for that country.
 
 - Add it to your own bundles, don't make an extra request for it.
 
-### HTML Markup
+## HTML Markup
 
 - Each logo as its own class with the prefix `paymentmethod-`. Por example:
 
@@ -107,6 +111,16 @@ Once you've got a css file for the component, you can add it to your css bundles
     <li class="paymentmethod-${id}">${name}</li>
     ```
 
+    
+## On the roadmap
+
+Stuff that are coming on future versions:
+
+- Retina Display Support
+- Chile Logos
+- A better demo
+- Style guide for logo grouping on some countries
+- Generic payment type logos
 
 ## Maintained by
 
@@ -115,7 +129,7 @@ Once you've got a css file for the component, you can add it to your css bundles
 
 ## Thanks to
 
-- Guille Paz (guillermo.paz@mercadolibre.com)
+- Guille Paz (@pazguille)
 
 ## Credits
 

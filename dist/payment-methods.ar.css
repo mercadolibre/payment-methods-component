@@ -1,0 +1,163 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola
+ * @description: common component for each country's payment methods logos.
+ * @version: 0.1
+ */
+
+/* Common Structure 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries 
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex {
+    background-position: 0 -150px;
+}
+/* Sprite position for Argentina Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-naranja { 
+	background-position: 0 -200px; 
+}
+
+.paymentmethod-nativa { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-tarshop { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-cencosud { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-cabal { 
+	background-position: 0 -400px; 
+}
+
+.paymentmethod-argencard { 
+	background-position: 0 -450px; 
+}
+
+.paymentmethod-pagofacil { 
+	background-position: 0 -500px; 
+}
+
+.paymentmethod-rapipago { 
+	background-position: 0 -550px; 
+}
+
+.paymentmethod-redlink { 
+	background-position: 0 -600px; 
+}
+
+.paymentmethod-banelco { 
+	background-position: 0 -650px; 
+}
+
+.paymentmethod-bapropagos { 
+	background-position: 0 -700px; 
+}
+/* Argentina Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Argentina Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    height: 16px;
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-naranja { 
+    height: 18px;
+    width: 16px;
+}
+
+.paymentmethod-nativa {
+    height: 15px;
+    width: 36px;
+}
+
+.paymentmethod-tarshop {
+    width: 27px;
+}
+
+.paymentmethod-cencosud {
+    height: 17px;
+    width: 26px;
+}
+
+.paymentmethod-cabal {
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-argencard {
+    height: 18px;
+    width: 17px;
+}
+
+.paymentmethod-pagofacil,
+.paymentmethod-redlink {
+    height: 20px;
+    width: 19px;
+}
+
+.paymentmethod-rapipago {
+    height: 11px;
+    width: 56px;
+}
+
+.paymentmethod-banelco {
+    width: 46px;
+}
+
+.paymentmethod-bapropagos {
+    width: 51px;
+}

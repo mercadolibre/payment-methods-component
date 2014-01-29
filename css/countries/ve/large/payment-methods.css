@@ -25,33 +25,12 @@
     width: 46px;
 }
 
-.paymentmethod-amex.paymentmethod-large {
-    height: 27px;
-    width: 26px;
+.paymentmethod-mercantil.paymentmethod-large {
+    height: 31px;
+    width: 107px;
 }
 
-.paymentmethod-hipercard.paymentmethod-large {
+.paymentmethod-provincial.paymentmethod-large {
     height: 25px;
-    width: 56px;
-}
-
-.paymentmethod-diners.paymentmethod-large {
-    height: 25px;
-    width: 32px;
-}
-
-.paymentmethod-elo.paymentmethod-large {
-    height: 25px;
-    width: 26px;
-}
-
-.paymentmethod-melicard.paymentmethod-large {
-    height: 23px;
-    width: 32px;
-}
-
-.paymentmethod-bolbradesco.paymentmethod-large,
-.paymentmethod-itau.paymentmethod-large {
-    height: 24px;
-    width: 48px;
+    width: 103px;
 }

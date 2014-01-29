@@ -1,4 +1,4 @@
-/* Mexico Sprite for Default Size 
+/* Colombia Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
@@ -7,7 +7,7 @@
 }
 
 
-/* Mexico Default Size
+/* Colombia Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -15,13 +15,12 @@
     width: 72px;
 }
 
-.paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-visa {
+    height: 16px;
     width: 38px;
 }
 
-.paymentmethod-master,
-.paymentmethod-debmaster { 
+.paymentmethod-master { 
     height: 19px;
     width: 29px;
 }
@@ -31,22 +30,16 @@
     width: 17px;
 }
 
-.paymentmethod-bancomer { 
-    height: 20px;
-    width: 70px;
+.paymentmethod-diners { 
+    width: 20px;
 }
 
-.paymentmethod-banamex {
-    height: 13px;
-    width: 57px;
-}
-
-.paymentmethod-serfin {
-    height: 13px;
-    width: 62px;
-}
-
-.paymentmethod-oxxo {
+.paymentmethod-efecty {
     height: 15px;
-    width: 33px;
+    width: 45px;
+}
+
+.paymentmethod-davivienda {
+    height: 10px;
+    width: 72px;
 }

@@ -1,4 +1,4 @@
-/* Brazil Sprite for Default Size 
+/* Colombia Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
@@ -7,7 +7,7 @@
 }
 
 
-/* Brazil Default Size
+/* Colombia Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -16,6 +16,7 @@
 }
 
 .paymentmethod-visa {
+    height: 16px;
     width: 38px;
 }
 
@@ -24,29 +25,11 @@
     width: 29px;
 }
 
-.paymentmethod-amex { 
-    height: 17px;
-    width: 17px;
+.paymentmethod-mercantil { 
+    height: 20px;
+    width: 67px;
 }
 
-.paymentmethod-hipercard { 
-    width: 35px;
-}
-
-.paymentmethod-diners {
-    width: 20px;
-}
-
-.paymentmethod-elo {
-    width: 16px;
-}
-
-.paymentmethod-melicard {
-    height: 15px;
-    width: 20px;
-}
-
-.paymentmethod-bolbradesco,
-.paymentmethod-itau {
-    width: 33px;
+.paymentmethod-provincial { 
+    width: 64px;
 }
