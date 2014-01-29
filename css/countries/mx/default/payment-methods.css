@@ -15,11 +15,13 @@
     width: 72px;
 }
 
-.paymentmethod-visa {
+.paymentmethod-visa,
+.paymentmethod-debvisa {
     width: 38px;
 }
 
-.paymentmethod-master { 
+.paymentmethod-master,
+.paymentmethod-debmaster { 
     height: 19px;
     width: 29px;
 }

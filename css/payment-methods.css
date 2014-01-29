@@ -25,11 +25,13 @@
     background-position: 0 0;
 }
 
-.paymentmethod-visa {
+.paymentmethod-visa,
+.paymentmethod-debvisa {
     background-position: 0 -50px;
 }
 
-.paymentmethod-master {
+.paymentmethod-master,
+.paymentmethod-debmaster {
     background-position: 0 -100px;
 }
 

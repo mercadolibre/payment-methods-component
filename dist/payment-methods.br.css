@@ -57,6 +57,10 @@
 .paymentmethod-bolbradesco { 
 	background-position: 0 -400px; 
 }
+
+.paymentmethod-itau { 
+    background-position: 0 -450px; 
+}
 /* Brazil Sprite for Default Size 
 ---------------------------------------------------------------*/
 
@@ -105,7 +109,7 @@
     width: 20px;
 }
 
-.paymentmethod-bolbradesco {
-    height: 14px;
-    width: 21px;
+.paymentmethod-bolbradesco,
+.paymentmethod-itau {
+    width: 33px;
 }

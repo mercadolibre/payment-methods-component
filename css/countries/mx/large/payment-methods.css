@@ -15,12 +15,14 @@
     width: 116px;
 }
 
-.paymentmethod-visa.paymentmethod-large {
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large {
     height: 21px;
     width: 60px;
 }
 
-.paymentmethod-master.paymentmethod-large {
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large {
     height: 28px;
     width: 46px;
 }
