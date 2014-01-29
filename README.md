@@ -5,7 +5,7 @@ MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes
 
 ## Usage
 
-For default size logos, just copy the css file for each country (you'll find them inside the `dist` folder) into your project and add them to your css bundles in your project.
+For default size logos, just copy the css file for each country ([1](#guidelines-and-good-practices)) from the `dist` folder into your project and add them to your css bundles ([2](#guidelines-and-good-practices)).
 
 In case you need a bigger size, or both sizes, you need to generate the custom files following the [Development setup](#development-setup) and [File generation](#file-generation) instructions.
 
@@ -35,15 +35,15 @@ You can generate a file by country and by size using Grunt commands:
 
 Ex: payment methods for Argentina with the default size:
 
-        grunt build --country=ar
+    grunt build --country=ar
 
 Ex: Payment methods for Argentina and large size:
 
-        grunt build --country=ar --size=large
+    grunt build --country=ar --size=large
 
 Ex: Payment methods for Argentina with both default and large size:
 
-        grunt build --country=ar --size=defaul,large
+    grunt build --country=ar --size=defaul,large
 
 
 You'll find the generated files in the `build` folder.
@@ -61,11 +61,6 @@ You'll find the generated files in the `build` folder.
 - default 
 - large
 
-## Guidelines and good practices
-
-- Use one file per country. Only load the component for that country.
-
-- Add it to your own bundles, don't make an extra request for it.
 
 ## HTML Markup
 
@@ -111,8 +106,14 @@ You'll find the generated files in the `build` folder.
     <li class="paymentmethod-${id}">${name}</li>
     ```
 
-    
-## On the roadmap
+## Guidelines and good practices
+
+1. Use one file per country. Only load the component for that country.
+
+2. Add it to your own bundles, don't make an extra request for it.
+
+
+## Roadmap
 
 Stuff that are coming on future versions:
 
