@@ -3,8 +3,6 @@ Payment Methods Component
 
 MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
 
-So far, this is a really really early draft. 
-
 ## Usage
 
 For default size logos, just copy the css file for each country (you'll find them inside the `dist` folder) into your project and add them to your css bundles in your project.
@@ -112,7 +110,15 @@ You'll find the generated files in the `build` folder.
      ```html
     <li class="paymentmethod-${id}">${name}</li>
     ```
+## On the roadmap
 
+Stuff that are coming on future versions:
+
+- Retina Display Support
+- Chile Logos
+- A better demo
+- Style guide for logo grouping on some countries
+- Generic payment type logos
 
 ## Maintained by
 
@@ -121,7 +127,7 @@ You'll find the generated files in the `build` folder.
 
 ## Thanks to
 
-- Guille Paz (guillermo.paz@mercadolibre.com)
+- Guille Paz (@pazguille)
 
 ## Credits
 
