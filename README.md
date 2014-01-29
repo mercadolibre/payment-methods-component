@@ -61,11 +61,6 @@ You'll find the generated files in the `build` folder.
 - default 
 - large
 
-## Guidelines and good practices
-
-1. Use one file per country. Only load the component for that country.
-
-2. Add it to your own bundles, don't make an extra request for it.
 
 ## HTML Markup
 
@@ -113,12 +108,12 @@ You'll find the generated files in the `build` folder.
 
 ## Guidelines and good practices
 
-- Use one file per country. Only load the component for that country.
+1. Use one file per country. Only load the component for that country.
 
-- Add it to your own bundles, don't make an extra request for it.
+2. Add it to your own bundles, don't make an extra request for it.
 
 
-## On the roadmap
+## Roadmap
 
 Stuff that are coming on future versions:
 
