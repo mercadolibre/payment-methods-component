@@ -50,7 +50,8 @@
     width: 32px;
 }
 
-.paymentmethod-bolbradesco.paymentmethod-large {
-    height: 23px;
-    width: 33px;
+.paymentmethod-bolbradesco.paymentmethod-large,
+.paymentmethod-itau.paymentmethod-large {
+    height: 24px;
+    width: 48px;
 }

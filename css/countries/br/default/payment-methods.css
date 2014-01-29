@@ -46,7 +46,7 @@
     width: 20px;
 }
 
-.paymentmethod-bolbradesco {
-    height: 14px;
-    width: 21px;
+.paymentmethod-bolbradesco,
+.paymentmethod-itau {
+    width: 33px;
 }
