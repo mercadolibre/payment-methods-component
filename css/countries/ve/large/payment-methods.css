@@ -1,0 +1,36 @@
+/* Argentina Sprite for Large Size 
+---------------------------------------------------------------*/
+
+.paymentmethod-large {
+    background-image: url('payment-methods-large.png');
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/* Argentina Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large {
+    height: 21px;
+    width: 60px;
+}
+
+.paymentmethod-master.paymentmethod-large {
+    height: 28px;
+    width: 46px;
+}
+
+.paymentmethod-mercantil.paymentmethod-large {
+    height: 31px;
+    width: 107px;
+}
+
+.paymentmethod-provincial.paymentmethod-large {
+    height: 25px;
+    width: 103px;
+}

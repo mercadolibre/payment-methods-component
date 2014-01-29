@@ -1,0 +1,35 @@
+/* Colombia Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+
+
+/* Colombia Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    height: 16px;
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-mercantil { 
+    height: 20px;
+    width: 67px;
+}
+
+.paymentmethod-provincial { 
+    width: 64px;
+}
