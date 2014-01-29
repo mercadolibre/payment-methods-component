@@ -110,6 +110,8 @@ You'll find the generated files in the `build` folder.
      ```html
     <li class="paymentmethod-${id}">${name}</li>
     ```
+
+    
 ## On the roadmap
 
 Stuff that are coming on future versions:
