@@ -1,4 +1,4 @@
-/* Argentina Sprite for Large Size 
+/* Venezuela Sprite for Large Size 
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
@@ -7,7 +7,7 @@
     margin: 5px;
 }
 
-/* Argentina Large Size
+/* Venezuela Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money.paymentmethod-large {
@@ -26,11 +26,10 @@
 }
 
 .paymentmethod-mercantil.paymentmethod-large {
-    height: 31px;
-    width: 107px;
+    width: 103px;
 }
 
 .paymentmethod-provincial.paymentmethod-large {
-    height: 25px;
-    width: 103px;
+    height: 12px;
+    width: 94px;
 }

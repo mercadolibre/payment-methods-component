@@ -3,7 +3,6 @@
 
 .paymentmethod-large {
     background-image: url('payment-methods-large.png');
-    height: 26px; /* most common height */
     margin: 5px;
 }
 
@@ -33,8 +32,8 @@
 }
 
 .paymentmethod-bancomer.paymentmethod-large {
-    height: 31px;
-    width: 112px;
+    height: 12px;
+    width: 100px;
 }
 
 .paymentmethod-banamex.paymentmethod-large {
