@@ -1,4 +1,4 @@
-/* Colombia Sprite for Default Size 
+/* Venezuela Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
@@ -6,8 +6,7 @@
     height: 16px; /* most common height */
 }
 
-
-/* Colombia Default Size
+/* Venezuela Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -16,7 +15,6 @@
 }
 
 .paymentmethod-visa {
-    height: 16px;
     width: 38px;
 }
 
@@ -26,10 +24,10 @@
 }
 
 .paymentmethod-mercantil { 
-    height: 20px;
-    width: 67px;
+    width: 64px;
 }
 
 .paymentmethod-provincial { 
-    width: 64px;
+    height: 7px;
+    width: 59px;
 }

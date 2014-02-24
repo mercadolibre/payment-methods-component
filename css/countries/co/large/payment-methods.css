@@ -1,13 +1,12 @@
-/* Argentina Sprite for Large Size 
+/* Colombia Sprite for Large Size 
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
     background-image: url('payment-methods-large.png');
-    height: 26px; /* most common height */
     margin: 5px;
 }
 
-/* Argentina Large Size
+/* Colombia Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money.paymentmethod-large {
