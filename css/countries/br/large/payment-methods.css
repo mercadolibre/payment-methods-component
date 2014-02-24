@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('payment-methods-large.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/br/payment-methods-large.png');
     height: 25px; /* most common height */
     margin: 5px;
 }
