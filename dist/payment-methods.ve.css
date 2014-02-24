@@ -40,23 +40,22 @@
 }
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-mercantil { 
+.paymentmethod-provincial { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-provincial { 
+.paymentmethod-mercantil { 
 	background-position: 0 -250px; 
 }
-/* Colombia Sprite for Default Size 
+/* Venezuela Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('payment-methods-default.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/ve/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
-
-/* Colombia Default Size
+/* Venezuela Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -65,7 +64,6 @@
 }
 
 .paymentmethod-visa {
-    height: 16px;
     width: 38px;
 }
 
@@ -75,10 +73,10 @@
 }
 
 .paymentmethod-mercantil { 
-    height: 20px;
-    width: 67px;
+    width: 64px;
 }
 
 .paymentmethod-provincial { 
-    width: 64px;
+    height: 7px;
+    width: 59px;
 }

@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('payment-methods-default.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/ve/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 

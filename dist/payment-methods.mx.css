@@ -25,11 +25,13 @@
     background-position: 0 0;
 }
 
-.paymentmethod-visa {
+.paymentmethod-visa,
+.paymentmethod-debvisa {
     background-position: 0 -50px;
 }
 
-.paymentmethod-master {
+.paymentmethod-master,
+.paymentmethod-debmaster {
     background-position: 0 -100px;
 }
 
@@ -57,7 +59,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('payment-methods-default.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/mx/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -70,11 +72,13 @@
     width: 72px;
 }
 
-.paymentmethod-visa {
+.paymentmethod-visa,
+.paymentmethod-debvisa {
     width: 38px;
 }
 
-.paymentmethod-master { 
+.paymentmethod-master,
+.paymentmethod-debmaster { 
     height: 19px;
     width: 29px;
 }
@@ -85,8 +89,8 @@
 }
 
 .paymentmethod-bancomer { 
-    height: 20px;
-    width: 70px;
+    height: 7px;
+    width: 62px;
 }
 
 .paymentmethod-banamex {
