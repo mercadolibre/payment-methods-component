@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola
  * @description: common component for each country's payment methods logos.
- * @version: 0.1
+ * @version: 1.0.0
  */
 
 /* Common Structure 
@@ -41,54 +41,60 @@
 /* Sprite position for Argentina Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-naranja { 
-	background-position: 0 -200px; 
+.paymentmethod-diners {
+    background-position: 0 -200px;
 }
 
-.paymentmethod-nativa { 
+.paymentmethod-naranja { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-tarshop { 
+.paymentmethod-nativa { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-cencosud { 
+.paymentmethod-tarshop { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-cabal { 
+.paymentmethod-cencosud { 
 	background-position: 0 -400px; 
 }
 
-.paymentmethod-argencard { 
+.paymentmethod-cabal { 
 	background-position: 0 -450px; 
 }
 
-.paymentmethod-pagofacil { 
+.paymentmethod-argencard { 
 	background-position: 0 -500px; 
 }
 
-.paymentmethod-rapipago { 
+.paymentmethod-pagofacil { 
 	background-position: 0 -550px; 
 }
 
-.paymentmethod-redlink { 
+.paymentmethod-rapipago { 
 	background-position: 0 -600px; 
 }
 
-.paymentmethod-banelco { 
+.paymentmethod-redlink { 
 	background-position: 0 -650px; 
 }
 
-.paymentmethod-bapropagos { 
+.paymentmethod-banelco { 
 	background-position: 0 -700px; 
+}
+
+.paymentmethod-bapropagos { 
+	background-position: 0 -750px; 
 }
 /* Argentina Sprite for Default Size 
 ---------------------------------------------------------------*/
 
+
 [class*='paymentmethod'] {
-    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/ar/payment-methods-default.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default.png');
+    /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
@@ -113,6 +119,11 @@
 .paymentmethod-amex { 
     height: 17px;
     width: 17px;
+}
+
+.paymentmethod-diners { 
+    height: 16px;
+    width: 20px;
 }
 
 .paymentmethod-naranja { 
