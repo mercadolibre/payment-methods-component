@@ -1,8 +1,10 @@
 /* Argentina Sprite for Default Size 
 ---------------------------------------------------------------*/
 
+
 [class*='paymentmethod'] {
-    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.0.0/ar/payment-methods-default.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default.png');
+    /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
@@ -27,6 +29,11 @@
 .paymentmethod-amex { 
     height: 17px;
     width: 17px;
+}
+
+.paymentmethod-diners { 
+    height: 16px;
+    width: 20px;
 }
 
 .paymentmethod-naranja { 

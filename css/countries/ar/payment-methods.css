@@ -1,46 +1,50 @@
 /* Sprite position for Argentina Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-naranja { 
-	background-position: 0 -200px; 
+.paymentmethod-diners {
+    background-position: 0 -200px;
 }
 
-.paymentmethod-nativa { 
+.paymentmethod-naranja { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-tarshop { 
+.paymentmethod-nativa { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-cencosud { 
+.paymentmethod-tarshop { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-cabal { 
+.paymentmethod-cencosud { 
 	background-position: 0 -400px; 
 }
 
-.paymentmethod-argencard { 
+.paymentmethod-cabal { 
 	background-position: 0 -450px; 
 }
 
-.paymentmethod-pagofacil { 
+.paymentmethod-argencard { 
 	background-position: 0 -500px; 
 }
 
-.paymentmethod-rapipago { 
+.paymentmethod-pagofacil { 
 	background-position: 0 -550px; 
 }
 
-.paymentmethod-redlink { 
+.paymentmethod-rapipago { 
 	background-position: 0 -600px; 
 }
 
-.paymentmethod-banelco { 
+.paymentmethod-redlink { 
 	background-position: 0 -650px; 
 }
 
-.paymentmethod-bapropagos { 
+.paymentmethod-banelco { 
 	background-position: 0 -700px; 
+}
+
+.paymentmethod-bapropagos { 
+	background-position: 0 -750px; 
 }
