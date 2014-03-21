@@ -125,11 +125,13 @@ Stuff that are coming on future versions:
 
 ## Maintained by
 
-- Nati Devalle (natalia.devalle@mercadolibre.com)
+- Gastón André (gaston.andre@mercadolibre.com)
 - Ivan Pianciola (ivan.pianciola@mercadolibre.com)
+- Adolfo Ramos (adolfo.ramos@mercadoibre.com)
 
 ## Thanks to
 
+- Nati Devalle (@taly) 
 - Guille Paz (@pazguille)
 
 ## Credits
