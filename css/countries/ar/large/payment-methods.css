@@ -21,7 +21,7 @@ only screen and (             min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                  min-resolution: 2dppx) { 
    
-    .common-logo {
+.paymentmethod-large {
         background: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-large@2x.png') no-repeat;
         background-size: 231px 1551px; /* original x1 image size */
     }
