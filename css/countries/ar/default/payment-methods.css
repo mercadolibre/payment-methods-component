@@ -22,7 +22,7 @@ only screen and (                  min-resolution: 2dppx) {
    
 [class*='paymentmethod'] {
         background: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default@2x.png') no-repeat;
-        background-size: 144px 782px; /* original x1 image size */
+        background-size: 782px 144px; /* original x1 image size */
         height: 16px; /* most common height */
     }
 
