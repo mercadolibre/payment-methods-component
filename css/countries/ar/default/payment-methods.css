@@ -8,6 +8,25 @@
     height: 16px; /* most common height */
 }
 
+/*
+ * Retina logo for small screens 
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (    -o-min-device-pixel-ratio: 2/1),
+only screen and (             min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                  min-resolution: 2dppx) { 
+   
+    .common-logo {
+        background: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-default@2x.png') no-repeat;
+        background-size: 144px 782px; /* original x1 image size */
+    }
+
+}
+
 
 /* Argentina Default Size
 ---------------------------------------------------------------*/
