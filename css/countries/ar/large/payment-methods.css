@@ -24,6 +24,8 @@ only screen and (                  min-resolution: 2dppx) {
 .paymentmethod-large {
         background: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ar/payment-methods-large@2x.png') no-repeat;
         background-size: 231px 1551px; /* original x1 image size */
+        height: 26px; /* most common height */
+        margin: 5px;
     }
 
 }
