@@ -2,9 +2,28 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-large.png');
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.2.0/co/payment-methods-large.png');
     /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-large.png'); */
     margin: 5px;
+}
+
+/*
+ * Retina logo for small screens 
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (              min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+   
+.paymentmethod-large {
+        background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.2.0/co/payment-methods-large@2x.png') no-repeat;
+        background-size: 116px 776px; /* original x1 image size */
+    }
+
 }
 
 
@@ -33,7 +52,7 @@
 
 .paymentmethod-diners.paymentmethod-large {
     height: 25px;
-    width: 32px;
+    width: 96px;
 }
 
 .paymentmethod-efecty.paymentmethod-large {
