@@ -38,45 +38,30 @@
 .paymentmethod-amex {
     background-position: 0 -150px;
 }
-/* Sprite position for Mexico Logos
+/* Sprite position for Colombia Logos
 ---------------------------------------------------------------*/
-.paymentmethod-provincial { 
-    background-position: 0 -200px; 
+
+.paymentmethod-diners { 
+	background-position: 0 -200px; 
 }
 
-.paymentmethod-mercantil { 
+.paymentmethod-efecty { 
 	background-position: 0 -250px; 
 }
-/* Venezuela Sprite for Default Size 
+
+.paymentmethod-davivienda { 
+	background-position: 0 -300px; 
+}
+/* Colombia Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.2.0/ve/payment-methods-default.png');
-    /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ve/payment-methods-default.png'); */
+    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png');
+    /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
-/*
- * Retina logo for small screens 
- */
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (    -o-min-device-pixel-ratio: 2/1),
-only screen and (             min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                  min-resolution: 2dppx) { 
-   
-[class*='paymentmethod'] {
-        background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.2.0/ve/payment-methods-default@2x.png') no-repeat;
-        /*background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ve/payment-methods-default@2x.png') no-repeat;*/
-        background-size: 72px 266px; /* original x1 image size */
-    }
-
-}
-
-
-/* Venezuela Default Size
+/* Colombia Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -93,11 +78,21 @@ only screen and (                  min-resolution: 2dppx) {
     width: 29px;
 }
 
-.paymentmethod-mercantil { 
-    width: 64px;
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
 }
 
-.paymentmethod-provincial { 
-    height: 7px;
-    width: 59px;
+.paymentmethod-diners { 
+    width: 20px;
+}
+
+.paymentmethod-efecty {
+    height: 15px;
+    width: 45px;
+}
+
+.paymentmethod-davivienda {
+    height: 10px;
+    width: 72px;
 }
