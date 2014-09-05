@@ -72,6 +72,6 @@ only screen and (                min-resolution: 2dppx) {
     width: 52px;
 }
 .paymentmethod-mercadopagocard.paymentmethod-large {
-    height: 26px;
-    width: 108px;
+    height: 29px;
+    width: 45px;
 }

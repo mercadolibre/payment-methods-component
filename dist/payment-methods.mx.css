@@ -56,7 +56,7 @@
 	background-position: 0 -400px; 
 }
 .paymentmethod-mercadopagocard { 
-	background-position: 0 -450px; 
+	background-position: 0 -450px;
 }
 
 /* Mexico Sprite for Default Size 
@@ -132,6 +132,6 @@ only screen and (                  min-resolution: 2dppx) {
     width: 33px;
 }
 .paymentmethod-mercadopagocard {
-    height: 17px;
-    width: 78px;
+    height: 20px;
+    width: 32px;
 }

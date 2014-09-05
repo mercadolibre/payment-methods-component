@@ -15,13 +15,13 @@
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (    -o-min-device-pixel-ratio: 2/1),
-only screen and (             min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                  min-resolution: 2dppx) { 
-   
+only screen and (                min-resolution: 2dppx) {
+ 
 [class*='paymentmethod'] {
-        background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default@2x.png') no-repeat;
+        background-image: url('http://www.mercadolibre.com.ar/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default@2x.png') no-repeat;
         /*background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default@2x.png') no-repeat;*/
         background-size: 72px 800px; /* original x1 image size */
     }
@@ -103,3 +103,4 @@ only screen and (                  min-resolution: 2dppx) {
 .paymentmethod-bapropagos {
     width: 51px;
 }
+
