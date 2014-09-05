@@ -52,7 +52,7 @@
 
 [class*='paymentmethod'] {
     background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ve/payment-methods-default.png');
-    /* background-image: url('https://a248.e.akamai.net/secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/ve/payment-methods-default.png'); */
+    /* background-image: url('https://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/ve/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
