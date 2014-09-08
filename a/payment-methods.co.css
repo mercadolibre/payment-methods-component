@@ -56,8 +56,8 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('http://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png');
-    /* background-image: url('https://static.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png'); */
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png');
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.1.0/co/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
