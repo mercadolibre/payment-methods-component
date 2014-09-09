@@ -136,7 +136,7 @@ Stuff that are coming on future versions:
 
 ## Credits
 
-![MercadoLibre](http://static.mlstatic.com/org-img/chico/img/logo-mercadolibre-new.png)
+![MercadoLibre](http://secure.mlstatic.com/org-img/chico/img/logo-mercadolibre-new.png)
 
 ## License
 Licensed under the MIT license.

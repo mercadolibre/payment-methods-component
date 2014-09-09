@@ -10,10 +10,11 @@
 	<title>Payment Methods Component</title>
 	<meta name="HandheldFriendly" content="True">  
 	<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
-
-	<link rel="stylesheet" type="text/css" href="http://static.mlstatic.com/org-img/ch/ui/1.0.0/chico.css">
-	<link rel="stylesheet" type="text/css" href="http://static.mlstatic.com/org-img/ch/mesh/2.2/mesh.min.css">
 	
+        <meta http-equiv="cleartype" content="on" />
+
+	<link rel="stylesheet" type="text/css" href="http://secure.mlstatic.com/org-img/ch/ui/1.0.0/chico.css">
+	<link rel="stylesheet" type="text/css" href="http://secure.mlstatic.com/org-img/ch/mesh/2.2/mesh.min.css">	
 
 	<!-- Components -->
 	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
@@ -69,7 +70,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods</h1>
+		<h1>Payment Methods -----</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -134,6 +135,7 @@
 				<li class="paymentmethod-banamex">Banamex</li>
 				<li class="paymentmethod-serfin">Santander Serfin</li>
 				<li class="paymentmethod-oxxo">Oxxo</li>
+				<li class="paymentmethod-mercadopagocard">Tarjeta MercadoPago</li>
 			</ul>
 		</div>
 
@@ -314,6 +316,7 @@
 				<li class="paymentmethod-banamex paymentmethod-large">Banamex</li>
 				<li class="paymentmethod-serfin paymentmethod-large">Santander Serfin</li>
 				<li class="paymentmethod-oxxo paymentmethod-large">Oxxo</li>
+				<li class="paymentmethod-mercadopagocard paymentmethod-large">Tarjeta MercadoPago</li>
 			</ul>
 		</div>
 
@@ -385,7 +388,7 @@
 	</div>-->
 	</section> 
 
-	<script src="http://static.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
+	<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
 	$("#country-select").on('change', function(){
