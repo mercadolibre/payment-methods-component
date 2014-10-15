@@ -24,7 +24,7 @@ only screen and (                min-resolution: 2dppx) {
         background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/co/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
         /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/co/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 116px 316px; /* original x1 image size */
+        background-size: 116px 400px; /* original x1 image size */
     }
 
 }
@@ -66,4 +66,9 @@ only screen and (                min-resolution: 2dppx) {
 .paymentmethod-davivienda.paymentmethod-large {
     height: 15px;
     width: 116px;
+}
+
+.paymentmethod-pse.paymentmethod-large {
+    height: 28px;
+    width: 27px;
 }
