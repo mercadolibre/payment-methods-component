@@ -1,0 +1,18 @@
+/* Sprite position for Chile Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-diners {
+    background-position: 0 -200px;
+}
+
+.paymentmethod-magna { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-presto { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-servipag { 
+	background-position: 0 -350px; 
+}
