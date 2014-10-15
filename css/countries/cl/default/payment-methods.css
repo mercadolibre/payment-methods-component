@@ -1,11 +1,10 @@
 /* Chile Sprite for Default Size 
 ---------------------------------------------------------------*/
 
-
 [class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default_.png');
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default.png'); */
+/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
@@ -22,10 +21,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
  
 [class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default@2x_.png') no-repeat;
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
         /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/cl/payment-methods-default@2x.png') no-repeat;*/
-        background-size: 72px 800px; /* original x1 image size */
+        background-size: 72px 367px; /* original x1 image size */
     }
 
 }
