@@ -71,3 +71,7 @@ only screen and (                min-resolution: 2dppx) {
     height: 18px;
     width: 50px;
 }
+
+.paymentmethod-cmr { 
+    background-position: 0 -400px; 
+}
