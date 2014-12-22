@@ -431,7 +431,9 @@
 	<script type="text/javascript">
 
 	$(document).on('ready', function(){
-		$("#country-select").val(localStorage.countrySelected).trigger('change');
+		if (localStorage.countrySelected) {
+			$("#country-select").val(localStorage.countrySelected).trigger('change');
+		}
 	})
 
 	$("#country-select").on('change', function(){
