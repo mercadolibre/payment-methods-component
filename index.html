@@ -137,6 +137,8 @@
 				<li class="paymentmethod-serfin">Santander Serfin</li>
 				<li class="paymentmethod-oxxo">Oxxo</li>
 				<li class="paymentmethod-mercadopagocard">Tarjeta MercadoPago</li>
+				<li class="paymentmethod-banorte">Banorte</li>
+				<li class="paymentmethod-ixe">IXE</li>
 			</ul>
 		</div>
 
@@ -336,6 +338,8 @@
 				<li class="paymentmethod-serfin paymentmethod-large">Santander Serfin</li>
 				<li class="paymentmethod-oxxo paymentmethod-large">Oxxo</li>
 				<li class="paymentmethod-mercadopagocard paymentmethod-large">Tarjeta MercadoPago</li>
+				<li class="paymentmethod-banorte paymentmethod-large">Banorte</li>
+				<li class="paymentmethod-ixe paymentmethod-large">IXE</li>
 			</ul>
 		</div>
 
@@ -426,6 +430,7 @@
 	<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
+	
 	$("#country-select").on('change', function(){
 		var country = $(this).val();
 		switchCss(country);
@@ -441,10 +446,8 @@
 	function showDemo(j) {
 		$(".country-box").hide();
 		$("." + j).show();
-
 	}
 	
-
 	</script>
 </body>
 </html>
