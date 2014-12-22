@@ -1,0 +1,198 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.2.0
+ */
+
+/* Common Structure 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries 
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa,
+.paymentmethod-debvisa {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master,
+.paymentmethod-debmaster {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex {
+    background-position: 0 -150px;
+}
+/* Sprite position for Argentina Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-diners {
+    background-position: 0 -200px;
+}
+
+.paymentmethod-naranja { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-nativa { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-tarshop { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-cencosud { 
+	background-position: 0 -400px; 
+}
+
+.paymentmethod-cabal { 
+	background-position: 0 -450px; 
+}
+
+.paymentmethod-argencard { 
+	background-position: 0 -500px; 
+}
+
+.paymentmethod-pagofacil { 
+	background-position: 0 -550px; 
+}
+
+.paymentmethod-rapipago { 
+	background-position: 0 -600px; 
+}
+
+.paymentmethod-redlink { 
+	background-position: 0 -650px; 
+}
+
+.paymentmethod-banelco { 
+	background-position: 0 -700px; 
+}
+
+.paymentmethod-bapropagos { 
+	background-position: 0 -750px; 
+}
+/* Argentina Sprite for Default Size 
+---------------------------------------------------------------*/
+
+
+[class*='paymentmethod'] {
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/ar/payment-methods-default.png');
+    /*you must use the following url for secure pages*/
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/ar/payment-methods-default.png'); */
+    height: 16px; /* most common height */
+}
+
+/*
+ * Retina logo for small screens 
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+ 
+[class*='paymentmethod'] {
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/ar/payment-methods-default@2x.png') no-repeat;
+        /*you must use the following url for secure pages*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/ar/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 72px 800px; /* original x1 image size */
+    }
+
+}
+
+
+/* Argentina Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-diners { 
+    height: 16px;
+    width: 60px;
+}
+
+.paymentmethod-naranja { 
+    height: 18px;
+    width: 16px;
+}
+
+.paymentmethod-nativa {
+    height: 15px;
+    width: 36px;
+}
+
+.paymentmethod-tarshop {
+    width: 27px;
+}
+
+.paymentmethod-cencosud {
+    height: 17px;
+    width: 26px;
+}
+
+.paymentmethod-cabal {
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-argencard {
+    height: 18px;
+    width: 17px;
+}
+
+.paymentmethod-pagofacil,
+.paymentmethod-redlink {
+    height: 20px;
+    width: 19px;
+}
+
+.paymentmethod-rapipago {
+    height: 11px;
+    width: 56px;
+}
+
+.paymentmethod-banelco {
+    width: 46px;
+}
+
+.paymentmethod-bapropagos {
+    width: 51px;
+}
+
