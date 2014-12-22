@@ -76,3 +76,11 @@ only screen and (                  min-resolution: 2dppx) {
     height: 20px;
     width: 34px;
 }
+.paymentmethod-banorte {
+    height: 13px;
+    width: 73px;
+}
+.paymentmethod-ixe {
+    height: 20px;
+    width: 47px;
+}

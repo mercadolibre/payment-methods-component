@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos
  * @description: common component for each country's payment methods logos.
- * @version: 1.1.0
+ * @version: 1.2.0
  */
 
 /* Common Structure 
@@ -84,8 +84,8 @@ only screen and (                  min-resolution: 2dppx) {
 [class*='paymentmethod'] {
         background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.1/mx/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.1/mx/payment-methods-dafault@2x.png') no-repeat;*/
-        background-size: 78px 500px; /* original x1 image size */
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/mx/payment-methods-dafault@2x.png') no-repeat;*/
+        background-size: 72px 470px; /* original x1 image size */
     }
 
 }

@@ -18,3 +18,9 @@
 .paymentmethod-mercadopagocard { 
 	background-position: 0 -450px;
 }
+.paymentmethod-banorte { 
+	background-position: 0 -500px;
+}
+.paymentmethod-ixe { 
+	background-position: 0 -550px;
+}
