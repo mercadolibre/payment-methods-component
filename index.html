@@ -430,9 +430,13 @@
 	<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
-	
+	$(document).on('ready', function(){
+		$("#country-select").val(localStorage.countrySelected).trigger('change');
+	})
+
 	$("#country-select").on('change', function(){
 		var country = $(this).val();
+		localStorage.setItem("countrySelected", country);
 		switchCss(country);
 		showDemo(country)
 	})
