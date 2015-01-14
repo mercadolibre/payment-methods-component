@@ -2,9 +2,9 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png');
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.3/cl/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.3/cl/payment-methods-large.png'); */
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -22,9 +22,9 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.3/cl/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;*/
+        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.3/cl/payment-methods-large@2x.png') no-repeat;*/
         background-size: 116px 427px; /* original x1 image size */
     }
 
