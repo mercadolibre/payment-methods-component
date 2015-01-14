@@ -41,7 +41,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-visa.paymentmethod-large {
     height: 21px;
-    width: 62px;
+    width: 63px;
 }
 
 .paymentmethod-master.paymentmethod-large {
