@@ -55,6 +55,7 @@ You'll find the generated files in the `build` folder.
 - mx (Mexico)
 - ve (Venezuela)
 - co (Colombia)
+- cl (Chile)
 
 ### Size Lists
 
