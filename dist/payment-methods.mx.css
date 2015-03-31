@@ -48,6 +48,10 @@
 	background-position: 0 -250px; 
 }
 
+.paymentmethod-hsbc { 
+	background-position: 0 -300px; 
+}
+
 .paymentmethod-serfin { 
 	background-position: 0 -350px; 
 }
@@ -91,7 +95,7 @@ only screen and (                  min-resolution: 2dppx) {
         background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
         /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-dafault@2x.png') no-repeat;*/
-        background-size: 72px 470px; /* original x1 image size */
+        background-size: 72px 570px; /* original x1 image size */
     }
 
 }
@@ -127,6 +131,11 @@ only screen and (                  min-resolution: 2dppx) {
 
 .paymentmethod-banamex {
     height: 13px;
+    width: 57px;
+}
+
+.paymentmethod-hsbc {
+    height: 11px;
     width: 57px;
 }
 
