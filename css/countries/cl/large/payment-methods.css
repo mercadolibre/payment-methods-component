@@ -2,9 +2,9 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/cl/payment-methods-large.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/cl/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png'); */
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -22,10 +22,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/cl/payment-methods-large@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/cl/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 116px 427px; /* original x1 image size */
+        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 130px 495px; /* original x1 image size */
     }
 
 }
@@ -54,8 +54,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 25px;
-    width: 96px;
+    height: 26px;
+    width: 97px;
 }
 
 .paymentmethod-magna.paymentmethod-large { 
@@ -69,11 +69,15 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .paymentmethod-servipag.paymentmethod-large { 
-    height: 26px;
+    height: 27px;
     width: 78px;
 }
 
 .paymentmethod-cmr.paymentmethod-large { 
     height: 27px;
     width: 128px;
+}
+.paymentmethod-webpay.paymentmethod-large { 
+    height: 29px;
+    width: 39px;
 }

@@ -2,9 +2,9 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-large.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png'); */
     margin: 5px;
 }
 /*
@@ -20,9 +20,9 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-large@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-large@2x.png') no-repeat;*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;*/
         background-size: 116px 582px; /* original x1 image size */
     }
 
@@ -75,7 +75,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 .paymentmethod-mercadopagocard.paymentmethod-large {
     height: 29px;
-    width: 110px;
+    width: 108px;
 }
 
 .paymentmethod-hsbc.paymentmethod-large {
@@ -88,6 +88,6 @@ only screen and (                min-resolution: 2dppx) {
     width: 117px;
 }
 .paymentmethod-ixe.paymentmethod-large {
-    height: 35px;
+    height: 32px;
     width: 75px;
 }

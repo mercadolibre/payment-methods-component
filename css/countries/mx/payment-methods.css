@@ -1,30 +1,38 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-bancomer { 
+.paymentmethod-bancomer,
+.paymentmethod-bancomer.paymentmethod-large  { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-banamex { 
+.paymentmethod-banamex,
+.paymentmethod-banamex.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-hsbc { 
+.paymentmethod-hsbc,
+.paymentmethod-hsbc.paymentmethod-large  { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-serfin { 
+.paymentmethod-serfin,
+.paymentmethod-serfin.paymentmethod-large  { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-oxxo { 
+.paymentmethod-oxxo,
+.paymentmethod-oxxo.paymentmethod-large  { 
 	background-position: 0 -400px; 
 }
-.paymentmethod-mercadopagocard { 
+.paymentmethod-mercadopagocard,
+.paymentmethod-mercadopagocard.paymentmethod-large  { 
 	background-position: 0 -450px;
 }
-.paymentmethod-banorte { 
+.paymentmethod-banorte,
+.paymentmethod-banorte.paymentmethod-large  { 
 	background-position: 0 -500px;
 }
-.paymentmethod-ixe { 
+.paymentmethod-ixe,
+.paymentmethod-ixe.paymentmethod-large  { 
 	background-position: 0 -550px;
 }

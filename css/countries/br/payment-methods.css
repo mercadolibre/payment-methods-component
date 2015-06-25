@@ -1,25 +1,28 @@
 /* Sprite position for Brazil Logos
 ---------------------------------------------------------------*/
-.paymentmethod-diners { 
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-hipercard { 
+.paymentmethod-hipercard,
+.paymentmethod-hipercard.paymentmethod-large { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-elo { 
+.paymentmethod-elo,
+.paymentmethod-elo.paymentmethod-large { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-melicard { 
+.paymentmethod-melicard,
+.paymentmethod-melicard.paymentmethod-large { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-bolbradesco { 
+.paymentmethod-bolbradesco,
+.paymentmethod-bolbradesco.paymentmethod-large,
+.paymentmethod-itau,
+.paymentmethod-itau.paymentmethod-large { 
 	background-position: 0 -400px; 
-}
-
-.paymentmethod-itau { 
-    background-position: 0 -450px; 
 }

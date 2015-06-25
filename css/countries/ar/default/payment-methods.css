@@ -1,11 +1,12 @@
+
 /* Argentina Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 
 [class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/ar/payment-methods-default.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/ar/payment-methods-default.png'); */
+/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
@@ -17,19 +18,19 @@
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
+only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
- 
-[class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/ar/payment-methods-default@2x.png') no-repeat;
+   
+   [class*='paymentmethod'] {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/ar/payment-methods-default@2x.png') no-repeat;*/
-        background-size: 72px 800px; /* original x1 image size */
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 72px 800px;  /* original x1 image size */
+        height: 16px;
     }
 
 }
-
 
 /* Argentina Default Size
 ---------------------------------------------------------------*/
@@ -40,7 +41,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .paymentmethod-visa {
-    width: 38px;
+    width: 39px;
 }
 
 .paymentmethod-master { 
@@ -55,7 +56,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-diners { 
     height: 16px;
-    width: 60px;
+    width: 62px;
 }
 
 .paymentmethod-naranja { 

@@ -26,76 +26,95 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
 /* Sprite position for Argentina Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-diners {
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large {
     background-position: 0 -200px;
 }
 
-.paymentmethod-naranja { 
+.paymentmethod-naranja,
+.paymentmethod-naranja.paymentmethod-large { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-nativa { 
+.paymentmethod-nativa,
+.paymentmethod-nativa.paymentmethod-large { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-tarshop { 
+.paymentmethod-tarshop,
+.paymentmethod-tarshop.paymentmethod-large { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-cencosud { 
+.paymentmethod-cencosud,
+.paymentmethod-cencosud.paymentmethod-large { 
 	background-position: 0 -400px; 
 }
 
-.paymentmethod-cabal { 
+.paymentmethod-cabal,
+.paymentmethod-cabal.paymentmethod-large { 
 	background-position: 0 -450px; 
 }
 
-.paymentmethod-argencard { 
+.paymentmethod-argencard,
+.paymentmethod-argencard.paymentmethod-large { 
 	background-position: 0 -500px; 
 }
 
-.paymentmethod-pagofacil { 
+.paymentmethod-pagofacil,
+.paymentmethod-pagofacil.paymentmethod-large { 
 	background-position: 0 -550px; 
 }
 
-.paymentmethod-rapipago { 
+.paymentmethod-rapipago,
+.paymentmethod-rapipago.paymentmethod-large { 
 	background-position: 0 -600px; 
 }
 
-.paymentmethod-redlink { 
+.paymentmethod-redlink,
+.paymentmethod-redlink.paymentmethod-large { 
 	background-position: 0 -650px; 
 }
 
-.paymentmethod-banelco { 
+.paymentmethod-banelco,
+.paymentmethod-banelco.paymentmethod-large { 
 	background-position: 0 -700px; 
 }
 
-.paymentmethod-bapropagos { 
+.paymentmethod-bapropagos,
+.paymentmethod-bapropagos.paymentmethod-large { 
 	background-position: 0 -750px; 
 }
-/* Argentina Sprite for Default Size 
+/* Argentina Sprite for Large Size 
 ---------------------------------------------------------------*/
 
 
-[class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default.png');
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default.png'); */
-    height: 16px; /* most common height */
+.paymentmethod-large{
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-large.png');
+    /*you must use the following url for secure pages*/
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-large.png'); */
+    height: 26px; /* most common height */
+    margin: 5px;
 }
 
 /*
@@ -105,91 +124,92 @@
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (    -o-min-device-pixel-ratio: 2/1),
-only screen and (             min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                  min-resolution: 2dppx) { 
+only screen and (                min-resolution: 2dppx) {
    
-[class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default@2x.png') no-repeat;
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.0/ar/payment-methods-default@2x.png') no-repeat;*/
-        background-size: 72px 800px; /* original x1 image size */
+   .paymentmethod-large {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-large@2x.png') no-repeat;
+        /*you must use the following url for secure pages*/
+        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ar/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 116px 776px;  /* original x1 image size */
+        height: 26px; 
+        margin: 5px;
     }
 
 }
 
-
-/* Argentina Default Size
+/* Argentina Large Size
 ---------------------------------------------------------------*/
 
-.paymentmethod-account_money {
-    height: 20px;
-    width: 72px;
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
 }
 
-.paymentmethod-visa {
-    width: 38px;
+.paymentmethod-visa.paymentmethod-large {
+    height: 21px;
+    width: 63px;
 }
 
-.paymentmethod-master { 
-    height: 19px;
-    width: 29px;
-}
-
-.paymentmethod-amex { 
-    height: 17px;
-    width: 17px;
-}
-
-.paymentmethod-diners { 
-    height: 16px;
-    width: 60px;
-}
-
-.paymentmethod-naranja { 
-    height: 18px;
-    width: 16px;
-}
-
-.paymentmethod-nativa {
-    height: 15px;
-    width: 36px;
-}
-
-.paymentmethod-tarshop {
-    width: 27px;
-}
-
-.paymentmethod-cencosud {
-    height: 17px;
-    width: 26px;
-}
-
-.paymentmethod-cabal {
-    height: 17px;
-    width: 17px;
-}
-
-.paymentmethod-argencard {
-    height: 18px;
-    width: 17px;
-}
-
-.paymentmethod-pagofacil,
-.paymentmethod-redlink {
-    height: 20px;
-    width: 19px;
-}
-
-.paymentmethod-rapipago {
-    height: 11px;
-    width: 56px;
-}
-
-.paymentmethod-banelco {
+.paymentmethod-master.paymentmethod-large {
+    height: 28px;
     width: 46px;
 }
 
-.paymentmethod-bapropagos {
-    width: 51px;
+.paymentmethod-amex.paymentmethod-large {
+    height: 27px;
+    width: 26px;
+}
+
+.paymentmethod-diners.paymentmethod-large {
+    height: 25px;
+    width: 96px;
+}
+
+.paymentmethod-naranja.paymentmethod-large {
+    height: 29px;
+    width: 25px;
+}
+
+.paymentmethod-nativa.paymentmethod-large {
+    width: 58px;
+}
+
+.paymentmethod-tarshop.paymentmethod-large {
+    width: 42px;
+}
+
+.paymentmethod-cencosud.paymentmethod-large {
+    width: 41px;
+}
+
+.paymentmethod-cabal.paymentmethod-large {
+    width: 26px;
+}
+
+.paymentmethod-argencard.paymentmethod-large {
+    height: 28px;
+    width: 28px;
+}
+
+.paymentmethod-pagofacil.paymentmethod-large,
+.paymentmethod-redlink.paymentmethod-large {
+    height: 31px;
+    width: 31px;
+}
+
+.paymentmethod-rapipago.paymentmethod-large {
+    height: 16px;
+    width: 86px;
+}
+
+.paymentmethod-banelco.paymentmethod-large {
+    height: 25px;
+    width: 74px;
+}
+
+.paymentmethod-bapropagos.paymentmethod-large {
+    width: 82px;
 }

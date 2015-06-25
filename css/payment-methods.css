@@ -26,15 +26,20 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }

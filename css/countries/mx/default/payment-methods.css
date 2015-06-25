@@ -2,9 +2,9 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
@@ -21,10 +21,11 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                  min-resolution: 2dppx) { 
    
 [class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-dafault@2x.png') no-repeat;*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-dafault@2x.png') no-repeat;*/
         background-size: 72px 570px; /* original x1 image size */
+        height: 16px; /* most common height */
     }
 
 }
@@ -39,7 +40,7 @@ only screen and (                  min-resolution: 2dppx) {
 
 .paymentmethod-visa,
 .paymentmethod-debvisa {
-    width: 38px;
+    width: 40px;
 }
 
 .paymentmethod-master,
@@ -55,12 +56,12 @@ only screen and (                  min-resolution: 2dppx) {
 
 .paymentmethod-bancomer { 
     height: 7px;
-    width: 62px;
+    width: 63px;
 }
 
 .paymentmethod-banamex {
     height: 13px;
-    width: 57px;
+    width: 58px;
 }
 
 .paymentmethod-hsbc {
@@ -78,12 +79,12 @@ only screen and (                  min-resolution: 2dppx) {
     width: 33px;
 }
 .paymentmethod-mercadopagocard {
-    height: 20px;
-    width: 78px;
+    height: 17px;
+    width: 68px;
 }
 .paymentmethod-banorte {
-    height: 13px;
-    width: 73px;
+    height: 11px;
+    width: 71px;
 }
 .paymentmethod-ixe {
     height: 20px;

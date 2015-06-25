@@ -1,9 +1,11 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-provincial { 
+.paymentmethod-provincial,
+.paymentmethod-provincial.paymentmethod-large { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-mercantil { 
+.paymentmethod-mercantil,
+.paymentmethod-mercantil.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }

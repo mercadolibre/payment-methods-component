@@ -26,59 +26,71 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-bancomer { 
+.paymentmethod-bancomer,
+.paymentmethod-bancomer.paymentmethod-large  { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-banamex { 
+.paymentmethod-banamex,
+.paymentmethod-banamex.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-hsbc { 
+.paymentmethod-hsbc,
+.paymentmethod-hsbc.paymentmethod-large  { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-serfin { 
+.paymentmethod-serfin,
+.paymentmethod-serfin.paymentmethod-large  { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-oxxo { 
+.paymentmethod-oxxo,
+.paymentmethod-oxxo.paymentmethod-large  { 
 	background-position: 0 -400px; 
 }
-.paymentmethod-mercadopagocard { 
+.paymentmethod-mercadopagocard,
+.paymentmethod-mercadopagocard.paymentmethod-large  { 
 	background-position: 0 -450px;
 }
-.paymentmethod-banorte { 
+.paymentmethod-banorte,
+.paymentmethod-banorte.paymentmethod-large  { 
 	background-position: 0 -500px;
 }
-.paymentmethod-ixe { 
+.paymentmethod-ixe,
+.paymentmethod-ixe.paymentmethod-large  { 
 	background-position: 0 -550px;
 }
 
-/* Mexico Sprite for Default Size 
+/* Mexico Sprite for Large Size 
 ---------------------------------------------------------------*/
 
-[class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default.png');
+.paymentmethod-large {
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default.png'); */
-    height: 16px; /* most common height */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png'); */
+    margin: 5px;
 }
-
 /*
  * Retina logo for small screens 
  */
@@ -86,77 +98,80 @@
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (    -o-min-device-pixel-ratio: 2/1),
-only screen and (             min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                  min-resolution: 2dppx) { 
+only screen and (                min-resolution: 2dppx) {
    
-[class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-default@2x.png') no-repeat;
+.paymentmethod-large {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.4/mx/payment-methods-dafault@2x.png') no-repeat;*/
-        background-size: 72px 570px; /* original x1 image size */
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 116px 582px; /* original x1 image size */
     }
 
 }
 
-/* Mexico Default Size
+
+/* Mexico Large Size
 ---------------------------------------------------------------*/
 
-.paymentmethod-account_money {
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large {
+    height: 21px;
+    width: 63px;
+}
+
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large {
+    height: 28px;
+    width: 46px;
+}
+
+.paymentmethod-amex.paymentmethod-large {
+    height: 27px;
+    width: 26px;
+}
+
+.paymentmethod-bancomer.paymentmethod-large {
+    height: 12px;
+    width: 100px;
+}
+
+.paymentmethod-banamex.paymentmethod-large {
+    height: 21px;
+    width: 91px;
+}
+
+.paymentmethod-serfin.paymentmethod-large {
     height: 20px;
-    width: 72px;
+    width: 99px;
 }
 
-.paymentmethod-visa,
-.paymentmethod-debvisa {
-    width: 38px;
+.paymentmethod-oxxo.paymentmethod-large {
+    height: 25px;
+    width: 52px;
+}
+.paymentmethod-mercadopagocard.paymentmethod-large {
+    height: 29px;
+    width: 108px;
 }
 
-.paymentmethod-master,
-.paymentmethod-debmaster { 
-    height: 19px;
-    width: 29px;
+.paymentmethod-hsbc.paymentmethod-large {
+    height: 16px;
+    width: 90px;
 }
 
-.paymentmethod-amex { 
-    height: 17px;
-    width: 17px;
-}
-
-.paymentmethod-bancomer { 
-    height: 7px;
-    width: 62px;
-}
-
-.paymentmethod-banamex {
-    height: 13px;
-    width: 57px;
-}
-
-.paymentmethod-hsbc {
-    height: 11px;
-    width: 57px;
-}
-
-.paymentmethod-serfin {
-    height: 13px;
-    width: 62px;
-}
-
-.paymentmethod-oxxo {
-    height: 15px;
-    width: 33px;
-}
-.paymentmethod-mercadopagocard {
+.paymentmethod-banorte.paymentmethod-large {
     height: 20px;
-    width: 78px;
+    width: 117px;
 }
-.paymentmethod-banorte {
-    height: 13px;
-    width: 73px;
-}
-.paymentmethod-ixe {
-    height: 20px;
-    width: 47px;
+.paymentmethod-ixe.paymentmethod-large {
+    height: 32px;
+    width: 75px;
 }

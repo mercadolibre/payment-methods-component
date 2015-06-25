@@ -1,22 +1,31 @@
 /* Sprite position for Chile Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-diners {
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large  {
     background-position: 0 -200px;
 }
 
-.paymentmethod-magna { 
+.paymentmethod-magna,
+.paymentmethod-magna.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-presto { 
+.paymentmethod-presto,
+.paymentmethod-presto.paymentmethod-large  { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-servipag { 
+.paymentmethod-servipag,
+.paymentmethod-servipag.paymentmethod-large  { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-cmr { 
+.paymentmethod-cmr,
+.paymentmethod-cmr.paymentmethod-large  { 
 	background-position: 0 -400px;
+}
+.paymentmethod-webpay,
+.paymentmethod-webpay.paymentmethod-large { 
+	background-position: 0 -450px;
 }
