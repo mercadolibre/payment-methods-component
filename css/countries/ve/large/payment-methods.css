@@ -24,7 +24,7 @@ only screen and (                min-resolution: 2dppx) {
         background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
         /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png') no-repeat;*/ 
-        background-size: 116px 276px; /* original x1 image size */
+        background-size: 116px 350px; /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -57,4 +57,9 @@ only screen and (                min-resolution: 2dppx) {
 .paymentmethod-provincial.paymentmethod-large {
     height: 12px;
     width: 94px;
+}
+
+.paymentmethod-banesco.paymentmethod-large {
+    height: 24px;
+    width: 85px;
 }

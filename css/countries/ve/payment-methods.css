@@ -9,3 +9,8 @@
 .paymentmethod-mercantil.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
+
+.paymentmethod-banesco,
+.paymentmethod-banesco.paymentmethod-large  { 
+	background-position: 0 -300px; 
+}
