@@ -59,15 +59,14 @@
 .paymentmethod-banesco.paymentmethod-large  { 
 	background-position: 0 -300px; 
 }
-/* Venezuela Sprite for Large Size 
+/* Venezuela Sprite for Default Size 
 ---------------------------------------------------------------*/
 
-.paymentmethod-large {
-    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large.png');
+[class*='paymentmethod'] {
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large.png'); */
-    height: 26px;
-    margin: 5px;
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-default.png'); */
+    height: 16px; /* most common height */
 }
 /*
  * Retina logo for small screens 
@@ -76,51 +75,48 @@
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (              min-device-pixel-ratio: 2),
+only screen and (    -o-min-device-pixel-ratio: 2/1),
+only screen and (             min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
+only screen and (                  min-resolution: 2dppx) { 
    
-.paymentmethod-large {
-        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png') no-repeat;
+[class*='paymentmethod'] {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png') no-repeat;*/ 
-        background-size: 116px 350px; /* original x1 image size */
-        height: 26px;
-        margin: 5px;
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 72px 320px; /* original x1 image size */
+        height: 16px; /* most common height */
     }
 
 }
 
 
-/* Venezuela Large Size
+/* Venezuela Default Size
 ---------------------------------------------------------------*/
 
-.paymentmethod-account_money.paymentmethod-large {
-    height: 31px;
-    width: 116px;
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
 }
 
-.paymentmethod-visa.paymentmethod-large {
-    height: 21px;
-    width: 63px;
+.paymentmethod-visa {
+    width: 39px;
 }
 
-.paymentmethod-master.paymentmethod-large {
-    height: 28px;
-    width: 46px;
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
 }
 
-.paymentmethod-mercantil.paymentmethod-large {
-    width: 103px;
+.paymentmethod-mercantil { 
+    width: 64px;
 }
 
-.paymentmethod-provincial.paymentmethod-large {
-    height: 12px;
-    width: 94px;
+.paymentmethod-provincial { 
+    height: 7px;
+    width: 59px;
 }
-
-.paymentmethod-banesco.paymentmethod-large {
-    height: 24px;
-    width: 85px;
+.paymentmethod-banesco { 
+    height: 15px;
+    width: 53px;
 }

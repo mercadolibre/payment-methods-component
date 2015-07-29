@@ -71,17 +71,15 @@
 .paymentmethod-itau.paymentmethod-large { 
 	background-position: 0 -400px; 
 }
-/* Brazil Sprite for Large Size 
+/* Brazil Sprite for Default Size 
 ---------------------------------------------------------------*/
 
-.paymentmethod-large {
-    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-large.png');
+[class*='paymentmethod'] {
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-large.png'); */
-    height: 25px; /* most common height */
-    margin: 5px;
+/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-default.png'); */
+    height: 16px; /* most common height */
 }
-
 
 /*
  * Retina logo for small screens 
@@ -90,67 +88,62 @@
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (              min-device-pixel-ratio: 2),
+only screen and (    -o-min-device-pixel-ratio: 2/1),
+only screen and (             min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
+only screen and (                  min-resolution: 2dppx) { 
    
-.paymentmethod-large {
-        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-large@2x.png') no-repeat;
+[class*='paymentmethod'] {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 116px 425px; /* original x1 image size */
-        height: 27px; /* most common height */
-        margin: 5px;
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/br/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 72px 416px; /* original x1 image size */
+        height: 16px;
     }
 
 }
 
 
-/* Brazil Large Size
+/* Brazil Default Size
 ---------------------------------------------------------------*/
 
-.paymentmethod-account_money.paymentmethod-large {
-    height: 31px;
-    width: 116px;
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
 }
 
-.paymentmethod-visa.paymentmethod-large {
-    height: 21px;
-    width: 63px;
+.paymentmethod-visa {
+    width: 38px;
 }
 
-.paymentmethod-master.paymentmethod-large {
-    height: 28px;
-    width: 46px;
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
 }
 
-.paymentmethod-amex.paymentmethod-large {
-    height: 27px;
-    width: 26px;
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
 }
 
-.paymentmethod-hipercard.paymentmethod-large {
-    width: 56px;
+.paymentmethod-hipercard { 
+    width: 35px;
 }
 
-.paymentmethod-diners.paymentmethod-large {
-    width: 96px;
+.paymentmethod-diners {
+    width: 60px;
 }
 
-.paymentmethod-elo.paymentmethod-large {
-    width: 26px;
+.paymentmethod-elo {
+    width: 16px;
 }
 
-.paymentmethod-melicard.paymentmethod-large {
-    height: 24px;
-    width: 34px;
+.paymentmethod-melicard {
+    height: 15px;
+    width: 22px;
 }
 
-.paymentmethod-bolbradesco.paymentmethod-large,
-.paymentmethod-bolbradesco.paymentmethod-large,
-.paymentmethod-itau.paymentmethod-large,
-.paymentmethod-itau.paymentmethod-large {
-    height: 25px;
-    width: 34px;
+.paymentmethod-bolbradesco,
+.paymentmethod-itau {
+    width: 25px;
 }

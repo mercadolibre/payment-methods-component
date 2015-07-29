@@ -74,15 +74,14 @@
 .paymentmethod-webpay.paymentmethod-large { 
 	background-position: 0 -450px;
 }
-/* Chile Sprite for Large Size 
+/* Chile Sprite for Default Size 
 ---------------------------------------------------------------*/
 
-.paymentmethod-large {
-    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png');
+[class*='paymentmethod'] {
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png'); */
-    height: 26px; /* most common height */
-    margin: 5px;
+/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-default.png'); */
+    height: 16px; /* most common height */
 }
 
 /*
@@ -96,64 +95,65 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-   
-.paymentmethod-large {
-        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;
+[class*='paymentmethod'] {
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 130px 495px; /* original x1 image size */
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 80px 510px; /* original x1 image size */
+        height: 16px;
     }
 
 }
 
-/* Chile Large Size
+
+/* Chile Default Size
 ---------------------------------------------------------------*/
 
-.paymentmethod-account_money.paymentmethod-large {
-    height: 31px;
-    width: 116px;
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
 }
 
-.paymentmethod-visa.paymentmethod-large {
-    height: 21px;
-    width: 63px;
+.paymentmethod-visa {
+    width: 38px;
 }
 
-.paymentmethod-master.paymentmethod-large {
-    height: 28px;
-    width: 46px;
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
 }
 
-.paymentmethod-amex.paymentmethod-large {
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-diners { 
+    height: 18px;
+    width: 62px;
+}
+
+.paymentmethod-magna { 
+    height: 18px;
+    width: 29px;
+}
+
+.paymentmethod-presto { 
+    height: 18px;
+    width: 28px;
+}
+
+.paymentmethod-servipag { 
+    height: 18px;
+    width: 50px;
+}
+
+.paymentmethod-cmr { 
+    width: 79px;
+    height: 18px;
+}
+
+.paymentmethod-webpay { 
+    width: 38px;
     height: 27px;
-    width: 26px;
-}
-
-.paymentmethod-diners.paymentmethod-large {
-    height: 26px;
-    width: 97px;
-}
-
-.paymentmethod-magna.paymentmethod-large { 
-    height: 26px;
-    width: 41px;
-}
-
-.paymentmethod-presto.paymentmethod-large { 
-    height: 26px;
-    width: 41px;
-}
-
-.paymentmethod-servipag.paymentmethod-large { 
-    height: 27px;
-    width: 78px;
-}
-
-.paymentmethod-cmr.paymentmethod-large { 
-    height: 27px;
-    width: 128px;
-}
-.paymentmethod-webpay.paymentmethod-large { 
-    height: 29px;
-    width: 39px;
 }

@@ -309,8 +309,8 @@
 			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
 			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
 			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
-			<!-- <li class="paymentmethod-banelco paymentmethod-large">Banelco</li> -->
 
+			<!-- <li class="paymentmethod-banelco paymentmethod-large">Banelco</li> -->
 		</ul>
 	</div>
 
@@ -433,22 +433,6 @@
 		</ul>
 	</div>-->
 	</section>
-
-	<section>
-		<h1>Input size</h1>
-		<div class="ch-box-lite">
-			<ul>
-				<li class="">
-					<input type='number' class="paymentmethod-amex" />
-				</li>
-				<li class="paymentmethod-"></li>
-				<li class="paymentmethod-"></li>
-				<li class="paymentmethod-"></li>
-				<li class="paymentmethod-"></li>
-			</ul>
-		</div>
-	</section>
-
 	<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript">
 
@@ -466,6 +450,7 @@
 	})
 
 	function switchCss(i) {
+
 		$("#country").attr("href", "dist/payment-methods."+i+"__all.css");
 		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css");
 		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css");

@@ -26,42 +26,59 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-bancomer { 
+.paymentmethod-bancomer,
+.paymentmethod-bancomer.paymentmethod-large  { 
     background-position: 0 -200px; 
 }
 
-.paymentmethod-banamex { 
+.paymentmethod-banamex,
+.paymentmethod-banamex.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-serfin { 
+.paymentmethod-hsbc,
+.paymentmethod-hsbc.paymentmethod-large  { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-serfin,
+.paymentmethod-serfin.paymentmethod-large  { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-oxxo { 
+.paymentmethod-oxxo,
+.paymentmethod-oxxo.paymentmethod-large  { 
 	background-position: 0 -400px; 
 }
-.paymentmethod-mercadopagocard { 
+.paymentmethod-mercadopagocard,
+.paymentmethod-mercadopagocard.paymentmethod-large  { 
 	background-position: 0 -450px;
 }
-.paymentmethod-banorte { 
+.paymentmethod-banorte,
+.paymentmethod-banorte.paymentmethod-large  { 
 	background-position: 0 -500px;
 }
-.paymentmethod-ixe { 
+.paymentmethod-ixe,
+.paymentmethod-ixe.paymentmethod-large  { 
 	background-position: 0 -550px;
 }
 
@@ -69,9 +86,9 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/mx/payment-methods-large.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/mx/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large.png'); */
     margin: 5px;
 }
 /*
@@ -87,10 +104,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/mx/payment-methods-large@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/mx/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 116px 479px; /* original x1 image size */
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/mx/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 116px 582px; /* original x1 image size */
     }
 
 }
@@ -107,7 +124,7 @@ only screen and (                min-resolution: 2dppx) {
 .paymentmethod-visa.paymentmethod-large,
 .paymentmethod-debvisa.paymentmethod-large {
     height: 21px;
-    width: 60px;
+    width: 63px;
 }
 
 .paymentmethod-master.paymentmethod-large,
@@ -142,13 +159,19 @@ only screen and (                min-resolution: 2dppx) {
 }
 .paymentmethod-mercadopagocard.paymentmethod-large {
     height: 29px;
-    width: 47px;
+    width: 108px;
 }
+
+.paymentmethod-hsbc.paymentmethod-large {
+    height: 16px;
+    width: 90px;
+}
+
 .paymentmethod-banorte.paymentmethod-large {
     height: 20px;
     width: 117px;
 }
 .paymentmethod-ixe.paymentmethod-large {
-    height: 35px;
+    height: 32px;
     width: 75px;
 }

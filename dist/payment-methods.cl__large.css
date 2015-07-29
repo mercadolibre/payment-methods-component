@@ -26,47 +26,61 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
 /* Sprite position for Chile Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-diners {
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large  {
     background-position: 0 -200px;
 }
 
-.paymentmethod-magna { 
+.paymentmethod-magna,
+.paymentmethod-magna.paymentmethod-large  { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-presto { 
+.paymentmethod-presto,
+.paymentmethod-presto.paymentmethod-large  { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-servipag { 
+.paymentmethod-servipag,
+.paymentmethod-servipag.paymentmethod-large  { 
 	background-position: 0 -350px; 
 }
 
-.paymentmethod-cmr { 
+.paymentmethod-cmr,
+.paymentmethod-cmr.paymentmethod-large  { 
 	background-position: 0 -400px;
+}
+.paymentmethod-webpay,
+.paymentmethod-webpay.paymentmethod-large { 
+	background-position: 0 -450px;
 }
 /* Chile Sprite for Large Size 
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large.png'); */
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -84,10 +98,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;*/
-        background-size: 116px 427px; /* original x1 image size */
+        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/cl/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 130px 495px; /* original x1 image size */
     }
 
 }
@@ -102,7 +116,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-visa.paymentmethod-large {
     height: 21px;
-    width: 60px;
+    width: 63px;
 }
 
 .paymentmethod-master.paymentmethod-large {
@@ -116,8 +130,8 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 25px;
-    width: 96px;
+    height: 26px;
+    width: 97px;
 }
 
 .paymentmethod-magna.paymentmethod-large { 
@@ -131,11 +145,15 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .paymentmethod-servipag.paymentmethod-large { 
-    height: 26px;
+    height: 27px;
     width: 78px;
 }
 
 .paymentmethod-cmr.paymentmethod-large { 
     height: 27px;
-    width: 45px;
+    width: 128px;
+}
+.paymentmethod-webpay.paymentmethod-large { 
+    height: 29px;
+    width: 39px;
 }

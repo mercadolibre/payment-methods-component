@@ -26,43 +26,52 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa {
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
     background-position: 0 -50px;
 }
 
 .paymentmethod-master,
-.paymentmethod-debmaster {
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
     background-position: 0 -100px;
 }
 
-.paymentmethod-amex {
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
 /* Sprite position for Colombia Logos
 ---------------------------------------------------------------*/
 
-.paymentmethod-diners { 
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large { 
 	background-position: 0 -200px; 
 }
 
-.paymentmethod-efecty { 
+.paymentmethod-efecty,
+.paymentmethod-efecty.paymentmethod-large { 
 	background-position: 0 -250px; 
 }
 
-.paymentmethod-davivienda { 
+.paymentmethod-davivienda,
+.paymentmethod-davivienda.paymentmethod-large { 
 	background-position: 0 -300px; 
 }
 
-.paymentmethod-pse { 
+.paymentmethod-pse,
+.paymentmethod-pse.paymentmethod-large { 
 	background-position: 0 -350px; 
 }
 /* Colombia Sprite for Default Size 
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-default.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-default.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-default.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 /*
@@ -78,10 +87,11 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                  min-resolution: 2dppx) { 
    
 [class*='paymentmethod'] {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-default@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-default@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-default@2x.png') no-repeat;*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-default@2x.png') no-repeat;*/
         background-size: 72px 400px; /* original x1 image size */
+        height: 16px; 
     }
 
 }
@@ -131,9 +141,9 @@ only screen and (                  min-resolution: 2dppx) {
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-large.png');
+    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-large.png');
     /*you must use the following url for secure pages*/
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-large.png'); */
     margin: 5px;
 }
 
@@ -150,9 +160,9 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
    
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-large@2x.png') no-repeat;
+        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-large@2x.png') no-repeat;
         /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/co/payment-methods-large@2x.png') no-repeat;*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/co/payment-methods-large@2x.png') no-repeat;*/
         background-size: 116px 400px; /* original x1 image size */
     }
 
@@ -169,7 +179,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-visa.paymentmethod-large {
     height: 21px;
-    width: 60px;
+    width: 63px;
 }
 
 .paymentmethod-master.paymentmethod-large {
@@ -199,5 +209,5 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-pse.paymentmethod-large {
     height: 28px;
-    width: 27px;
+    width: 28px;
 }
