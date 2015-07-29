@@ -1,0 +1,219 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.2.0
+ */
+
+/* Common Structure 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries 
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa,
+.paymentmethod-debvisa {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master,
+.paymentmethod-debmaster {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex {
+    background-position: 0 -150px;
+}
+/* Sprite position for Chile Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-diners {
+    background-position: 0 -200px;
+}
+
+.paymentmethod-magna { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-presto { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-servipag { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-cmr { 
+	background-position: 0 -400px;
+}
+/* Chile Sprite for Default Size 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-default.png');
+    /*you must use the following url for secure pages*/
+/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-default.png'); */
+    height: 16px; /* most common height */
+}
+
+/*
+ * Retina logo for small screens 
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+ 
+[class*='paymentmethod'] {
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-default@2x.png') no-repeat;
+        /*you must use the following url for secure pages*/
+        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-default@2x.png') no-repeat;*/
+        background-size: 72px 418px; /* original x1 image size */
+    }
+
+}
+
+
+/* Chile Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master { 
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex { 
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-diners { 
+    height: 18px;
+    width: 60px;
+}
+
+.paymentmethod-magna { 
+    height: 18px;
+    width: 29px;
+}
+
+.paymentmethod-presto { 
+    height: 18px;
+    width: 28px;
+}
+
+.paymentmethod-servipag { 
+    height: 18px;
+    width: 50px;
+}
+
+.paymentmethod-cmr { 
+    width: 30px;
+    height: 17px;
+}
+/* Chile Sprite for Large Size 
+---------------------------------------------------------------*/
+
+.paymentmethod-large {
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png');
+    /*you must use the following url for secure pages*/
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large.png'); */
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*
+ * Retina logo for small screens 
+ */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (              min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+   
+.paymentmethod-large {
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;
+        /*you must use the following url for secure pages*/
+        /*background: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.2/cl/payment-methods-large@2x.png') no-repeat;*/
+        background-size: 116px 427px; /* original x1 image size */
+    }
+
+}
+
+/* Chile Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large {
+    height: 21px;
+    width: 60px;
+}
+
+.paymentmethod-master.paymentmethod-large {
+    height: 28px;
+    width: 46px;
+}
+
+.paymentmethod-amex.paymentmethod-large {
+    height: 27px;
+    width: 26px;
+}
+
+.paymentmethod-diners.paymentmethod-large {
+    height: 25px;
+    width: 96px;
+}
+
+.paymentmethod-magna.paymentmethod-large { 
+    height: 26px;
+    width: 41px;
+}
+
+.paymentmethod-presto.paymentmethod-large { 
+    height: 26px;
+    width: 41px;
+}
+
+.paymentmethod-servipag.paymentmethod-large { 
+    height: 26px;
+    width: 78px;
+}
+
+.paymentmethod-cmr.paymentmethod-large { 
+    height: 27px;
+    width: 45px;
+}
