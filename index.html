@@ -17,14 +17,12 @@
 	<link rel="stylesheet" type="text/css" href="http://secure.mlstatic.com/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="css/countries/ar/default/payment-methods.css">
-	<link rel="stylesheet" id="country" type="text/css" href="css/countries/ar/payment-methods.css">
 	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
-	
-	
-	<link rel="stylesheet" id="country-large" type="text/css" href="css/countries/ar/large/payment-methods.css">
+	<link rel="stylesheet" id="country" type="text/css" href="dist/payment-methods.ar__all.css">
 
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css">
 
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css">
 
 	<style type="text/css">
 		body {
@@ -468,9 +466,9 @@
 	})
 
 	function switchCss(i) {
-		$("#country").attr("href", "css/countries/" + i + "/payment-methods.css");
-		$("#country-default").attr("href", "css/countries/" + i + "/default/payment-methods.css");
-		$("#country-large").attr("href", "css/countries/" + i + "/large/payment-methods.css");
+		$("#country").attr("href", "dist/payment-methods."+i+"__all.css");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css");
 	}
 
 	function showDemo(j) {
