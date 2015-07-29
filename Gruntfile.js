@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     var country = grunt.option('country'),
         size = grunt.option('size') || 'default',
         files = [
-            'css/payment-methods.css', 
+            'css/payment-methods.css',
             'css/countries/' + country + '/payment-methods.css'
         ],
         sizeCollection = size.split(','),
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         'pkg': grunt.file.readJSON('package.json'),
         'concat': {
 
-            'build': {                
+            'build': {
                 'src': files,
                 'dest': destination
             }
@@ -37,15 +37,15 @@ module.exports = function(grunt) {
 
                     // Source folder
                     'cwd': 'build/',
-                    
+
                     // Source files
-                    'src': ['payment-methods.' + country + '__default.css'],
-                    
+                    'src': ['payment-methods.*__*.css'],
+
                     // Destination folder
                     'dest': 'dist/',
 
                     'rename': function (dest, src) {
-                        return dest + src.replace(/__default/, '');
+                        return dest + src.replace('/__*/', '');
                     }
                 }]
             }
