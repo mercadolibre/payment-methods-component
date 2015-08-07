@@ -2,37 +2,37 @@
 ---------------------------------------------------------------*/
 .paymentmethod-bancomer,
 .paymentmethod-bancomer.paymentmethod-large  { 
-    background-position: 0 -200px; 
+    background-position: 0 -300px; 
 }
 
 .paymentmethod-banamex,
 .paymentmethod-banamex.paymentmethod-large  { 
-	background-position: 0 -250px; 
+	background-position: 0 -350px; 
 }
 
 .paymentmethod-hsbc,
 .paymentmethod-hsbc.paymentmethod-large  { 
-	background-position: 0 -300px; 
+	background-position: 0 -400px; 
 }
 
 .paymentmethod-serfin,
 .paymentmethod-serfin.paymentmethod-large  { 
-	background-position: 0 -350px; 
+	background-position: 0 -450px; 
 }
 
 .paymentmethod-oxxo,
 .paymentmethod-oxxo.paymentmethod-large  { 
-	background-position: 0 -400px; 
+	background-position: 0 -500px; 
 }
 .paymentmethod-mercadopagocard,
 .paymentmethod-mercadopagocard.paymentmethod-large  { 
-	background-position: 0 -450px;
+	background-position: 0 -550px;
 }
 .paymentmethod-banorte,
 .paymentmethod-banorte.paymentmethod-large  { 
-	background-position: 0 -500px;
+	background-position: 0 -600px;
 }
 .paymentmethod-ixe,
 .paymentmethod-ixe.paymentmethod-large  { 
-	background-position: 0 -550px;
+	background-position: 0 -650px;
 }
