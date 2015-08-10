@@ -36,3 +36,13 @@
 .paymentmethod-ixe.paymentmethod-large  { 
 	background-position: 0 -650px;
 }
+
+.paymentmethod-debvisa,
+.paymentmethod-debvisa.paymentmethod-large  { 
+	background-position: 0 -700px;
+}
+
+.paymentmethod-debmaster,
+.paymentmethod-debmaster.paymentmethod-large  { 
+	background-position: 0 -750px;
+}

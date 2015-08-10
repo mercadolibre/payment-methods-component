@@ -8,24 +8,24 @@
 
 .paymentmethod-magna,
 .paymentmethod-magna.paymentmethod-large  { 
-	background-position: 0 -250px; 
+	background-position: 0 -300px; 
 }
 
 .paymentmethod-presto,
 .paymentmethod-presto.paymentmethod-large  { 
-	background-position: 0 -300px; 
+	background-position: 0 -350px; 
 }
 
 .paymentmethod-servipag,
 .paymentmethod-servipag.paymentmethod-large  { 
-	background-position: 0 -350px; 
+	background-position: 0 -400px; 
 }
 
 .paymentmethod-cmr,
 .paymentmethod-cmr.paymentmethod-large  { 
-	background-position: 0 -400px;
+	background-position: 0 -450px;
 }
 .paymentmethod-webpay,
 .paymentmethod-webpay.paymentmethod-large { 
-	background-position: 0 -450px;
+	background-position: 0 -500px;
 }
