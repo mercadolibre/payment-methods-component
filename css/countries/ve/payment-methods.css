@@ -2,15 +2,15 @@
 ---------------------------------------------------------------*/
 .paymentmethod-provincial,
 .paymentmethod-provincial.paymentmethod-large { 
-    background-position: 0 -200px; 
+    background-position: 0 -300px; 
 }
 
 .paymentmethod-mercantil,
 .paymentmethod-mercantil.paymentmethod-large  { 
-	background-position: 0 -250px; 
+	background-position: 0 -350px; 
 }
 
 .paymentmethod-banesco,
 .paymentmethod-banesco.paymentmethod-large  { 
-	background-position: 0 -300px; 
+	background-position: 0 -400px; 
 }

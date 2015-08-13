@@ -7,22 +7,22 @@
 
 .paymentmethod-hipercard,
 .paymentmethod-hipercard.paymentmethod-large { 
-	background-position: 0 -250px; 
+	background-position: 0 -300px; 
 }
 
 .paymentmethod-elo,
 .paymentmethod-elo.paymentmethod-large { 
-	background-position: 0 -300px; 
+	background-position: 0 -350px; 
 }
 
 .paymentmethod-melicard,
 .paymentmethod-melicard.paymentmethod-large { 
-	background-position: 0 -350px; 
+	background-position: 0 -400px; 
 }
 
 .paymentmethod-bolbradesco,
 .paymentmethod-bolbradesco.paymentmethod-large,
 .paymentmethod-itau,
 .paymentmethod-itau.paymentmethod-large { 
-	background-position: 0 -400px; 
+	background-position: 0 -450px; 
 }

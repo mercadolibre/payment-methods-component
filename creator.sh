@@ -18,3 +18,5 @@ grunt build --country=cl --size=default,large
 grunt build --country=co --size=default,large
 grunt build --country=mx --size=default,large
 grunt build --country=ve --size=default,large
+
+grunt dist

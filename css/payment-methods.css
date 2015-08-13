@@ -43,3 +43,8 @@
 .paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large{
+    background-position: 0 -250px;
+}

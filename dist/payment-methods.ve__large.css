@@ -43,34 +43,39 @@
 .paymentmethod-amex.paymentmethod-large{
     background-position: 0 -150px;
 }
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large{
+    background-position: 0 -250px;
+}
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
 .paymentmethod-provincial,
 .paymentmethod-provincial.paymentmethod-large { 
-    background-position: 0 -200px; 
+    background-position: 0 -300px; 
 }
 
 .paymentmethod-mercantil,
 .paymentmethod-mercantil.paymentmethod-large  { 
-	background-position: 0 -250px; 
+	background-position: 0 -350px; 
 }
 
 .paymentmethod-banesco,
 .paymentmethod-banesco.paymentmethod-large  { 
-	background-position: 0 -300px; 
+	background-position: 0 -400px; 
 }
-/* Venezuela Sprite for Large Size 
+/* Venezuela Sprite for Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large.png');
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/ve/payment-methods-large.png');
     /* you must use the following url for secure pages */
-    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large.png'); */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/ve/payment-methods-large.png'); */
     height: 26px;
     margin: 5px;
 }
 /*
- * Retina logo for small screens 
+ * Retina logo for small screens
  */
 
 @media
@@ -80,12 +85,12 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-   
+
 .paymentmethod-large {
-        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png');
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/ve/payment-methods-large@2x.png');
         /* you must use the following url for secure pages */
-        /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.2.5/ve/payment-methods-large@2x.png'); */ 
-        background-size: 116px 350px; /* original x1 image size */
+        /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/ve/payment-methods-large@2x.png'); */
+        background-size: 116px 450px; /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -109,6 +114,11 @@ only screen and (                min-resolution: 2dppx) {
 .paymentmethod-master.paymentmethod-large {
     height: 28px;
     width: 46px;
+}
+
+.paymentmethod-bitcoin.paymentmethod-large {
+    height: 25px;
+    width: 96px;
 }
 
 .paymentmethod-mercantil.paymentmethod-large {
