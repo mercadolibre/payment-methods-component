@@ -1,15 +1,15 @@
-/* Chile Sprite for Default Size 
+/* Chile Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default.png');
-    /*you must use the following url for secure pages*/
-/* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default.png'); */
+    background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default.png');
+    /* you must use the following url for secure pages */
+    /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default.png'); */
     height: 16px; /* most common height */
 }
 
 /*
- * Retina logo for small screens 
+ * Retina logo for small screens
  */
 
 @media
@@ -20,9 +20,9 @@ only screen and (              min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 [class*='paymentmethod'] {
-        background: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default@2x.png') no-repeat;
-        /*you must use the following url for secure pages*/
-        /*background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default@2x.png') no-repeat;*/
+        background-image: url('http://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default@2x.png');
+        /* you must use the following url for secure pages */
+        /* background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.0/cl/payment-methods-default@2x.png'); */
         background-size: 80px 525px; /* original x1 image size */
         height: 16px;
     }
@@ -42,47 +42,47 @@ only screen and (                min-resolution: 2dppx) {
     width: 38px;
 }
 
-.paymentmethod-master { 
+.paymentmethod-master {
     height: 19px;
     width: 29px;
 }
 
-.paymentmethod-amex { 
+.paymentmethod-amex {
     height: 17px;
     width: 17px;
 }
 
-.paymentmethod-diners { 
+.paymentmethod-diners {
     height: 18px;
     width: 62px;
 }
 
-.paymentmethod-bitcoin { 
+.paymentmethod-bitcoin {
     height: 16px;
     width: 62px;
 }
 
-.paymentmethod-magna { 
+.paymentmethod-magna {
     height: 18px;
     width: 29px;
 }
 
-.paymentmethod-presto { 
+.paymentmethod-presto {
     height: 18px;
     width: 28px;
 }
 
-.paymentmethod-servipag { 
+.paymentmethod-servipag {
     height: 18px;
     width: 50px;
 }
 
-.paymentmethod-cmr { 
+.paymentmethod-cmr {
     width: 79px;
     height: 18px;
 }
 
-.paymentmethod-webpay { 
+.paymentmethod-webpay {
     width: 38px;
     height: 27px;
 }
