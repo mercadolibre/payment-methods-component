@@ -1,22 +1,22 @@
 module.exports = function(grunt) {
 
     var country = grunt.option('country'),
-        size = grunt.option('size') || 'default',
+        size = grunt.option('size') || 'large,default',
         files = [
-            'css/payment-methods.css',
-            'css/countries/' + country + '/payment-methods.css'
+            'css/countries/' + country + '/payment-methods.css',
+            'css/payment-methods.css'
         ],
         sizeCollection = size.split(','),
         destination = 'build/payment-methods.' + country + '__' + size + '.css'
 
 
     sizeCollection.forEach(function (e) {
-        files.push('css/countries/' + country + '/' + e + '/payment-methods.css');
+        files.unshift('css/countries/' + country + '/' + e + '/payment-methods.css');
     });
 
     if (sizeCollection.length > 1) {
         // Rename file when all sizes
-        destination = destination.replace(size, 'all');
+        destination = 'build/payment-methods.' + country + '.css'
     }
 
     // Project configuration.

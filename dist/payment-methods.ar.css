@@ -1,115 +1,3 @@
-/**
- * Payment Methods Logos
- * @authors: ndevalle, ipianciola, gandre, aramos
- * @description: common component for each country's payment methods logos.
- * @version: 1.2.0
- */
-
-/* Common Structure 
----------------------------------------------------------------*/
-
-[class*='paymentmethod'] {
-    background-repeat: no-repeat;
-    display: inline-block;
-    margin: 2px;
-    overflow: hidden;
-    text-indent: 100%;
-    vertical-align: middle;
-    white-space: nowrap;
-}
-
-/* Common Payment Methods to all Contries 
----------------------------------------------------------------*/
-
-.paymentmethod-account_money {
-    background-position: 0 0;
-}
-
-.paymentmethod-visa,
-.paymentmethod-debvisa,
-.paymentmethod-visa.paymentmethod-large,
-.paymentmethod-debvisa.paymentmethod-large   {
-    background-position: 0 -50px;
-}
-
-.paymentmethod-master,
-.paymentmethod-debmaster,
-.paymentmethod-master.paymentmethod-large,
-.paymentmethod-debmaster.paymentmethod-large  {
-    background-position: 0 -100px;
-}
-
-.paymentmethod-amex,
-.paymentmethod-amex.paymentmethod-large{
-    background-position: 0 -150px;
-}
-
-.paymentmethod-bitcoin,
-.paymentmethod-bitcoin.paymentmethod-large{
-    background-position: 0 -250px;
-}
-/* Sprite position for Argentina Logos
----------------------------------------------------------------*/
-
-.paymentmethod-diners,
-.paymentmethod-diners.paymentmethod-large {
-    background-position: 0 -200px;
-}
-
-.paymentmethod-naranja,
-.paymentmethod-naranja.paymentmethod-large { 
-	background-position: 0 -300px; 
-}
-
-.paymentmethod-nativa,
-.paymentmethod-nativa.paymentmethod-large { 
-	background-position: 0 -350px; 
-}
-
-.paymentmethod-tarshop,
-.paymentmethod-tarshop.paymentmethod-large { 
-	background-position: 0 -400px; 
-}
-
-.paymentmethod-cencosud,
-.paymentmethod-cencosud.paymentmethod-large { 
-	background-position: 0 -450px; 
-}
-
-.paymentmethod-cabal,
-.paymentmethod-cabal.paymentmethod-large { 
-	background-position: 0 -500px; 
-}
-
-.paymentmethod-argencard,
-.paymentmethod-argencard.paymentmethod-large { 
-	background-position: 0 -550px; 
-}
-
-.paymentmethod-pagofacil,
-.paymentmethod-pagofacil.paymentmethod-large { 
-	background-position: 0 -600px; 
-}
-
-.paymentmethod-rapipago,
-.paymentmethod-rapipago.paymentmethod-large { 
-	background-position: 0 -650px; 
-}
-
-.paymentmethod-redlink,
-.paymentmethod-redlink.paymentmethod-large { 
-	background-position: 0 -700px; 
-}
-
-.paymentmethod-banelco,
-.paymentmethod-banelco.paymentmethod-large { 
-	background-position: 0 -750px; 
-}
-
-.paymentmethod-bapropagos,
-.paymentmethod-bapropagos.paymentmethod-large { 
-	background-position: 0 -800px; 
-}
 
 /* Argentina Sprite for Default Size
 ---------------------------------------------------------------*/
@@ -336,4 +224,117 @@ only screen and (                min-resolution: 2dppx) {
 
 .paymentmethod-bapropagos.paymentmethod-large {
     width: 82px;
+}
+
+/* Sprite position for Argentina Logos
+---------------------------------------------------------------*/
+
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large {
+    background-position: 0 -200px;
+}
+
+.paymentmethod-naranja,
+.paymentmethod-naranja.paymentmethod-large { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-nativa,
+.paymentmethod-nativa.paymentmethod-large { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-tarshop,
+.paymentmethod-tarshop.paymentmethod-large { 
+	background-position: 0 -400px; 
+}
+
+.paymentmethod-cencosud,
+.paymentmethod-cencosud.paymentmethod-large { 
+	background-position: 0 -450px; 
+}
+
+.paymentmethod-cabal,
+.paymentmethod-cabal.paymentmethod-large { 
+	background-position: 0 -500px; 
+}
+
+.paymentmethod-argencard,
+.paymentmethod-argencard.paymentmethod-large { 
+	background-position: 0 -550px; 
+}
+
+.paymentmethod-pagofacil,
+.paymentmethod-pagofacil.paymentmethod-large { 
+	background-position: 0 -600px; 
+}
+
+.paymentmethod-rapipago,
+.paymentmethod-rapipago.paymentmethod-large { 
+	background-position: 0 -650px; 
+}
+
+.paymentmethod-redlink,
+.paymentmethod-redlink.paymentmethod-large { 
+	background-position: 0 -700px; 
+}
+
+.paymentmethod-banelco,
+.paymentmethod-banelco.paymentmethod-large { 
+	background-position: 0 -750px; 
+}
+
+.paymentmethod-bapropagos,
+.paymentmethod-bapropagos.paymentmethod-large { 
+	background-position: 0 -800px; 
+}
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.2.0
+ */
+
+/* Common Structure 
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries 
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa,
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master,
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
+    background-position: 0 -150px;
+}
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large{
+    background-position: 0 -250px;
 }
