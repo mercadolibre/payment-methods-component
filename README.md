@@ -127,7 +127,7 @@ For generate a new version:
 
 1. Make your changes in the css or images
 2. Upload via FTP the assets for the new version to this url `http://secure.mlstatic.com/org-img/ui/payment-methods`
-3. Make a Replace All, replacing the old version (ex. `1.3.0`) for the new version (ex. `1.3.2`)
+3. Make a Replace All in all the project, replacing the old version (ex. `1.3.0`) for the new version (ex. `1.3.2`)
   - Make you shure that you change the version in all the css sheets, the `package.json` and the `index.html`
 4. Run `creator.sh` for generate the build and dist for the new version of component.
 5. Test the componet whit the index.html
