@@ -125,12 +125,17 @@ Please follow the corresponding ennumeration for the version. You will generate 
 
 For generate a new version:
 
-1. Make your changes in the css or images
-2. Upload via FTP the assets for the new version to this url `http://secure.mlstatic.com/org-img/ui/payment-methods`
-3. Make a Replace All in all the project, replacing the old version (ex. `1.3.0`) for the new version (ex. `1.3.2`)
-  - Make you shure that you change the version in all the css sheets, the `package.json` and the `index.html`
-4. Run `creator.sh` for generate the build and dist for the new version of component.
-5. Test the componet whit the index.html
+1. Make a new branch cloning `master` or use `Release` for the changes.
+2. Make your changes in the css or images.
+3. Upload via FTP the assets for the new version to this url `http://secure.mlstatic.com/org-img/ui/payment-methods`
+4. Make a Replace All in all the project, replacing the old version (ex. `1.3.0`) for the new version (ex. `1.3.2`)
+  - Make you shure that you change the version in all the css sheets, the `package.json` and the `index.html`.
+5. Run `creator.sh` for generate the build and dist for the new version of component.
+6. Test the componet whit the index.html.
+7. Merge the new branch into `master`
+8. Merge `master` into `gh-pages` branch
+9. Generate a tag whit the corresponding ennumeration `git tag 1.3.x`
+10. Push all the branches changed: `master`, `Release`, `gh-pages` and the tag for the version.
 
 You can generate a file by country and by size using Grunt commands:
 
