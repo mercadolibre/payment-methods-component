@@ -59,7 +59,7 @@ You'll find the generated files in the `build` folder.
 
 ### Size Lists
 
-- default 
+- default
 - large
 
 
@@ -71,8 +71,8 @@ You'll find the generated files in the `build` folder.
     paymentmethod-visa
     ```
 
-- You can use them in any element. 
-  
+- You can use them in any element.
+
     ```html
     <!-- Unordered List -->
     <ul>
@@ -95,7 +95,7 @@ You'll find the generated files in the `build` folder.
     ```
 
 - Extend the size for large logos using the `paymentmethod-large` class:
-    
+
     ```html
     <!-- This is a large logo -->
     <span class="paymentmethod-visa paymentmethod-large">Visa</span>
@@ -113,13 +113,47 @@ You'll find the generated files in the `build` folder.
 
 2. Add it to your own bundles, don't make an extra request for it.
 
+## Generate a new version
+
+Please follow the corresponding ennumeration for the version. You will generate a new version if:
+
+- Change anything of the images
+
+- Change the images references in the css
+
+- Change or agregate new css rules
+
+For generate a new version:
+
+1. Make your changes in the css or images
+2. Upload via FTP the assets for the new version to this url `http://secure.mlstatic.com/org-img/ui/payment-methods`
+3. Make a Replace All, replacing the old version (ex. `1.3.0`) for the new version (ex. `1.3.2`)
+  - Make you shure that you change the version in all the css sheets, the `package.json` and the `index.html`
+4. Run `creator.sh` for generate the build and dist for the new version of component.
+5. Test the componet whit the index.html
+
+You can generate a file by country and by size using Grunt commands:
+
+Ex: payment methods for Argentina with the default size:
+
+    grunt build --country=ar
+
+Ex: Payment methods for Argentina and large size:
+
+    grunt build --country=ar --size=large
+
+Ex: Payment methods for Argentina with both default and large size:
+
+    grunt build --country=ar --size=defaul,large
+
+
+You'll find the generated files in the `build` folder.
 
 ## Roadmap
 
 Stuff that are coming on future versions:
 
-- Retina Display Support
-- Chile Logos
+- Gulp task runner
 - A better demo
 - Style guide for logo grouping on some countries
 - Generic payment type logos
@@ -129,10 +163,11 @@ Stuff that are coming on future versions:
 - Gastón André (gaston.andre@mercadolibre.com)
 - Ivan Pianciola (ivan.pianciola@mercadolibre.com)
 - Adolfo Ramos (adolfo.ramos@mercadoibre.com)
+- Santiago Barchetta (santiago.barchetta@mercadolibre.com)
 
 ## Thanks to
 
-- Nati Devalle (@taly) 
+- Nati Devalle (@taly)
 - Guille Paz (@pazguille)
 
 ## Credits
@@ -142,5 +177,4 @@ Stuff that are coming on future versions:
 ## License
 Licensed under the MIT license.
 
-Copyright (c) 2014 [MercadoLibre](http://github.com/mercadolibre).
-
+Copyright (c) 2015 [MercadoLibre](http://github.com/mercadolibre).
