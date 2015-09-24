@@ -39,7 +39,7 @@ module.exports = function(grunt) {
                     'cwd': 'build/',
 
                     // Source files
-                    'src': ['payment-methods.*__*.css'],
+                    'src': ['payment-methods.*.css'],
 
                     // Destination folder
                     'dest': 'dist/',
