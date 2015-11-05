@@ -29,3 +29,7 @@
 .paymentmethod-webpay.paymentmethod-large { 
 	background-position: 0 -500px;
 }
+.paymentmethod-khipu,
+.paymentmethod-khipu.paymentmethod-large { 
+	background-position: 0 -550px;
+}
