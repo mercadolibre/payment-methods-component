@@ -169,6 +169,7 @@ Stuff that are coming on future versions:
 - Ivan Pianciola (ivan.pianciola@mercadolibre.com)
 - Adolfo Ramos (adolfo.ramos@mercadoibre.com)
 - Santiago Barchetta (santiago.barchetta@mercadolibre.com)
+- Samuel Bustamante (samuel.bustamante@mercadolibre.com)
 
 ## Thanks to
 
