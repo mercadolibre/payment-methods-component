@@ -1,6 +1,6 @@
 {
   "name": "payment-methods-component",
-  "version": "1.3.2",
+  "version": "1.3.6",
   "description": "Payment Methods Logos, Sprites and CSS sorted by countries and sizes.",
   "author": "<natalia.devalle@mercadolibre.com>",
   "contributors": [
@@ -23,6 +23,10 @@
     {
       "name": "Santiago Barchetta",
       "email": "dudesl@gmail.com"
+    },
+    {
+      "name": "Samuel Bustamante",
+      "email": "samuel.bustamante@mercadolibre.com"
     }
   ],
   "scripts": {},

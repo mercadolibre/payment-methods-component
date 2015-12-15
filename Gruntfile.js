@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             'css/countries/' + country + '/payment-methods.css'
         ],
         sizeCollection = size.split(','),
-        destination = 'build/payment-methods.' + country + '__' + size + '.css'
+        destination = 'build/payment-methods.' + country + '__' + size + '.css';
 
 
     sizeCollection.forEach(function (e) {
@@ -23,7 +23,6 @@ module.exports = function(grunt) {
     grunt.initConfig({
         'pkg': grunt.file.readJSON('package.json'),
         'concat': {
-
             'build': {
                 'src': files,
                 'dest': destination
@@ -48,6 +47,26 @@ module.exports = function(grunt) {
                         return dest + src.replace('/__*/', '');
                     }
                 }]
+            },
+            'images': {
+                'files': [
+                    {
+                        'src': 'css/countries/' + country + '/default/payment-methods-default.png',
+                        'dest': 'dist/images/' + country + '/payment-methods-default.png'
+                    },
+                    {
+                        'src': 'css/countries/' + country + '/default/payment-methods-default@2x.png',
+                        'dest': 'dist/images/' + country + '/payment-methods-default@2x.png'
+                    },
+                    {
+                        'src': 'css/countries/' + country + '/large/payment-methods-large.png',
+                        'dest': 'dist/images/' + country + '/payment-methods-large.png'
+                    },
+                    {
+                        'src': 'css/countries/' + country + '/large/payment-methods-large@2x.png',
+                        'dest': 'dist/images/' + country + '/payment-methods-large@2x.png'
+                    },
+                ]
             }
         }
     });
@@ -58,6 +77,6 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', []);
     grunt.registerTask('build', ['concat']);
-    grunt.registerTask('dist', ['build', 'copy']);
-
+    grunt.registerTask('dist', ['build', 'copy:main']);
+    grunt.registerTask('images', ['copy:images']);
 };
