@@ -9,7 +9,6 @@ module.exports = function(grunt) {
         sizeCollection = size.split(','),
         destination = 'build/payment-methods.' + country + '__' + size + '.css';
 
-
     sizeCollection.forEach(function (e) {
         files.push('css/countries/' + country + '/' + e + '/payment-methods.css');
     });
@@ -38,7 +37,10 @@ module.exports = function(grunt) {
                     'cwd': 'build/',
 
                     // Source files
-                    'src': ['payment-methods.*__*.css'],
+                    'src': [
+                        'payment-methods.*.css',
+                        'payment-methods.*__*.css'
+                    ],
 
                     // Destination folder
                     'dest': 'dist/',
@@ -77,6 +79,6 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', []);
     grunt.registerTask('build', ['concat']);
-    grunt.registerTask('dist', ['build', 'copy:main']);
+    grunt.registerTask('dist', ['copy:main']);
     grunt.registerTask('images', ['copy:images']);
 };
