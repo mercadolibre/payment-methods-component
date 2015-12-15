@@ -12,11 +12,18 @@ grunt build --country=co --size=large
 grunt build --country=mx --size=large
 grunt build --country=ve --size=large
 
-grunt build --country=ar --size=default,large
-grunt build --country=br --size=default,large
-grunt build --country=cl --size=default,large
-grunt build --country=co --size=default,large
-grunt build --country=mx --size=default,large
-grunt build --country=ve --size=default,large
+grunt build --country=ar
+grunt build --country=br
+grunt build --country=cl
+grunt build --country=co
+grunt build --country=mx
+grunt build --country=ve
 
 grunt dist
+
+grunt images --country=ar
+grunt images --country=br
+grunt images --country=cl
+grunt images --country=co
+grunt images --country=mx
+grunt images --country=ve
