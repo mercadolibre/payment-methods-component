@@ -87,7 +87,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.6/cl/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/cl/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -97,7 +97,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.6/cl/payment-methods-default@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/cl/payment-methods-default@2x.png');
         background-size: 80px 600px; /* original x1 image size */
         height: 16px;
     }
@@ -169,7 +169,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.6/cl/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/cl/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -181,7 +181,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.6/cl/payment-methods-large@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/cl/payment-methods-large@2x.png');
         background-size: 130px 600px; /* original x1 image size */
     }
 
