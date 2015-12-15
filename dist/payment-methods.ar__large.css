@@ -113,7 +113,7 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -850px;
+	background-position: 0 -849px;
 }
 
 /* Argentina Sprite for Large Size
@@ -134,7 +134,7 @@
 
    .paymentmethod-large {
         background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/ar/payment-methods-large@2x.png');
-        background-size: 116px 854px;  /* original x1 image size */
+        background-size: 116px 880px;  /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
