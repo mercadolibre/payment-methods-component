@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.3.7
+ * @version: 1.3.8
  */
 
 /* Common Structure
@@ -114,7 +114,7 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -849px;
+	background-position: 0 -848px;
 }
 
 
@@ -123,7 +123,7 @@
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/ar/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -134,7 +134,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/ar/payment-methods-default@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-default@2x.png');
         background-size: 72px 868px;  /* original x1 image size */
         height: 16px;
     }
@@ -220,6 +220,7 @@
 .paymentmethod-bapropagos {
     width: 51px;
 }
+
 .paymentmethod-cargavirtual {
     height: 20px;
     width: 20px;
@@ -230,7 +231,7 @@
 
 
 .paymentmethod-large{
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/ar/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -242,7 +243,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.7/ar/payment-methods-large@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-large@2x.png');
         background-size: 116px 880px;  /* original x1 image size */
         height: 26px;
         margin: 5px;
@@ -330,6 +331,6 @@
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
-    height: 31px;
-    width: 31px;
+    height: 32px;
+    width: 32px;
 }
