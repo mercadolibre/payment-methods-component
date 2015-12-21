@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.3.8
+ * @version: 1.3.9
  */
 
 /* Common Structure
@@ -114,8 +114,22 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -848px;
+	background-position: 0 -850px;
 }
+.paymentmethod-cordial,
+.paymentmethod-cordial.paymentmethod-large {
+	background-position: 0 -900px;
+}
+.paymentmethod-cmr,
+.paymentmethod-cmr.paymentmethod-large {
+	background-position: 0 -950px;
+}
+
+.paymentmethod-cordobesa,
+.paymentmethod-cordobesa.paymentmethod-large {
+	background-position: 0 -1000px;
+}
+
 
 
 /* Argentina Sprite for Default Size
@@ -123,7 +137,7 @@
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/ar/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -134,8 +148,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-default@2x.png');
-        background-size: 72px 868px;  /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/ar/payment-methods-default@2x.png');
+        background-size: 72px 1009px;  /* original x1 image size */
         height: 16px;
     }
 
@@ -225,3 +239,16 @@
     height: 20px;
     width: 20px;
 }
+.paymentmethod-cordial {
+    height: 15px;
+    width: 39px;
+}
+.paymentmethod-cmr {
+    height: 19px;
+    width: 26px;
+}
+.paymentmethod-cordobesa {
+    height: 9px;
+    width: 40px;
+}
+
