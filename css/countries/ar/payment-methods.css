@@ -63,5 +63,19 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -848px;
+	background-position: 0 -850px;
 }
+.paymentmethod-cordial,
+.paymentmethod-cordial.paymentmethod-large {
+	background-position: 0 -900px;
+}
+.paymentmethod-cmr,
+.paymentmethod-cmr.paymentmethod-large {
+	background-position: 0 -950px;
+}
+
+.paymentmethod-cordobesa,
+.paymentmethod-cordobesa.paymentmethod-large {
+	background-position: 0 -1000px;
+}
+

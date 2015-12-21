@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.3.8
+ * @version: 1.3.9
  */
 
 /* Common Structure
@@ -114,15 +114,29 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -848px;
+	background-position: 0 -850px;
 }
+.paymentmethod-cordial,
+.paymentmethod-cordial.paymentmethod-large {
+	background-position: 0 -900px;
+}
+.paymentmethod-cmr,
+.paymentmethod-cmr.paymentmethod-large {
+	background-position: 0 -950px;
+}
+
+.paymentmethod-cordobesa,
+.paymentmethod-cordobesa.paymentmethod-large {
+	background-position: 0 -1000px;
+}
+
 
 /* Argentina Sprite for Large Size
 ---------------------------------------------------------------*/
 
 
 .paymentmethod-large{
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/ar/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -134,8 +148,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.8/ar/payment-methods-large@2x.png');
-        background-size: 116px 880px;  /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/ar/payment-methods-large@2x.png');
+        background-size: 116px 1013px;  /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -224,4 +238,19 @@
 .paymentmethod-cargavirtual.paymentmethod-large {
     height: 32px;
     width: 32px;
+}
+
+.paymentmethod-cordial.paymentmethod-large {
+    height: 22px;
+    width: 63px;
+}
+
+.paymentmethod-cmr.paymentmethod-large {
+    height: 30px;
+    width: 42px;
+}
+
+.paymentmethod-cordobesa.paymentmethod-large {
+    height: 25px;
+    width: 64px;
 }
