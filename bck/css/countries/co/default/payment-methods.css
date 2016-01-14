@@ -1,0 +1,67 @@
+/* Colombia Sprite for Default Size
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/co/payment-methods-default.png');
+    height: 16px; /* most common height */
+}
+/*
+ * Retina logo for small screens
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+[class*='paymentmethod'] {
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/co/payment-methods-default@2x.png');
+        background-size: 72px 450px; /* original x1 image size */
+        height: 16px; 
+    }
+
+}
+
+
+/* Colombia Default Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    height: 20px;
+    width: 72px;
+}
+
+.paymentmethod-visa {
+    width: 38px;
+}
+
+.paymentmethod-master {
+    height: 19px;
+    width: 29px;
+}
+
+.paymentmethod-amex {
+    height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-diners {
+    width: 60px;
+}
+
+.paymentmethod-bitcoin {
+    height: 16px;
+    width: 62px;
+}
+
+.paymentmethod-efecty {
+    height: 15px;
+    width: 45px;
+}
+
+.paymentmethod-davivienda {
+    height: 10px;
+    width: 72px;
+}
+
+.paymentmethod-pse {
+    height: 20px;
+    width: 47px;
+}
