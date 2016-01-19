@@ -52,10 +52,10 @@ You'll find the generated files in the `build` folder.
 
 - ar (Argentina)
 - br (Brazil)
+- cl (Chile)
+- co (Colombia)
 - mx (Mexico)
 - ve (Venezuela)
-- co (Colombia)
-- cl (Chile)
 
 ### Size Lists
 
