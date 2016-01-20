@@ -1,8 +1,9 @@
 'use strict';
 // generated on 2016-01-14 using generator-ui-component 0.3.0
 var gulp = require('gulp'),
-    $ = require('gulp-load-plugins')(),
+    
     browserSync = require('browser-sync'),
+    spritesmith = require('gulp.spritesmith'),
     reload = browserSync.reload,
     swift = require('ui-swift');
 
@@ -166,4 +167,15 @@ gulp.task('uploadStatics', function () {
         'version': version,
         'verbose': true
     });
+});
+
+// Convert a set of images into a spritesheet and CSS
+gulp.task('pmc-arg', function () {
+    return gulp.src('src/images/arg/*.png').pipe(spritesmith({
+            imgName: 'images/pmc-mla.png',
+            cssName: 'scss/payment-methods-component-arg.scss',
+            cssTemplate: 'src/images/arg/payment-methods-arg.handlebars',
+            algorithm: 'top-down'
+        }))
+        .pipe(gulp.dest('src'));
 });
