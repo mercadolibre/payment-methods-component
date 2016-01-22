@@ -1,7 +1,7 @@
 'use strict';
 // generated on 2016-01-14 using generator-ui-component 0.3.0
 var gulp = require('gulp'),
-    
+
     browserSync = require('browser-sync'),
     spritesmith = require('gulp.spritesmith'),
     reload = browserSync.reload,
@@ -170,6 +170,19 @@ gulp.task('uploadStatics', function () {
 });
 
 // Convert a set of images into a spritesheet and CSS
+gulp.task('pmc-build', function () {
+  var sites = ['mla', 'mlb', 'mlc', 'mco', 'mlm', 'mlv']
+
+  sites.forEach(function (site) {
+    return gulp.src('src/images/' + site + '/*.png').pipe(spritesmith({
+            imgName: 'images/pmc-' + site + '.png',
+            cssName: 'scss/payment-methods-component-' + site + '.scss',
+            cssTemplate: 'src/templates/payment-methods.handlebars',
+            algorithm: 'top-down'
+        }))
+        .pipe(gulp.dest('src'));
+  })
+});
 gulp.task('pmc-arg', function () {
     return gulp.src('src/images/arg/*.png').pipe(spritesmith({
             imgName: 'images/pmc-mla.png',
