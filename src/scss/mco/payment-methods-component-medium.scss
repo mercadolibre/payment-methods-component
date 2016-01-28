@@ -1,0 +1,23 @@
+[class*="paymentmethod-medium"] {
+    background-image: url(../../images/pmc-mco-medium.png);
+    background-size: 173px 99px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-davivienda.paymentmethod-medium {
+      background-position: 0px 0px;
+      height: 23px;
+      width: 173px;
+  }
+  .paymentmethod-efecty.paymentmethod-medium {
+      background-position: 0px -23px;
+      height: 35px;
+      width: 104px;
+  }
+  .paymentmethod-pse.paymentmethod-medium {
+      background-position: 0px -58px;
+      height: 41px;
+      width: 103px;
+  }

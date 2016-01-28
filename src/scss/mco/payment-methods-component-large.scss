@@ -1,0 +1,23 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../../images/pmc-mco-large.png);
+    background-size: 231px 132px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-davivienda.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 30px;
+      width: 231px;
+  }
+  .paymentmethod-efecty.paymentmethod-large {
+      background-position: 0px -30px;
+      height: 47px;
+      width: 139px;
+  }
+  .paymentmethod-pse.paymentmethod-large {
+      background-position: 0px -77px;
+      height: 55px;
+      width: 137px;
+  }

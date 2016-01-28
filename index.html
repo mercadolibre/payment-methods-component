@@ -1,74 +1,38 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
-<!--[if IE 7]>	<html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
-<!--[if IE 8]>	<html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
+<html lang="en">
 
 <head>
-	<script></script>
-	<meta charset="utf-8">
-	<title>Payment Methods Component</title>
-	<meta name="HandheldFriendly" content="True">
-	<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <meta http-equiv="cleartype" content="on"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>
+        payment methods component
+    </title>
 
-        <meta http-equiv="cleartype" content="on" />
+    <link rel="shortcut icon" href="http://ui.mlstatic.com/navigation/1.1.1/mercadolibre/favicon.ico"/>
+    
+        <link rel="stylesheet" href="http://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.css">
+        <link rel="stylesheet" href="dist/main.css">
+    
+    
 
-	<link rel="stylesheet" type="text/css" href="http://secure.mlstatic.com/org-img/ch/ui/1.0.0/chico.css">
-	<link rel="stylesheet" type="text/css" href="http://secure.mlstatic.com/org-img/ch/mesh/2.2/mesh.min.css">
+    <!-- Demo specific styles -->
+    <style>
+        body {
+            text-align: center;
+        }
 
-	<!-- Components -->
-	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
-	<link rel="stylesheet" id="country" type="text/css" href="dist/payment-methods.ar__all.css">
-
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css">
-
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css">
-
-	<style type="text/css">
-		body {
-		    min-width: 320px;
-		    max-width: 100%;
-		    text-align: center;
-		}
-
-		header {
-			text-align: center;
-			padding: 30px;
-		}
-
-		header h1 {
-			color: #dc7b1c;
-			font-size: 40px;
-			line-height: 1.35;
-		}
-
-		section {
-			margin-bottom: 40px;
-		}
-
-		section h1 {
-			background: #ddd;
-			padding: 10px;
-			text-align: center;
-			margin: 20px 0 40px;
-		}
-
-		h2 {
-			margin-top: 30px;
-		}
-
-		.thiner-list {
-			width: 350px;
-			margin: 0 auto;
-			text-align: center;
-		}
-
-		.noise {
-			background: #FFF0BA;
-		}
-
-	</style>
+        .ch-box-help {
+            display: inline-block;
+            padding: 15px;
+            margin-top: 70px;
+        }
+    </style>
+    <!-- End specific styles -->
 </head>
+<<<<<<< HEAD
 <body>
 	<header>
 		<h1>Payment Methods 1.3.9</h1>
@@ -480,12 +444,30 @@
 		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css");
 		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css");
 	}
+=======
 
-	function showDemo(j) {
-		$(".country-box").hide();
-		$("." + j).show();
-	}
+<body>
+>>>>>>> 298761c65cfd1d6385ab6f5c02e84f683aa734ba
 
-	</script>
+    <div class="ch-box-help">
+        <h1>You're ready to develop a UI Component!</h1>
+        <p><strong>You now have:</strong></p>
+        <ul>
+            <li>Gulp to handle tasks</li>
+            <li>Chico</li>
+            <li>Sass</li>
+            <li>CSS Autoprefixer</li>
+            <li>Image optimization</li>
+            <li>BrowserSync for multi-device testing</li>
+        </ul>
+        <p><a href="https://github.com/mercadolibre/ui-generator_component" target="_blank">Read the docs</a></p>
+    </div>
+
+    
+        <script src="http://static.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
+        <script src="http://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.js"></script>
+    
+    <script src="dist/component.js"></script>
+
 </body>
 </html>

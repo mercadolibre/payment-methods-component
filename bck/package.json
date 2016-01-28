@@ -1,0 +1,45 @@
+{
+  "name": "payment-methods-component",
+  "version": "1.3.9",
+  "description": "Payment Methods Logos, Sprites and CSS sorted by countries and sizes.",
+  "author": "<natalia.devalle@mercadolibre.com>",
+  "contributors": [
+    {
+      "name": "Ivan Pianciola",
+      "email": "ivan.pianciola@mercadolibre.com"
+    },
+    {
+      "name": "Guille Paz",
+      "email": "guille87paz@gmail.com"
+    },
+    {
+      "name": "Adolfo Ramos",
+      "email": "adolfo.ramos@mercadolibre.com"
+    },
+    {
+      "name": "Gaston Andre",
+      "email": "gaston.andre@mercadolibre.com"
+    },
+    {
+      "name": "Santiago Barchetta",
+      "email": "dudesl@gmail.com"
+    },
+    {
+      "name": "Samuel Bustamante",
+      "email": "samuel.bustamante@mercadolibre.com"
+    }
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mercadolibre/payment-methods-component.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.4.1"
+  },
+  "license": "MIT",
+  "engine": "node >= 0.8.8"
+}

@@ -1,26 +1,29 @@
-Payment Methods Component
-=====================================
+# paymentMethodsComponent
 
-MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
+## Overview
+Payment methods logos for Frontends 
 
-## Usage
+## Development
 
-For default size logos, just copy the css file for each country ([1](#guidelines-and-good-practices)) from the `dist` folder into your project and add them to your css bundles ([2](#guidelines-and-good-practices)).
+### Dependencies
 
-In case you need a bigger size, or both sizes, you need to generate the custom files following the [Development setup](#development-setup) and [File generation](#file-generation) instructions.
+What you need to run or use it?
+Any dev or prod dependency should go here.
 
-## Development setup
+### How to use the component
 
-1. Install [Git](http://git-scm.com/) and [NodeJS](http://nodejs.org/).
+Instructions to install and use the component.
 
-2. Open your terminal and clone `mercadolibre/payment-methods-component` by running:
+### How to setup the development environment
 
-        $ git clone git@github.com:mercadolibre/payment-methods-component.git
+Instructions to install and configure to work in the component.
 
-3. Now go to the project's folder:
+## Contributors
 
-        $ cd payment-methods-component
+If you have any doubt about this project, here is a list of people who are or
+were working on it.
 
+<<<<<<< HEAD
 4. Install its dependencies:
 
         $ npm install
@@ -184,3 +187,6 @@ Stuff that are coming on future versions:
 Licensed under the MIT license.
 
 Copyright (c) 2015 [MercadoLibre](http://github.com/mercadolibre).
+=======
+santiago.barchetta@mercadolibre.com, adolfo.ramos@mercadolibre.com
+>>>>>>> 298761c65cfd1d6385ab6f5c02e84f683aa734ba

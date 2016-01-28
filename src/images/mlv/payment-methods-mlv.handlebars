@@ -1,0 +1,16 @@
+[class*="payment-methods-large"] {
+        background-image: url({{spritesheet.image}});
+        background-size: {{spritesheet.px.width}} {{spritesheet.px.height}};
+        height: 26px; /* most common height */
+        margin: 5px;
+
+}
+/*large*/
+{{#sprites}}
+.payment-methods-{{name}} {
+        background-position: {{px.offset_x}} {{px.offset_y}};
+        height: {{px.height}};
+        width: {{px.width}};
+    }
+
+{{/sprites}}
