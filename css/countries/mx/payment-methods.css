@@ -46,3 +46,8 @@
 .paymentmethod-debmaster.paymentmethod-large  { 
 	background-position: 0 -750px;
 }
+
+.paymentmethod-gestopago,
+.paymentmethod-gestopago.paymentmethod-large  { 
+	background-position: 0 -800px;
+}

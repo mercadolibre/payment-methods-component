@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/ve/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/pe/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 /*
@@ -12,15 +12,15 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/ve/payment-methods-default@2x.png');
-        background-size: 72px 425px; /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/pe/payment-methods-default@2x.png');
+        background-size: 72px 300px; /* original x1 image size */
         height: 16px; /* most common height */
     }
 
 }
 
 
-/* Venezuela Default Size
+/* Perú Default Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
@@ -36,21 +36,12 @@
     height: 19px;
     width: 29px;
 }
-
-.paymentmethod-bitcoin {
-    height: 16px;
-    width: 62px;
+.paymentmethod-amex {
+    height: 17px;
+    width: 17px;
+}
+.paymentmethod-pagoefectivo {
+    height: 17px;
+    width: 42px;
 }
 
-.paymentmethod-mercantil {
-    width: 64px;
-}
-
-.paymentmethod-provincial {
-    height: 7px;
-    width: 59px;
-}
-.paymentmethod-banesco {
-    height: 15px;
-    width: 53px;
-}
