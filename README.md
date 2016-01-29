@@ -31,19 +31,9 @@ In case you need a bigger size, or both sizes, you need to generate the custom f
 
 ## File generation
 
-You can generate a file by country and by size using Grunt commands:
+You can generate all together files:
 
-Ex: payment methods for Argentina with the default size:
-
-    grunt build --country=ar
-
-Ex: Payment methods for Argentina and large size:
-
-    grunt build --country=ar --size=large
-
-Ex: Payment methods for Argentina with both default and large size:
-
-    grunt build --country=ar --size=defaul,large
+sh creator.sh
 
 
 You'll find the generated files in the `build` folder.
@@ -55,6 +45,7 @@ You'll find the generated files in the `build` folder.
 - cl (Chile)
 - co (Colombia)
 - mx (Mexico)
+- pe (Perú)
 - ve (Venezuela)
 
 ### Size Lists

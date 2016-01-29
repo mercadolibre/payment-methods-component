@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.3.9
+ * @version: 1.3.10
  */
 
 /* Common Structure
@@ -97,11 +97,16 @@
 .paymentmethod-debmaster.paymentmethod-large  { 
 	background-position: 0 -750px;
 }
+
+.paymentmethod-gestopago,
+.paymentmethod-gestopago.paymentmethod-large  { 
+	background-position: 0 -800px;
+}
 /* Mexico Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/mx/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/mx/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -112,8 +117,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/mx/payment-methods-default@2x.png');
-        background-size: 72px 780px; /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/mx/payment-methods-default@2x.png');
+        background-size: 72px 830px; /* original x1 image size */
         height: 16px; /* most common height */
     }
 
@@ -196,11 +201,20 @@
     width: 48px;
 }
 
+.paymentmethod-debmaster {
+    height: 18px;
+    width: 48px;
+}
+
+.paymentmethod-gestopago {
+    height: 27px;
+    width: 72px;
+}
 /* Mexico Sprite for Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/mx/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/mx/payment-methods-large.png');
     margin: 5px;
 }
 /*
@@ -210,8 +224,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.9/mx/payment-methods-large@2x.png');
-        background-size: 116px 785px; /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.10/mx/payment-methods-large@2x.png');
+        background-size: 116px 835px; /* original x1 image size */
     }
 
 }
@@ -291,4 +305,9 @@
 .paymentmethod-debmaster.paymentmethod-large {
     height: 28px;
     width: 76px;
+}
+
+.paymentmethod-gestopago.paymentmethod-large {
+    height: 34px;
+    width: 116px;
 }
