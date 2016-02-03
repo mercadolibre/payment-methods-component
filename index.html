@@ -1,473 +1,219 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-    <meta http-equiv="cleartype" content="on"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>
-        payment methods component
-    </title>
-
-    <link rel="shortcut icon" href="http://ui.mlstatic.com/navigation/1.1.1/mercadolibre/favicon.ico"/>
-    
-        <link rel="stylesheet" href="http://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.css">
-        <link rel="stylesheet" href="dist/main.css">
-    
-    
-
-    <!-- Demo specific styles -->
-    <style>
-        body {
-            text-align: center;
-        }
-
-        .ch-box-help {
-            display: inline-block;
-            padding: 15px;
-            margin-top: 70px;
-        }
-    </style>
-    <!-- End specific styles -->
-</head>
-<<<<<<< HEAD
-<body>
-	<header>
-		<h1>Payment Methods 1.3.9</h1>
-		<nav>
-			Choose a Country:
-			<select id="country-select">
-				<option value="ar">Argentina</option>
-				<option value="br">Brazil</option>
-				<option value="cl">Chile</option>
-				<option value="co">Colombia</option>
-				<option value="mx">Mexico</option>
-				<option value="ve">Venezuela</option>
-			</select>
-	</header>
-
-
-	<section>
-		<h1>Default size</h1>
-
-		<div class="ch-box-lite country-box ar">
-			<h3>Argentina</h3>
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-amex">American Express</li>
-				<li class="paymentmethod-diners">Diners</li>
-				<li class="paymentmethod-naranja">Naranja</li>
-				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
-				<li class="paymentmethod-nativa">Nativa</li>
-				<li class="paymentmethod-cencosud">Cencosud</li>
-				<li class="paymentmethod-cabal">Cabal</li>
-				<li class="paymentmethod-argencard">Argencard</li>
-				<li class="paymentmethod-cmr">CMR Falabella</li>
-				<li class="paymentmethod-cordobesa">Cordobesa</li>
-				<li class="paymentmethod-cordial">Cordial</li>
-				<li class="paymentmethod-redlink">Red Link</li>
-				<li class="paymentmethod-pagofacil">Pago Fácil</li>
-				<li class="paymentmethod-rapipago">Rapipago</li>
-				<li class="paymentmethod-bapropagos">BaproPagos</li>
-				<li class="paymentmethod-cargavirtual">Carga Virtual</li>
-				<li class="paymentmethod-bitcoin">Bitcoin</li>
-				<!-- <li class="paymentmethod-banelco">Banelco</li> -->
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box br" style="display: none">
-			<h3>Brazil</h3>
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-hipercard">Hipercard</li>
-				<li class="paymentmethod-amex">American Express</li>
-				<li class="paymentmethod-diners">Diners</li>
-				<li class="paymentmethod-elo">Elo</li>
-				<li class="paymentmethod-melicard">MercadoLivre Card</li>
-				<li class="paymentmethod-bolbradesco">Boleto Bradesco</li>
-				<li class="paymentmethod-itau">Boleto Itaú</li>
-				<li class="paymentmethod-bitcoin">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box mx" style="display: none">
-			<h3>Mexico</h3>
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-amex">American Express</li>
-				<li class="paymentmethod-bancomer">Bancomer</li>
-				<li class="paymentmethod-hsbc">HSBC</li>
-				<li class="paymentmethod-banamex">Banamex</li>
-				<li class="paymentmethod-serfin">Santander Serfin</li>
-				<li class="paymentmethod-banorte">Banorte</li>
-				<li class="paymentmethod-ixe">IXE</li>
-				<li class="paymentmethod-oxxo">Oxxo</li>
-				<li class="paymentmethod-mercadopagocard">Tarjeta MercadoPago</li>
-				<li class="paymentmethod-debvisa">Visa débito</li>
-				<li class="paymentmethod-debmaster">Mastercard débito</li>
-				<li class="paymentmethod-bitcoin">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box ve" style="display: none">
-			<h3>Venezuela</h3>
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-mercantil">Mercantil</li>
-				<li class="paymentmethod-provincial">Provincial</li>
-				<li class="paymentmethod-banesco">Banesco</li>
-				<li class="paymentmethod-bitcoin">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box co" style="display: none">
-			<h3>Colombia</h3>
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-diners">Diners</li>
-				<li class="paymentmethod-efecty">Efecty</li>
-				<li class="paymentmethod-davivienda">Davivienda</li>
-				<li class="paymentmethod-pse">PSE - Desde tu banca en línea</li>
-				<li class="paymentmethod-bitcoin">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box cl" style="display: none">
-			<h3>Chile</h3>
-			<ul>
+	<head>
+		<title>Payment Methods Components - v 2.0</title>
+		<meta charset="utf-8" />
+		<link href="pmc.css" rel="stylesheet">
+		<link href="http://ui.mlstatic.com/chico/mesh/4.2.0/mesh.min.css" rel="stylesheet">		
+		<!--script src="rAF.js"></script-->
+			<!-- Components -->
+		
+		<link rel="stylesheet" id="country" type="text/css" href="build/payment-methods.ar.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Payments methods components</h1>
+				<span>Versión 2.0</span>
+				
+				<div class="mesh-row navigation">
+					<div class="mesh-col-6 choose">
+						Choose a Country:
+						<select id="country-select">
+							<option value="ar">Argentina</option>
+							<option value="br">Brazil</option>
+							<option value="cl">Chile</option>
+							<option value="co">Colombia</option>
+							<option value="mx">Mexico</option>
+							<option value="ve">Venezuela</option>
+						</select>
+					</div>
+					<nav class="mesh-col-6 popeye-default">
+						Choose a size:
+						<a href="#s1">Default</a>
+						<a href="#s2">Medium</a>
+						<a href="#s3">Large</a>
+					</nav>
+					
+				</div>
+			</div>
+		</header>
+		<section id="s1">
+			<div class="container">
+				<div class="section-header"><h2>Default</h2></div>
+				<div class="mesh-row ch-box-lite country-box ar">
+					<div class="mesh-col-12" style="text-align:center;">
+						<h3>Argentina</h3>
+					</div>
+					<div class="mesh-col-7">
+						<h4>View</h4>
+						<ul>
+							<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+							<li class="paymentmethod-visa">Visa</li>
+							<li class="paymentmethod-master">Mastercard</li>
+							<li class="paymentmethod-amex">American Express</li>
+							<li class="paymentmethod-diners">Diners</li>
+							<li class="paymentmethod-bitcoin">Bitcoin</li>
+							<li class="paymentmethod-naranja">Naranja</li>
+							<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
+							<li class="paymentmethod-nativa">Nativa</li>
+							<li class="paymentmethod-cencosud">Cencosud</li>
+							<li class="paymentmethod-cabal">Cabal</li>
+							<li class="paymentmethod-argencard">Argencard</li>
+							<li class="paymentmethod-pagofacil">Pago Fácil</li>
+							<li class="paymentmethod-redlink">Red Link</li>
+							<li class="paymentmethod-rapipago">Rapipago</li>
+							<li class="paymentmethod-bapropagos">BaproPagos</li>
+							<li class="paymentmethod-cargavirtual">Carga Virtual</li>
+							<li class="paymentmethod-cmr">CMR Falabella</li>
+							<li class="paymentmethod-cordobesa">Cordobesa</li>
+							<li class="paymentmethod-cordial">Cordial</li>
+							<!-- <li class="paymentmethod-banelco">Banelco</li> -->
+						</ul>
+					</div>
+					<div class="mesh-col-5">
+						<h4>Code</h4>
+						<pre>
+class="paymentmethod-account_money"
+class="paymentmethod-visa"
+class="paymentmethod-master"
+class="paymentmethod-amex"
+class="paymentmethod-diners"
+class="paymentmethod-bitcoin"
+class="paymentmethod-naranja"
+class="paymentmethod-tarshop"
+class="paymentmethod-nativa"
+class="paymentmethod-cencosud"
+class="paymentmethod-cabal"
+class="paymentmethod-argencard"
+class="paymentmethod-pagofacil"
+class="paymentmethod-redlink"
+class="paymentmethod-rapipago"
+class="paymentmethod-bapropagos"
+class="paymentmethod-cargavirtual"
+class="paymentmethod-cmr"
+class="paymentmethod-cordobesa"
+class="paymentmethod-cordial"
+						</pre>
+					</div>
+				</div>
+				<div class="mesh-row ch-box-lite country-box br" style="display: none">
+					<div class="mesh-col-12" style="text-align:center;">
+						<h3>Brasil</h3>
+					</div>
+					<div class="mesh-col-7">
+						<h4>View</h4>
+						<ul>
+							<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+							<li class="paymentmethod-visa">Visa</li>
+							<li class="paymentmethod-master">Mastercard</li>
+							<li class="paymentmethod-hipercard">Hipercard</li>
+							<li class="paymentmethod-amex">American Express</li>
+							<li class="paymentmethod-diners">Diners</li>
+							<li class="paymentmethod-bitcoin">Bitcoin</li>
+							<li class="paymentmethod-elo">Elo</li>
+							<li class="paymentmethod-melicard">MercadoLivre Card</li>
+							<li class="paymentmethod-bolbradesco">Boleto Bradesco</li>
+							<li class="paymentmethod-itau">Boleto Itaú</li>
+						</ul>
+					</div>
+					<div class="mesh-col-5">
+						<h4>Code</h4>
+class="paymentmethod-account_money"
+class="paymentmethod-visa"
+class="paymentmethod-master"
+class="paymentmethod-hipercard"
+class="paymentmethod-amex"
+class="paymentmethod-diners"
+class="paymentmethod-bitcoin"
+class="paymentmethod-elo"
+class="paymentmethod-melicard"
+class="paymentmethod-bolbradesco"
+class="paymentmethod-itau"
+					</div>
+				</div>
+				<div class="mesh-row ch-box-lite country-box cl" style="display: none">
+					<div class="mesh-col-12" style="text-align:center;">
+						<h3>Chile</h3>
+					</div>
+					<div class="mesh-col-7">
+						<h4>View</h4>
+						<ul>
 				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
 				<li class="paymentmethod-visa">Visa</li>
 				<li class="paymentmethod-amex">American Express</li>
 				<li class="paymentmethod-master">Mastercard</li>
 				<li class="paymentmethod-diners">Diners</li>
+				<li class="paymentmethod-bitcoin">Bitcoin</li>
 				<li class="paymentmethod-magna">Magna</li>
 				<li class="paymentmethod-presto">Presto</li>
 				<li class="paymentmethod-servipag">Servipag</li>
 				<li class="paymentmethod-cmr">Cmr</li>
 				<li class="paymentmethod-webpay">WebPay</li>
 				<li class="paymentmethod-khipu">Khipu</li>
+			</ul>
+					</div>
+					<div class="mesh-col-5">
+						<h4>Code</h4>
+						<pre>
+							<ul>
+				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
+				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-amex">American Express</li>
+				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-diners">Diners</li>
 				<li class="paymentmethod-bitcoin">Bitcoin</li>
+				<li class="paymentmethod-magna">Magna</li>
+				<li class="paymentmethod-presto">Presto</li>
+				<li class="paymentmethod-servipag">Servipag</li>
+				<li class="paymentmethod-cmr">Cmr</li>
+				<li class="paymentmethod-webpay">WebPay</li>
+				<li class="paymentmethod-khipu">Khipu</li>
 			</ul>
-		</div>
+						</pre>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="s2">
+			<div class="container">
+				<div class="section-header"><h2>Medium</h2></div>
+			</div>
+		</section>
+		<section id="s3">
+			<div class="container">
+				<div class="section-header"><h2>Large</h2></div>
+			</div>
+		</section>
+		
+		<script src="Popeye.js"></script>
+		<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+			var popeye = new Popeye('nav a');
 
+			$(document).on('ready', function(){
+				if (localStorage.countrySelected) {
+					$("#country-select").val(localStorage.countrySelected).trigger('change');
+				}
+			})
 
-<!--
-		<h2>Thiner List</h2>
-		<div class="ch-box-lite">
-			<ul class="thiner-list">
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-amex">American Express</li>
-				<li class="paymentmethod-diners">Diners</li>
-				<li class="paymentmethod-naranja">Naranja</li>
-				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
-				<li class="paymentmethod-nativa">Nativa</li>
-				<li class="paymentmethod-cencosud">Cencosud</li>
-				<li class="paymentmethod-cabal">Cabal</li>
-				<li class="paymentmethod-argencard">Argencard</li>
-				<li class="paymentmethod-pagofacil">Pago Fácil</li>
-				<li class="paymentmethod-redlink">Red Link</li>
-				<li class="paymentmethod-rapipago">Rapipago</li>
-				<li class="paymentmethod-bapropagos">BaproPagos</li>
-				<li class="paymentmethod-banelco">Banelco</li>
-			</ul>
-		</div>
-		<h2>List w/ background</h2>
-		<div class="ch-box-lite noise">
-			<ul>
-				<li class="paymentmethod-account_money">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa">Visa</li>
-				<li class="paymentmethod-master">Mastercard</li>
-				<li class="paymentmethod-amex">American Express</li>
-				<li class="paymentmethod-diners">Diners</li>
-				<li class="paymentmethod-naranja">Naranja</li>
-				<li class="paymentmethod-tarshop">Tarjeta Shopping</li>
-				<li class="paymentmethod-nativa">Nativa</li>
-				<li class="paymentmethod-cencosud">Cencosud</li>
-				<li class="paymentmethod-cabal">Cabal</li>
-				<li class="paymentmethod-argencard">Argencard</li>
-				<li class="paymentmethod-pagofacil">Pago Fácil</li>
-				<li class="paymentmethod-redlink">Red Link</li>
-				<li class="paymentmethod-rapipago">Rapipago</li>
-				<li class="paymentmethod-bapropagos">BaproPagos</li>
-				<li class="paymentmethod-banelco">Banelco</li>
-			</ul>
-		</div>
-		<h2>Spans</h2>
-		<div class="ch-box-lite">
-			<span class="paymentmethod-account_money">Dinero en cuenta MercadoPago</span>
-			<span class="paymentmethod-visa">Visa</span>
-			<span class="paymentmethod-master">Mastercard</span>
-			<span class="paymentmethod-amex">American Express</span>
-			<span class="paymentmethod-diners">Diners</span>
-			<span class="paymentmethod-naranja">Naranja</span>
-			<span class="paymentmethod-tarshop">Tarjeta Shopping</span>
-			<span class="paymentmethod-nativa">Nativa</span>
-			<span class="paymentmethod-cencosud">Cencosud</span>
-			<span class="paymentmethod-cabal">Cabal</span>
-			<span class="paymentmethod-argencard">Argencard</span>
-			<span class="paymentmethod-pagofacil">Pago Fácil</span>
-			<span class="paymentmethod-redlink">Red Link</span>
-			<span class="paymentmethod-rapipago">Rapipago</span>
-			<span class="paymentmethod-bapropagos">BaproPagos</span>
-			<span class="paymentmethod-banelco">Banelco</span>
-		</div>
+			$("#country-select").on('change', function(){
+				var country = $(this).val();
+				localStorage.setItem("countrySelected", country);
+				switchCss(country);
+				showDemo(country)
+			})
 
-		<h2>Divs</h2>
-		<div class="ch-box-lite">
-			<div class="paymentmethod-account_money">Dinero en cuenta MercadoPago</div>
-			<div class="paymentmethod-visa">Visa</div>
-			<div class="paymentmethod-master">Mastercard</div>
-			<div class="paymentmethod-amex">American Express</div>
-			<div class="paymentmethod-diners">Diners</div>
-			<div class="paymentmethod-naranja">Naranja</div>
-			<div class="paymentmethod-tarshop">Tarjeta Shopping</div>
-			<div class="paymentmethod-nativa">Nativa</div>
-			<div class="paymentmethod-cencosud">Cencosud</div>
-			<div class="paymentmethod-cabal">Cabal</div>
-			<div class="paymentmethod-argencard">Argencard</div>
-			<div class="paymentmethod-pagofacil">Pago Fácil</div>
-			<div class="paymentmethod-redlink">Red Link</div>
-			<div class="paymentmethod-rapipago">Rapipago</div>
-			<div class="paymentmethod-bapropagos">BaproPagos</div>
-			<div class="paymentmethod-banelco">Banelco</div>
-		</div>
+			function switchCss(i) {
 
-		<h2>Inline with text</h2>
-		<div class="ch-box-lite">
-			<p>
-				<span class="paymentmethod-visa">Visa</span> terminada en 1234.
-			</p>
-			<p>
-				<span class="paymentmethod-amex">American Express</span> terminada en 1234.
-			</p>
-			<p>
-				<span class="paymentmethod-master">Mastercard</span> terminada en 1234.
-			</p>
-			<p>
-				<span class="paymentmethod-argencard">Argencard</span> terminada en 1234.
-			</p>
-		</div>
+				$("#country").attr("href", "build/payment-methods."+i+".css");
+			}
 
-	</section>
--->
-	<section>
-	<h1>Large size</h1>
+			function showDemo(j) {
+				$(".country-box").hide();
+				$("." + j).show();
+			}
 
-
-	<div class="ch-box-lite country-box ar">
-		<h2>Argentina</h2>
-		<ul>
-			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-			<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
-			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
-			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
-			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
-			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
-			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
-			<li class="paymentmethod-cmr paymentmethod-large">CMR Falabella</li>
-			<li class="paymentmethod-cordobesa paymentmethod-large">Cordobesa</li>
-			<li class="paymentmethod-cordial paymentmethod-large">Cordial</li>
-			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
-			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
-			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
-			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
-			<li class="paymentmethod-cargavirtual paymentmethod-large">Carga Virtual</li>
-			<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-			<!-- <li class="paymentmethod-banelco paymentmethod-large">Banelco</li> -->
-		</ul>
-	</div>
-
-		<div class="ch-box-lite country-box br" style="display: none">
-		<h2>Brazil</h2>
-		<ul>
-			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-				<li class="paymentmethod-hipercard paymentmethod-large">Hipercard</li>
-				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-				<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-				<li class="paymentmethod-elo paymentmethod-large">Elo</li>
-				<li class="paymentmethod-melicard paymentmethod-large">MercadoLivre Card</li>
-				<li class="paymentmethod-bolbradesco paymentmethod-large">Boleto</li>
-				<li class="paymentmethod-itau paymentmethod-large">Boleto Itaú</li>
-				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-		</ul>
-	</div>
-
-	<div class="ch-box-lite country-box mx" style="display: none">
-			<h3>Mexico</h3>
-			<ul>
-				<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-				<li class="paymentmethod-bancomer paymentmethod-large">Bancomer</li>
-				<li class="paymentmethod-hsbc paymentmethod-large">Bancomer</li>
-				<li class="paymentmethod-banamex paymentmethod-large">Banamex</li>
-				<li class="paymentmethod-serfin paymentmethod-large">Santander Serfin</li>
-				<li class="paymentmethod-banorte paymentmethod-large">Banorte</li>
-				<li class="paymentmethod-ixe paymentmethod-large">IXE</li>
-				<li class="paymentmethod-oxxo paymentmethod-large">Oxxo</li>
-				<li class="paymentmethod-mercadopagocard paymentmethod-large">Tarjeta MercadoPago</li>
-				<li class="paymentmethod-debvisa paymentmethod-large">Visa débito</li>
-				<li class="paymentmethod-debmaster paymentmethod-large">Mastercard débito</li>
-				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box ve" style="display: none">
-			<h3>Venezuela</h3>
-			<ul>
-				<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-				<li class="paymentmethod-mercantil paymentmethod-large">Mercantil</li>
-				<li class="paymentmethod-provincial paymentmethod-large">Provincial</li>
-				<li class="paymentmethod-banesco paymentmethod-large">Banesco</li>
-				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box co" style="display: none">
-			<h3>Colombia</h3>
-			<ul>
-				<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-				<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-				<li class="paymentmethod-efecty paymentmethod-large">Efecty</li>
-				<li class="paymentmethod-davivienda paymentmethod-large">Davivienda</li>
-				<li class="paymentmethod-pse paymentmethod-large">PSE - Desde tu banca en línea</li>
-				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-			</ul>
-		</div>
-
-		<div class="ch-box-lite country-box cl" style="display: none">
-			<h3>Chile</h3>
-			<ul>
-				<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-				<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-				<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-				<li class="paymentmethod-magna paymentmethod-large">Magna</li>
-				<li class="paymentmethod-presto paymentmethod-large">Presto</li>
-				<li class="paymentmethod-servipag paymentmethod-large">Servipag</li>
-				<li class="paymentmethod-cmr paymentmethod-large">Cmr</li>
-				<li class="paymentmethod-webpay paymentmethod-large">WebPay</li>
-				<li class="paymentmethod-khipu paymentmethod-large">Khipu</li>
-				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
-			</ul>
-		</div>
-<!--
-	<h2>Thiner List</h2>
-	<div class="ch-box-lite">
-		<ul class="thiner-list">
-			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-			<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
-			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
-			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
-			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
-			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
-			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
-			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
-			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
-			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
-			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
-			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
-		</ul>
-	</div>
-
-	<h2>List w/ background</h2>
-	<div class="ch-box-lite noise">
-		<ul>
-			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta MercadoPago</li>
-			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
-			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
-			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
-			<li class="paymentmethod-diners paymentmethod-large">Diners</li>
-			<li class="paymentmethod-naranja paymentmethod-large">Naranja</li>
-			<li class="paymentmethod-tarshop paymentmethod-large">Tarjeta Shopping</li>
-			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
-			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
-			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
-			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
-			<li class="paymentmethod-pagofacil paymentmethod-large">Pago Fácil</li>
-			<li class="paymentmethod-redlink paymentmethod-large">Red Link</li>
-			<li class="paymentmethod-rapipago paymentmethod-large">Rapipago</li>
-			<li class="paymentmethod-bapropagos paymentmethod-large">BaproPagos</li>
-			<li class="paymentmethod-banelco paymentmethod-large">Banelco</li>
-		</ul>
-	</div>-->
-	</section>
-	<script src="http://secure.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript">
-
-	$(document).on('ready', function(){
-		if (localStorage.countrySelected) {
-			$("#country-select").val(localStorage.countrySelected).trigger('change');
-		}
-	})
-
-	$("#country-select").on('change', function(){
-		var country = $(this).val();
-		localStorage.setItem("countrySelected", country);
-		switchCss(country);
-		showDemo(country)
-	})
-
-	function switchCss(i) {
-
-		$("#country").attr("href", "dist/payment-methods."+i+"__all.css");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css");
-	}
-=======
-
-<body>
->>>>>>> 298761c65cfd1d6385ab6f5c02e84f683aa734ba
-
-    <div class="ch-box-help">
-        <h1>You're ready to develop a UI Component!</h1>
-        <p><strong>You now have:</strong></p>
-        <ul>
-            <li>Gulp to handle tasks</li>
-            <li>Chico</li>
-            <li>Sass</li>
-            <li>CSS Autoprefixer</li>
-            <li>Image optimization</li>
-            <li>BrowserSync for multi-device testing</li>
-        </ul>
-        <p><a href="https://github.com/mercadolibre/ui-generator_component" target="_blank">Read the docs</a></p>
-    </div>
-
-    
-        <script src="http://static.mlstatic.com/org-img/ch/vendor/jquery/jquery-1.10.2.min.js"></script>
-        <script src="http://static.mlstatic.com/org-img/ch/ui/1.1.1/chico.min.js"></script>
-    
-    <script src="dist/component.js"></script>
-
-</body>
+		</script>
+	</body>
 </html>

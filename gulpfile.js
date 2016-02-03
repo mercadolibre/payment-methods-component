@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     resize = require('gulp-image-resize'),
     reload = browserSync.reload,
     concat = require('gulp-concat'),
+    sass = require('gulp-sass'),
     swift = require('ui-swift');
 
 gulp.task('styles', function() {
@@ -237,15 +238,26 @@ gulp.task('pmc-build-all', function () {
 })
 });
 
+
 // Concat all css for site
 gulp.task('styles-concat', function() {
-    var sites = ['mla', 'mlb', 'mlc', 'mco', 'mlm', 'mlv']
-
-  sites.forEach(function (site) {
-  return gulp.src('scss/'+ site +'/*.scss')
-    .pipe(concat('scss/payment-methods-component-' + site + '.scss'))
-    .pipe(gulp.dest('src'));
-})
+ sites.forEach(function (site) {
+   return gulp.src('./src/scss/'+ site +'/*.scss')
+     .pipe(concat('scss/payment-methods-component-' + site + '.scss'))
+     .pipe(gulp.dest('./src'));
+ })
 });
 // Default Task
 gulp.task('styles-all', ['img-fold', 'pmc-build-all' ,'styles-concat']);
+
+
+// $ gulp sass
+gulp.task('sass-style', function () {
+    gulp.src('src/scss/pmc.scss')
+    .pipe(sass())
+    .pipe(gulp.dest(''));
+});
+
+gulp.task('watch1', function() {
+    gulp.watch('src/scss/pmc.scss', ['sass-style']);
+})
