@@ -1,0 +1,38 @@
+[class*="paymentmethod-medium"] {
+    background-image: url(../../../../images/pmc-mlc-medium.png);
+    background-size: 96px 116px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-cmr.paymentmethod-medium {
+      background-position: 0px -17px;
+      height: 19px;
+      width: 96px;
+  }
+  .paymentmethod-khipu.paymentmethod-medium {
+      background-position: 0px 0px;
+      height: 17px;
+      width: 42px;
+  }
+  .paymentmethod-magna.paymentmethod-medium {
+      background-position: 0px -36px;
+      height: 19px;
+      width: 31px;
+  }
+  .paymentmethod-presto.paymentmethod-medium {
+      background-position: 0px -55px;
+      height: 19px;
+      width: 28px;
+  }
+  .paymentmethod-servipag.paymentmethod-medium {
+      background-position: 0px -74px;
+      height: 20px;
+      width: 59px;
+  }
+  .paymentmethod-webpay.paymentmethod-medium {
+      background-position: 0px -94px;
+      height: 22px;
+      width: 27px;
+  }

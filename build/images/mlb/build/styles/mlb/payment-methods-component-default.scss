@@ -1,0 +1,34 @@
+[class*="paymentmethod"] {
+    background-image: url(../../../../images/pmc-mlb-default.png);
+    background-size: 28px 61px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+
+/*large*/
+  .paymentmethod-bolbradesco {
+      background-position: 0px 0px;
+      height: 12px;
+      width: 17px;
+  }
+  .paymentmethod-elo {
+      background-position: 0px -48px;
+      height: 13px;
+      width: 13px;
+  }
+  .paymentmethod-hipercard {
+      background-position: 0px -12px;
+      height: 12px;
+      width: 28px;
+  }
+  .paymentmethod-itau {
+      background-position: 0px -24px;
+      height: 12px;
+      width: 17px;
+  }
+  .paymentmethod-melicard {
+      background-position: 0px -36px;
+      height: 12px;
+      width: 17px;
+  }

@@ -1,0 +1,43 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../../../../images/pmc-mpe-large.png);
+    background-size: 145px 179px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-banbif.paymentmethod-large {
+      background-position: 0px -67px;
+      height: 28px;
+      width: 87px;
+  }
+  .paymentmethod-bcp.paymentmethod-large {
+      background-position: 0px -95px;
+      height: 28px;
+      width: 87px;
+  }
+  .paymentmethod-continental.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 21px;
+      width: 145px;
+  }
+  .paymentmethod-interbank.paymentmethod-large {
+      background-position: 0px -21px;
+      height: 23px;
+      width: 117px;
+  }
+  .paymentmethod-kasnet.paymentmethod-large {
+      background-position: 0px -123px;
+      height: 28px;
+      width: 75px;
+  }
+  .paymentmethod-scotiabank.paymentmethod-large {
+      background-position: 0px -44px;
+      height: 23px;
+      width: 128px;
+  }
+  .paymentmethod-western_union.paymentmethod-large {
+      background-position: 0px -151px;
+      height: 28px;
+      width: 88px;
+  }

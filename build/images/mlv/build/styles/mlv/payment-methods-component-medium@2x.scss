@@ -1,0 +1,23 @@
+[class*="paymentmethod-medium"] {
+    background-image: url(../../../../images/pmc-mlv-medium@2x.png);
+    background-size: 153px 88px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-banesco.paymentmethod-medium {
+      background-position: 0px -16px;
+      height: 34px;
+      width: 119px;
+  }
+  .paymentmethod-mercantil.paymentmethod-medium {
+      background-position: 0px -50px;
+      height: 38px;
+      width: 153px;
+  }
+  .paymentmethod-provincial.paymentmethod-medium {
+      background-position: 0px 0px;
+      height: 16px;
+      width: 141px;
+  }

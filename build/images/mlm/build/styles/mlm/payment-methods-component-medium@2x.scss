@@ -1,0 +1,58 @@
+[class*="paymentmethod-medium"] {
+    background-image: url(../../../../images/pmc-mlm-medium@2x.png);
+    background-size: 173px 318px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-banamex.paymentmethod-medium {
+      background-position: 0px -124px;
+      height: 31px;
+      width: 137px;
+  }
+  .paymentmethod-bancomer.paymentmethod-medium {
+      background-position: 0px 0px;
+      height: 16px;
+      width: 149px;
+  }
+  .paymentmethod-banorte.paymentmethod-medium {
+      background-position: 0px -39px;
+      height: 27px;
+      width: 173px;
+  }
+  .paymentmethod-debmaster.paymentmethod-medium {
+      background-position: 0px -230px;
+      height: 41px;
+      width: 113px;
+  }
+  .paymentmethod-debvisa.paymentmethod-medium {
+      background-position: 0px -66px;
+      height: 29px;
+      width: 137px;
+  }
+  .paymentmethod-hsbc.paymentmethod-medium {
+      background-position: 0px -16px;
+      height: 23px;
+      width: 131px;
+  }
+  .paymentmethod-ixe.paymentmethod-medium {
+      background-position: 0px -271px;
+      height: 47px;
+      width: 113px;
+  }
+  .paymentmethod-mercadopagocard.paymentmethod-medium {
+      background-position: 0px -191px;
+      height: 39px;
+      width: 157px;
+  }
+  .paymentmethod-oxxo.paymentmethod-medium {
+      background-position: 0px -155px;
+      height: 36px;
+      width: 77px;
+  }
+  .paymentmethod-santander.paymentmethod-medium {
+      background-position: 0px -95px;
+      height: 29px;
+      width: 148px;
+  }
