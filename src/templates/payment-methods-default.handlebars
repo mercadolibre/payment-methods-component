@@ -14,3 +14,14 @@
       width: {{px.width}};
   }
 {{/sprites}}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+   [class*='paymentmethod'] {
+	background-image: url({{spritesheet.retina.image}});
+	background-size: {{spritesheet.retina.px.width}} {{spritesheet.retina.px.height}};
+	height: 26px; /* most common height */
+	margin: 5px;
+    }
+
+}

@@ -1,0 +1,58 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../images/large@2x.png);
+    background-size: 256px 515px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-account_money.paymentmethod-large {
+      background-position: 0px -454px;
+      height: 61px;
+      width: 232px;
+  }
+  .paymentmethod-amex.paymentmethod-large {
+      background-position: 0px -236px;
+      height: 52px;
+      width: 53px;
+  }
+  .paymentmethod-cmr.paymentmethod-large {
+      background-position: 0px -134px;
+      height: 51px;
+      width: 256px;
+  }
+  .paymentmethod-khipu.paymentmethod-large {
+      background-position: 0px -39px;
+      height: 45px;
+      width: 112px;
+  }
+  .paymentmethod-magna.paymentmethod-large {
+      background-position: 0px -185px;
+      height: 51px;
+      width: 82px;
+  }
+  .paymentmethod-master.paymentmethod-large {
+      background-position: 0px -341px;
+      height: 55px;
+      width: 91px;
+  }
+  .paymentmethod-presto.paymentmethod-large {
+      background-position: 0px -84px;
+      height: 50px;
+      width: 74px;
+  }
+  .paymentmethod-servipag.paymentmethod-large {
+      background-position: 0px -288px;
+      height: 53px;
+      width: 157px;
+  }
+  .paymentmethod-visa.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 39px;
+      width: 123px;
+  }
+  .paymentmethod-webpay.paymentmethod-large {
+      background-position: 0px -396px;
+      height: 58px;
+      width: 73px;
+  }

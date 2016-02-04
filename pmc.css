@@ -1,0 +1,115 @@
+body {
+  position: relative;
+  margin: 0;
+  font-family: Arial; }
+
+section {
+  min-height: 400px;
+  position: relative;
+  padding: 140px 0 0 0; }
+
+p, h1, h2, h3 {
+  margin: 0;
+  font-weight: 300; }
+
+#s1, #s1s1, #s3, #s1s3 {
+  background-color: #eee; }
+
+#s2, #s1s2 {
+  background-color: #fff; }
+
+div.popeye-within-relative {
+  height: 200px;
+  margin: 50px auto 0 auto;
+  overflow: auto;
+  width: 200px;
+  position: relative;
+  border: solid 1px #000; }
+
+div.popeye-within-relative section {
+  min-height: 200px;
+  position: relative; }
+
+nav.popeye-within-relative {
+  position: fixed;
+  right: 0;
+  width: 100px;
+  top: 100px;
+  background-color: rgba(40, 40, 40, 0.5); }
+
+nav.popeye-within-relative a {
+  display: block; }
+
+header {
+  background: #db9f5a url("bkg1.png") repeat;
+  border-bottom: #db9f5a solid 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 0; }
+  header h1 {
+    margin: 10px 0;
+    display: inline;
+    color: #fff;
+    text-transform: capitalize; }
+  header span {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #f0ad4e;
+    padding: 3px; }
+
+nav {
+  z-index: 2; }
+  nav.popeye-default {
+    float: right; }
+    nav.popeye-default a {
+      font-size: 16px;
+      font-weight: 300;
+      margin: 5px 20px;
+      color: #fff;
+      text-decoration: none; }
+      nav.popeye-default a:hover {
+        text-decoration: none;
+        color: #f1f1f1; }
+
+.mesh-row.navigation {
+  border-top: 1px dotted #f1f1f1;
+  margin-top: 20px;
+  padding-top: 20px; }
+
+.choose {
+  text-align: center; }
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px; }
+  .section-header > h2 {
+    background-color: #db9f5a;
+    padding: 10px 30px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    color: #fff;
+    font-size: 20px; }
+    .section-header > h2:after {
+      width: 0;
+      height: 0;
+      border-left: 105px solid transparent;
+      border-right: 105px solid transparent;
+      border-top: 15px solid #db9f5a;
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -15px;
+      left: 0px; }

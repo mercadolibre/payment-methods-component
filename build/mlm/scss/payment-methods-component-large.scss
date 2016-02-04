@@ -1,0 +1,78 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../images/large@2x.png);
+    background-size: 232px 632px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-account_money.paymentmethod-large {
+      background-position: 0px -508px;
+      height: 61px;
+      width: 232px;
+  }
+  .paymentmethod-amex.paymentmethod-large {
+      background-position: 0px -294px;
+      height: 52px;
+      width: 53px;
+  }
+  .paymentmethod-banamex.paymentmethod-large {
+      background-position: 0px -205px;
+      height: 41px;
+      width: 183px;
+  }
+  .paymentmethod-bancomer.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 21px;
+      width: 199px;
+  }
+  .paymentmethod-banorte.paymentmethod-large {
+      background-position: 0px -52px;
+      height: 36px;
+      width: 231px;
+  }
+  .paymentmethod-debmaster.paymentmethod-large {
+      background-position: 0px -398px;
+      height: 55px;
+      width: 151px;
+  }
+  .paymentmethod-debvisa.paymentmethod-large {
+      background-position: 0px -166px;
+      height: 39px;
+      width: 183px;
+  }
+  .paymentmethod-hsbc.paymentmethod-large {
+      background-position: 0px -21px;
+      height: 31px;
+      width: 174px;
+  }
+  .paymentmethod-ixe.paymentmethod-large {
+      background-position: 0px -569px;
+      height: 63px;
+      width: 150px;
+  }
+  .paymentmethod-master.paymentmethod-large {
+      background-position: 0px -453px;
+      height: 55px;
+      width: 91px;
+  }
+  .paymentmethod-mercadopagocard.paymentmethod-large {
+      background-position: 0px -346px;
+      height: 52px;
+      width: 209px;
+  }
+  .paymentmethod-oxxo.paymentmethod-large {
+      background-position: 0px -246px;
+      height: 48px;
+      width: 103px;
+  }
+  .paymentmethod-santander.paymentmethod-large {
+      background-position: 0px -127px;
+      height: 39px;
+      width: 197px;
+  }
+  .paymentmethod-visa.paymentmethod-large {
+      background-position: 0px -88px;
+      height: 39px;
+      width: 123px;
+  }

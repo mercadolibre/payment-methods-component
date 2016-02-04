@@ -1,0 +1,43 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../images/large@2x.png);
+    background-size: 232px 339px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-account_money.paymentmethod-large {
+      background-position: 0px -278px;
+      height: 61px;
+      width: 232px;
+  }
+  .paymentmethod-amex.paymentmethod-large {
+      background-position: 0px -116px;
+      height: 52px;
+      width: 53px;
+  }
+  .paymentmethod-davivienda.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 30px;
+      width: 231px;
+  }
+  .paymentmethod-efecty.paymentmethod-large {
+      background-position: 0px -69px;
+      height: 47px;
+      width: 139px;
+  }
+  .paymentmethod-master.paymentmethod-large {
+      background-position: 0px -168px;
+      height: 55px;
+      width: 91px;
+  }
+  .paymentmethod-pse.paymentmethod-large {
+      background-position: 0px -223px;
+      height: 55px;
+      width: 137px;
+  }
+  .paymentmethod-visa.paymentmethod-large {
+      background-position: 0px -30px;
+      height: 39px;
+      width: 123px;
+  }

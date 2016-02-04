@@ -1,0 +1,53 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../images/large@2x.png);
+    background-size: 232px 447px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*large*/
+  .paymentmethod-account_money.paymentmethod-large {
+      background-position: 0px -386px;
+      height: 61px;
+      width: 232px;
+  }
+  .paymentmethod-amex.paymentmethod-large {
+      background-position: 0px -279px;
+      height: 52px;
+      width: 53px;
+  }
+  .paymentmethod-bolbradesco.paymentmethod-large {
+      background-position: 0px -85px;
+      height: 47px;
+      width: 66px;
+  }
+  .paymentmethod-elo.paymentmethod-large {
+      background-position: 0px -228px;
+      height: 51px;
+      width: 51px;
+  }
+  .paymentmethod-hipercard.paymentmethod-large {
+      background-position: 0px -179px;
+      height: 49px;
+      width: 111px;
+  }
+  .paymentmethod-itau.paymentmethod-large {
+      background-position: 0px -132px;
+      height: 47px;
+      width: 66px;
+  }
+  .paymentmethod-master.paymentmethod-large {
+      background-position: 0px -331px;
+      height: 55px;
+      width: 91px;
+  }
+  .paymentmethod-melicard.paymentmethod-large {
+      background-position: 0px -39px;
+      height: 46px;
+      width: 66px;
+  }
+  .paymentmethod-visa.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 39px;
+      width: 123px;
+  }
