@@ -45,7 +45,7 @@
     width: 26px;
 }
 
-.paymentmethod-pagoefectivo.paymentmethod-large {
+.paymentmethod-pagoefectivo.paymentmethod-large ,[class*='paymentmethod-pagoefectivo'].paymentmethod-large{
     height: 26px;
     width: 66px;
 }
