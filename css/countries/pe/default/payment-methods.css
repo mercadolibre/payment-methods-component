@@ -40,7 +40,7 @@
     height: 17px;
     width: 17px;
 }
-.paymentmethod-pagoefectivo {
+.paymentmethod-pagoefectivo, [class*='paymentmethod-pagoefectivo'] {
     height: 17px;
     width: 42px;
 }

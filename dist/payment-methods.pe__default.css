@@ -51,8 +51,8 @@
 
 /* Sprite position for Perú Logos
 ---------------------------------------------------------------*/
-.paymentmethod-pagoefectivo,
-.paymentmethod-pagoefectivo.paymentmethod-large { 
+.paymentmethod-pagoefectivo,[class*='paymentmethod-pagoefectivo']
+.paymentmethod-pagoefectivo.paymentmethod-large ,[class*='paymentmethod-pagoefectivo'].paymentmethod-large{
     background-position: 0 -250px; 
 }
 /* Venezuela Sprite for Default Size
@@ -97,7 +97,7 @@
     height: 17px;
     width: 17px;
 }
-.paymentmethod-pagoefectivo {
+.paymentmethod-pagoefectivo, [class*='paymentmethod-pagoefectivo']{
     height: 17px;
     width: 42px;
 }
