@@ -4,3 +4,8 @@
 .paymentmethod-pagoefectivo.paymentmethod-large ,[class*='paymentmethod-pagoefectivo'].paymentmethod-large{
     background-position: 0 -250px; 
 }
+
+.paymentmethod-debvisa,
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -300px; 
+}

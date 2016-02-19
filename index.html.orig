@@ -18,7 +18,7 @@
 
 	<!-- Components -->
 	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
-	<link rel="stylesheet" id="country" type="text/css" href="dist/payment-methods.ar__all.css">
+	<link rel="stylesheet" id="country" type="text/css" href="dist/payment-methods.ar.css">
 
 	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css">
 
@@ -71,7 +71,11 @@
 </head>
 <body>
 	<header>
+<<<<<<< HEAD
+		<h1>Payment Methods 1.3.10</h1>
+=======
 		<h1>Payment Methods 1.3.12</h1>
+>>>>>>> master
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -208,7 +212,6 @@
 				<li class="paymentmethod-amex">American Express</li>
 				<li class="paymentmethod-master">Mastercard</li>
 				<li class="paymentmethod-pagoefectivo">Pagoefectivo</li>
-				<li class="paymentmethod-debvisa">Visa Débito</li>
 			</ul>
 		</div>
 
@@ -437,7 +440,6 @@
 				<li class="paymentmethod-amex paymentmethod-large">American Express</li>
 				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
 				<li class="paymentmethod-pagoefectivo paymentmethod-large">Pagoefectivo</li>
-				<li class="paymentmethod-debvisa paymentmethod-large">Visa Débito</li>
 			</ul>
 		</div>
 <!--
@@ -503,7 +505,7 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+"__all.css");
+		$("#country").attr("href", "dist/payment-methods."+i+".css");
 		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css");
 		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css");
 	}
