@@ -26,3 +26,8 @@
 .paymentmethod-itau.paymentmethod-large { 
 	background-position: 0 -450px; 
 }
+
+.paymentmethod-giftcard,
+.paymentmethod-giftcard.paymentmethod-large { 
+	background-position: 0 -499px; 
+}

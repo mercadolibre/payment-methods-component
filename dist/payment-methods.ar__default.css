@@ -130,14 +130,17 @@
 	background-position: 0 -1000px;
 }
 
-
+.paymentmethod-mercadopago_cc,
+.paymentmethod-mercadopago_cc.paymentmethod-large {
+	background-position: 0 -1049px;
+}
 
 /* Argentina Sprite for Default Size
 ---------------------------------------------------------------*/
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.12/ar/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -148,8 +151,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.12/ar/payment-methods-default@2x.png');
-        background-size: 72px 1009px;  /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-default@2x.png');
+        background-size: 81px 1064px;  /* original x1 image size */
         height: 16px;
     }
 
@@ -251,4 +254,7 @@
     height: 9px;
     width: 40px;
 }
-
+.paymentmethod-mercadopago_cc {
+    height: 15px;
+    width: 82px;
+}

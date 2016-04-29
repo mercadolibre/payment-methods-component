@@ -79,3 +79,7 @@
 	background-position: 0 -1000px;
 }
 
+.paymentmethod-mercadopago_cc,
+.paymentmethod-mercadopago_cc.paymentmethod-large {
+	background-position: 0 -1049px;
+}
