@@ -140,7 +140,7 @@
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.14/ar/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -151,8 +151,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-default@2x.png');
-        background-size: 81px 1064px;  /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.14/ar/payment-methods-default@2x.png');
+        background-size: 104px 1068px;  /* original x1 image size */
         height: 16px;
     }
 
@@ -255,15 +255,15 @@
     width: 40px;
 }
 .paymentmethod-mercadopago_cc {
-    height: 15px;
-    width: 82px;
+    height: 18px;
+    width: 104px;
 }
 /* Argentina Sprite for Large Size
 ---------------------------------------------------------------*/
 
 
 .paymentmethod-large{
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.14/ar/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -275,8 +275,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.13/ar/payment-methods-large@2x.png');
-        background-size: 131px 1073px;  /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.14/ar/payment-methods-large@2x.png');
+        background-size: 142px 1074px;  /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -383,6 +383,6 @@
 }
 
 .paymentmethod-mercadopago_cc.paymentmethod-large {
-    height: 24px;
-    width: 132px;
+    height: 26px;
+    width: 142px;
 }
