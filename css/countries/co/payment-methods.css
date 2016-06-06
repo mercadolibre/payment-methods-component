@@ -20,3 +20,8 @@
 .paymentmethod-pse.paymentmethod-large { 
 	background-position: 0 -400px; 
 }
+
+.paymentmethod-codensa,
+.paymentmethod-codensa.paymentmethod-large { 
+	background-position: 0 -450px; 
+}
