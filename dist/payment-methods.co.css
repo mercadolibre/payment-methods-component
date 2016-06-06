@@ -91,7 +91,7 @@
 
 [class*='paymentmethod'] {
         background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.16/co/payment-methods-default@2x.png');
-        background-size: 72px 470px; /* original x1 image size */
+        background-size: 72px 466px; /* original x1 image size */
         height: 16px; 
     }
 
