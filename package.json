@@ -34,7 +34,9 @@
     "type": "git",
     "url": "https://github.com/mercadolibre/payment-methods-component.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
