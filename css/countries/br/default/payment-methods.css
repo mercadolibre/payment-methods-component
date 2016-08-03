@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/br/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/br/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -13,8 +13,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/br/payment-methods-default@2x.png');
-        background-size: 82px 516px; /* original x1 image size */
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/br/payment-methods-default@2x.png');
+        background-size: 92px 516px; /* original x1 image size */
         height: 16px;
     }
 
@@ -71,5 +71,5 @@
 
 .paymentmethod-giftcard {
     height: 16px;
-    width: 24px;
+    width: 84px;
 }

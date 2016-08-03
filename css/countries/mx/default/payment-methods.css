@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/mx/payment-methods-default.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/mx/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -13,7 +13,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/mx/payment-methods-default@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/mx/payment-methods-default@2x.png');
         background-size: 72px 830px; /* original x1 image size */
         height: 16px; /* most common height */
     }
