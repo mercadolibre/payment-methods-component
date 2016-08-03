@@ -3,7 +3,7 @@
 
 
 .paymentmethod-large{
-    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/ar/payment-methods-large.png');
+    background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/ar/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -15,7 +15,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.19/ar/payment-methods-large@2x.png');
+        background-image: url('https://secure.mlstatic.com/org-img/ui/payment-methods/1.3.20/ar/payment-methods-large@2x.png');
         background-size: 117px 1074px;  /* original x1 image size */
         height: 26px;
         margin: 5px;
