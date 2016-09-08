@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.4.1
+ * @version: 1.4.2
  */
 
 /* Common Structure
@@ -86,7 +86,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.1/br/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -97,7 +97,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.1/br/payment-methods-default@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-default@2x.png');
         background-size: 92px 516px; /* original x1 image size */
         height: 16px;
     }
@@ -140,7 +140,8 @@
     width: 62px;
 }
 .paymentmethod-elo {
-    width: 16px;
+    width: 19px;
+    height: 12px;
 }
 
 .paymentmethod-melicard {
@@ -162,7 +163,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.1/br/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-large.png');
     height: 25px; /* most common height */
     margin: 5px;
 }
@@ -175,7 +176,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.1/br/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-large@2x.png');
         background-size: 117px 524px; /* original x1 image size */
         height: 27px; /* most common height */
         margin: 5px;
@@ -222,8 +223,8 @@
 }
 
 .paymentmethod-elo.paymentmethod-large {
-    height: 27px;
-    width: 26px;
+    height: 19px;
+    width: 30px;
 }
 
 .paymentmethod-melicard.paymentmethod-large {
