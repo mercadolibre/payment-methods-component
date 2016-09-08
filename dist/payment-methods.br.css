@@ -98,7 +98,7 @@
 
 [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-default@2x.png');
-        background-size: 92px 516px; /* original x1 image size */
+        background-size: 84px 516px; /* original x1 image size */
         height: 16px;
     }
 
@@ -177,7 +177,7 @@
 
 .paymentmethod-large {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.4.2/br/payment-methods-large@2x.png');
-        background-size: 117px 524px; /* original x1 image size */
+        background-size: 115px 524px; /* original x1 image size */
         height: 27px; /* most common height */
         margin: 5px;
     }
