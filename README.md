@@ -47,6 +47,7 @@ You'll find the generated files in the `build` folder.
 - mx (Mexico)
 - pe (Perú)
 - ve (Venezuela)
+- uy (Uruguay)
 
 ### Size Lists
 
@@ -174,4 +175,4 @@ Stuff that are coming on future versions:
 ## License
 Licensed under the MIT license.
 
-Copyright (c) 2015 [MercadoLibre](http://github.com/mercadolibre).
+Copyright (c) 2016 [MercadoLibre](http://github.com/mercadolibre).
