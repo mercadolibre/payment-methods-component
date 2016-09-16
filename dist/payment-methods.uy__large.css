@@ -1,0 +1,140 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.5.0
+ */
+
+/* Common Structure
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa,
+.paymentmethod-debvisa,
+.paymentmethod-visa.paymentmethod-large,
+.paymentmethod-debvisa.paymentmethod-large   {
+    background-position: 0 -50px;
+}
+
+.paymentmethod-master,
+.paymentmethod-debmaster,
+.paymentmethod-master.paymentmethod-large,
+.paymentmethod-debmaster.paymentmethod-large  {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
+    background-position: 0 -150px;
+}
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large{
+    background-position: 0 -250px;
+}
+
+/* Sprite position for Mexico Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large { 
+    background-position: 0 -200px; 
+}
+
+.paymentmethod-abitab,
+.paymentmethod-abitab.paymentmethod-large  { 
+	background-position: 0 -250px; 
+}
+
+.paymentmethod-oca,
+.paymentmethod-oca.paymentmethod-large  { 
+	background-position: 0 -300px; 
+}
+.paymentmethod-redpagos,
+.paymentmethod-redpagos.paymentmethod-large  { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-lider,
+.paymentmethod-lider.paymentmethod-large  { 
+	background-position: 0 -400px; 
+}
+/* Uruguay Sprite for Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-large {
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.5.0/uy/payment-methods-large.png');
+    height: 26px;
+    margin: 5px;
+}
+/*
+ * Retina logo for small screens
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+.paymentmethod-large {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.5.0/uy/payment-methods-large@2x.png');
+        background-size: 116px 430px; /* original x1 image size */
+        height: 26px;
+        margin: 5px;
+    }
+
+}
+
+
+/* Uruguay Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large {
+    height: 20px;
+    width: 61px;
+}
+
+.paymentmethod-master.paymentmethod-large {
+    height: 28px;
+    width: 48px;
+}
+
+.paymentmethod-diners.paymentmethod-large {
+    height: 25px;
+    width: 96px;
+}
+
+.paymentmethod-abitab.paymentmethod-large {
+    width: 98px;
+    height: 25px;
+}
+
+.paymentmethod-oca.paymentmethod-large {
+    height: 14px;
+    width: 70px;
+}
+.paymentmethod-redpagos.paymentmethod-large {
+    height: 20px;
+    width: 100px;
+}
+.paymentmethod-lider.paymentmethod-large {
+    height: 30px;
+    width: 41px;
+}
