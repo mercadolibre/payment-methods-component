@@ -13,6 +13,7 @@ grunt build --country=cl --size=large
 grunt build --country=co --size=large
 grunt build --country=mx --size=large
 grunt build --country=ve --size=large
+grunt build --country=pe --size=large
 grunt build --country=uy --size=large
 
 
