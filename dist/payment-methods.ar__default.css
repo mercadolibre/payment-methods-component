@@ -132,7 +132,7 @@
 
 .paymentmethod-mercadopago_cc,
 .paymentmethod-mercadopago_cc.paymentmethod-large {
-	background-position: 0 -1040px;
+	background-position: 0 -1049px;
 }
 
 /* Argentina Sprite for Default Size
@@ -152,7 +152,7 @@
 
    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.2/ar/payment-methods-default@2x.png');
-        background-size: 72px 1068px;  /* original x1 image size */
+        background-size: 72px 1008px;  /* original x1 image size */
         height: 16px;
     }
 
