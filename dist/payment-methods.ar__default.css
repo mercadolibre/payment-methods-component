@@ -135,13 +135,17 @@
 	background-position: 0 -1049px;
 }
 
+.paymentmethod-consumer_credits{	background-position: 0 -1098px;  }
+.paymentmethod-consumer_credits.paymentmethod-large {
+	background-position: 0 -1105px;
+}
+
 /* Argentina Sprite for Default Size
 ---------------------------------------------------------------*/
 
 
 [class*='paymentmethod'] {
     background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.4/ar/payment-methods-default.png');
-    height: 16px; /* most common height */
 }
 
 /*
@@ -152,8 +156,7 @@
 
    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.4/ar/payment-methods-default@2x.png');
-        background-size: 72px 1068px;  /* original x1 image size */
-        height: 16px;
+        background-size: 72px 1121px;  /* original x1 image size */
     }
 
 }
@@ -168,6 +171,7 @@
 
 .paymentmethod-visa {
     width: 39px;
+    height: 16px;
 }
 
 .paymentmethod-master {
@@ -202,6 +206,7 @@
 
 .paymentmethod-tarshop {
     width: 27px;
+    height: 16px;
 }
 
 .paymentmethod-cencosud {
@@ -232,10 +237,12 @@
 
 .paymentmethod-banelco {
     width: 46px;
+    height: 16px;
 }
 
 .paymentmethod-bapropagos {
     width: 51px;
+    height: 16px;
 }
 
 .paymentmethod-cargavirtual {
@@ -258,3 +265,8 @@
     height: 18px;
     width: 28px;
 }
+.paymentmethod-consumer_credits {
+    height: 18px;
+    width: 74px;
+}
+

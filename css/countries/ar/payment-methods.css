@@ -83,3 +83,8 @@
 .paymentmethod-mercadopago_cc.paymentmethod-large {
 	background-position: 0 -1049px;
 }
+
+.paymentmethod-consumer_credits{	background-position: 0 -1098px;  }
+.paymentmethod-consumer_credits.paymentmethod-large {
+	background-position: 0 -1105px;
+}
