@@ -3,8 +3,7 @@
 
 
 .paymentmethod-large{
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.3/ar/payment-methods-large.png');
-    height: 26px; /* most common height */
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.5/ar/payment-methods-large.png');
     margin: 5px;
 }
 
@@ -15,9 +14,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.3/ar/payment-methods-large@2x.png');
-        background-size: 116px 1074px;  /* original x1 image size */
-        height: 26px;
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.5/ar/payment-methods-large@2x.png');
+        background-size: 116px 1163px;  /* original x1 image size */
         margin: 5px;
     }
 
@@ -63,18 +61,22 @@
 
 .paymentmethod-nativa.paymentmethod-large {
     width: 58px;
+    height: 26px;
 }
 
 .paymentmethod-tarshop.paymentmethod-large {
     width: 42px;
+    height: 26px;
 }
 
 .paymentmethod-cencosud.paymentmethod-large {
     width: 41px;
+    height: 26px;
 }
 
 .paymentmethod-cabal.paymentmethod-large {
     width: 26px;
+    height: 26px;
 }
 
 .paymentmethod-argencard.paymentmethod-large {
@@ -100,6 +102,7 @@
 
 .paymentmethod-bapropagos.paymentmethod-large {
     width: 82px;
+    height: 26px;
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
@@ -125,4 +128,9 @@
 .paymentmethod-mercadopago_cc.paymentmethod-large {
     height: 26px;
     width: 36px;
+}
+
+.paymentmethod-consumer_credits.paymentmethod-large {
+    height: 31px;
+    width: 116px;
 }

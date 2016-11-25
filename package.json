@@ -1,6 +1,6 @@
 {
   "name": "payment-methods-component",
-  "version": "1.6.3",
+  "version": "1.6.5-rc-0",
   "description": "Payment Methods Logos, Sprites and CSS sorted by countries and sizes.",
   "author": "<natalia.devalle@mercadolibre.com>",
   "contributors": [
