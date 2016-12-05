@@ -33,3 +33,8 @@
 .paymentmethod-khipu.paymentmethod-large { 
 	background-position: 0 -550px;
 }
+
+.paymentmethod-cencosud,
+.paymentmethod-cencosud.paymentmethod-large { 
+	background-position: 0 -600px;
+}
