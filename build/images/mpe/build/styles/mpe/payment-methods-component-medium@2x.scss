@@ -1,6 +1,6 @@
 [class*="paymentmethod-medium"] {
     background-image: url(../../../../images/pmc-mpe-medium@2x.png);
-    background-size: 218px 263px;
+    background-size: 218px 309px;
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -20,6 +20,11 @@
       background-position: 0px 0px;
       height: 31px;
       width: 218px;
+  }
+  .paymentmethod-full_carga.paymentmethod-medium {
+      background-position: 0px -263px;
+      height: 46px;
+      width: 74px;
   }
   .paymentmethod-interbank.paymentmethod-medium {
       background-position: 0px -31px;
