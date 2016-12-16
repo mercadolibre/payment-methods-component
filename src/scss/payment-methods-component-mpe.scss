@@ -1,0 +1,98 @@
+[class*="paymentmethod-large"] {
+    background-image: url(../images/pmc-mpe.png);
+    background-size: 290px 406px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+[class*="paymentmethod-default"] {
+    background-image: url(../images/pmc-mpe.png);
+    background-size: 290px 406px;
+    height: 26px; /* most common height */
+    margin: 5px;
+}
+
+/*default*/
+  .paymentmethod-banbif {
+      background-position: 0px -131px;
+      height: 55px;
+      width: 174px;
+  }
+  .paymentmethod-bcp {
+      background-position: 0px -186px;
+      height: 55px;
+      width: 174px;
+  }
+  .paymentmethod-continental {
+      background-position: 0px 0px;
+      height: 41px;
+      width: 290px;
+  }
+  .paymentmethod-full_carga {
+      background-position: 0px -241px;
+      height: 55px;
+      width: 88px;
+  }
+  .paymentmethod-interbank {
+      background-position: 0px -41px;
+      height: 45px;
+      width: 233px;
+  }
+  .paymentmethod-kasnet {
+      background-position: 0px -296px;
+      height: 55px;
+      width: 149px;
+  }
+  .paymentmethod-scotiabank {
+      background-position: 0px -86px;
+      height: 45px;
+      width: 255px;
+  }
+  .paymentmethod-western_union {
+      background-position: 0px -351px;
+      height: 55px;
+      width: 175px;
+  }
+
+
+/*large*/
+  .paymentmethod-banbif.paymentmethod-large {
+      background-position: 0px -131px;
+      height: 55px;
+      width: 174px;
+  }
+  .paymentmethod-bcp.paymentmethod-large {
+      background-position: 0px -186px;
+      height: 55px;
+      width: 174px;
+  }
+  .paymentmethod-continental.paymentmethod-large {
+      background-position: 0px 0px;
+      height: 41px;
+      width: 290px;
+  }
+  .paymentmethod-full_carga.paymentmethod-large {
+      background-position: 0px -241px;
+      height: 55px;
+      width: 88px;
+  }
+  .paymentmethod-interbank.paymentmethod-large {
+      background-position: 0px -41px;
+      height: 45px;
+      width: 233px;
+  }
+  .paymentmethod-kasnet.paymentmethod-large {
+      background-position: 0px -296px;
+      height: 55px;
+      width: 149px;
+  }
+  .paymentmethod-scotiabank.paymentmethod-large {
+      background-position: 0px -86px;
+      height: 45px;
+      width: 255px;
+  }
+  .paymentmethod-western_union.paymentmethod-large {
+      background-position: 0px -351px;
+      height: 55px;
+      width: 175px;
+  }
