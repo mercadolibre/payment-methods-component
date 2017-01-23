@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.6.6
+ * @version: 1.6.7
  */
 
 /* Common Structure
@@ -26,17 +26,27 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa,
-.paymentmethod-visa.paymentmethod-large,
-.paymentmethod-debvisa.paymentmethod-large   {
+.paymentmethod-visa.paymentmethod-large {
     background-position: 0 -50px;
 }
 
+.paymentmethod-debvisa {
+    background-position: 0 -1248px;
+}
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -1249px;
+}
+
 .paymentmethod-master,
-.paymentmethod-debmaster,
-.paymentmethod-master.paymentmethod-large,
-.paymentmethod-debmaster.paymentmethod-large  {
+.paymentmethod-master.paymentmethod-large {
     background-position: 0 -100px;
+}
+
+.paymentmethod-debmaster {
+    background-position: 0 -1147px;
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -1149px;
 }
 
 .paymentmethod-amex,
@@ -79,7 +89,15 @@
 
 .paymentmethod-cabal,
 .paymentmethod-cabal.paymentmethod-large {
-	background-position: 0 -500px;
+    background-position: 0 -500px;
+}
+
+.paymentmethod-debcabal {
+    background-position: 0px -1297px;
+}
+
+.paymentmethod-debcabal.paymentmethod-large {
+    background-position: 0 -1300px;
 }
 
 .paymentmethod-argencard,
@@ -136,18 +154,27 @@
 }
 
 .paymentmethod-consumer_credits{
-	background-position: 0 -1098px; 
+	background-position: 0 -1097px;
 }
 
 .paymentmethod-consumer_credits.paymentmethod-large {
-	background-position: 0 -1103px;
+	background-position: 0 -1098px;
 }
+
+.paymentmethod-maestro {
+    background-position: 0 -1197px;
+}
+
+.paymentmethod-maestro.paymentmethod-large {
+	background-position: 0 -1199px;
+}
+
 /* Argentina Sprite for Large Size
 ---------------------------------------------------------------*/
 
 
 .paymentmethod-large{
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/ar/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/ar/payment-methods-large.png');
     margin: 5px;
 }
 
@@ -158,7 +185,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/ar/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/ar/payment-methods-large@2x.png');
         background-size: 116px 1150px;  /* original x1 image size */
         margin: 5px;
     }
@@ -178,9 +205,19 @@
     width: 63px;
 }
 
+.paymentmethod-debvisa.paymentmethod-large {
+    height: 20px;
+    width: 92px;
+}
+
 .paymentmethod-master.paymentmethod-large {
     height: 35px;
     width: 46px;
+}
+
+.paymentmethod-debmaster.paymentmethod-large {
+    height: 36px;
+    width: 75px;
 }
 
 .paymentmethod-amex.paymentmethod-large {
@@ -221,6 +258,11 @@
 .paymentmethod-cabal.paymentmethod-large {
     width: 26px;
     height: 26px;
+}
+
+.paymentmethod-debcabal.paymentmethod-large {
+    width: 27px;
+    height: 28px;
 }
 
 .paymentmethod-argencard.paymentmethod-large {
@@ -277,4 +319,9 @@
 .paymentmethod-consumer_credits.paymentmethod-large {
     height: 31px;
     width: 116px;
+}
+
+.paymentmethod-maestro.paymentmethod-large {
+    height: 37px;
+    width: 44px;
 }

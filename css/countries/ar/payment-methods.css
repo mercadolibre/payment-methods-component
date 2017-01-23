@@ -28,7 +28,15 @@
 
 .paymentmethod-cabal,
 .paymentmethod-cabal.paymentmethod-large {
-	background-position: 0 -500px;
+    background-position: 0 -500px;
+}
+
+.paymentmethod-debcabal {
+    background-position: 0px -1297px;
+}
+
+.paymentmethod-debcabal.paymentmethod-large {
+    background-position: 0 -1300px;
 }
 
 .paymentmethod-argencard,
@@ -85,9 +93,17 @@
 }
 
 .paymentmethod-consumer_credits{
-	background-position: 0 -1098px; 
+	background-position: 0 -1097px;
 }
 
 .paymentmethod-consumer_credits.paymentmethod-large {
-	background-position: 0 -1103px;
+	background-position: 0 -1098px;
+}
+
+.paymentmethod-maestro {
+    background-position: 0 -1197px;
+}
+
+.paymentmethod-maestro.paymentmethod-large {
+	background-position: 0 -1199px;
 }

@@ -18,7 +18,6 @@
 
 	<!-- Components -->
 	<link rel="stylesheet" type="text/css" href="css/payment-methods.css">
-	<link rel="stylesheet" id="country" type="text/css" href="dist/payment-methods.ar.css">
 
 	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css">
 
@@ -71,7 +70,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.6.6</h1>
+		<h1>Payment Methods 1.6.7</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -83,7 +82,7 @@
 				<option value="pe">Perú</option>
 				<option value="uy">Uruguay</option>
 				<option value="ve">Venezuela</option>
-				
+
 			</select>
 	</header>
 
@@ -96,7 +95,9 @@
 			<ul>
 				<li class="paymentmethod-account_money">Dinero en cuenta Mercado Pago</li>
 				<li class="paymentmethod-visa">Visa</li>
+				<li class="paymentmethod-debvisa">Visa Débito</li>
 				<li class="paymentmethod-master">Mastercard</li>
+				<li class="paymentmethod-debmaster">Mastercard Débito</li>
 				<li class="paymentmethod-amex">American Express</li>
 				<li class="paymentmethod-diners">Diners</li>
 				<li class="paymentmethod-naranja">Naranja</li>
@@ -104,6 +105,7 @@
 				<li class="paymentmethod-nativa">Nativa</li>
 				<li class="paymentmethod-cencosud">Cencosud</li>
 				<li class="paymentmethod-cabal">Cabal</li>
+				<li class="paymentmethod-debcabal">Cabal Débito</li>
 				<li class="paymentmethod-argencard">Argencard</li>
 				<li class="paymentmethod-cmr">CMR Falabella</li>
 				<li class="paymentmethod-cordobesa">Cordobesa</li>
@@ -116,6 +118,7 @@
 				<li class="paymentmethod-bitcoin">Bitcoin</li>
 				<li class="paymentmethod-mercadopago_cc">Tarjeta Mercado Pago</li>
 				<li class="paymentmethod-consumer_credits">Consumer Credits</li>
+				<li class="paymentmethod-maestro">Maestro</li>
 			</ul>
 		</div>
 
@@ -230,7 +233,7 @@
 			</ul>
 		</div>
 
-		
+
 
 
 <!--
@@ -343,6 +346,8 @@
 		<ul>
 			<li class="paymentmethod-account_money paymentmethod-large">Dinero en cuenta Mercado Pago</li>
 			<li class="paymentmethod-visa paymentmethod-large">Visa</li>
+			<li class="paymentmethod-debvisa paymentmethod-large">Visa Débito</li>
+			<li class="paymentmethod-debmaster paymentmethod-large">Mastercard Débito</li>
 			<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
 			<li class="paymentmethod-amex paymentmethod-large">American Express</li>
 			<li class="paymentmethod-diners paymentmethod-large">Diners</li>
@@ -351,6 +356,7 @@
 			<li class="paymentmethod-nativa paymentmethod-large">Nativa</li>
 			<li class="paymentmethod-cencosud paymentmethod-large">Cencosud</li>
 			<li class="paymentmethod-cabal paymentmethod-large">Cabal</li>
+			<li class="paymentmethod-debcabal paymentmethod-large">Cabal Débito</li>
 			<li class="paymentmethod-argencard paymentmethod-large">Argencard</li>
 			<li class="paymentmethod-cmr paymentmethod-large">CMR Falabella</li>
 			<li class="paymentmethod-cordobesa paymentmethod-large">Cordobesa</li>
@@ -363,6 +369,7 @@
 			<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
 			<li class="paymentmethod-mercadopago_cc paymentmethod-large">Tarjeta Mercado Pago</li>
 			<li class="paymentmethod-consumer_credits paymentmethod-large">Consumer credits</li>
+			<li class="paymentmethod-maestro paymentmethod-large">Maestro</li>
 		</ul>
 	</div>
 
@@ -476,7 +483,7 @@
 			</ul>
 		</div>
 
-		
+
 <!--
 	<h2>Thiner List</h2>
 	<div class="ch-box-lite">

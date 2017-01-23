@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.6.6
+ * @version: 1.6.7
  */
 
 /* Common Structure
@@ -26,17 +26,27 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa,
-.paymentmethod-visa.paymentmethod-large,
-.paymentmethod-debvisa.paymentmethod-large   {
+.paymentmethod-visa.paymentmethod-large {
     background-position: 0 -50px;
 }
 
+.paymentmethod-debvisa {
+    background-position: 0 -1248px;
+}
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -1249px;
+}
+
 .paymentmethod-master,
-.paymentmethod-debmaster,
-.paymentmethod-master.paymentmethod-large,
-.paymentmethod-debmaster.paymentmethod-large  {
+.paymentmethod-master.paymentmethod-large {
     background-position: 0 -100px;
+}
+
+.paymentmethod-debmaster {
+    background-position: 0 -1147px;
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -1149px;
 }
 
 .paymentmethod-amex,
@@ -106,7 +116,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/mx/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/mx/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -117,7 +127,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/mx/payment-methods-default@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/mx/payment-methods-default@2x.png');
         background-size: 72px 830px; /* original x1 image size */
         height: 16px; /* most common height */
     }
@@ -210,7 +220,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/mx/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/mx/payment-methods-large.png');
     margin: 5px;
 }
 /*
@@ -220,7 +230,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/mx/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.7/mx/payment-methods-large@2x.png');
         background-size: 116px 834px; /* original x1 image size */
     }
 
