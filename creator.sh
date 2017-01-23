@@ -1,38 +1,37 @@
-grunt build --country=ar --size=default
-grunt build --country=br --size=default
-grunt build --country=cl --size=default
-grunt build --country=co --size=default
-grunt build --country=mx --size=default
-grunt build --country=ve --size=default
-grunt build --country=pe --size=default
-grunt build --country=uy --size=default
+./node_modules/.bin/grunt build --country=ar --size=default
+./node_modules/.bin/grunt build --country=br --size=default
+./node_modules/.bin/grunt build --country=cl --size=default
+./node_modules/.bin/grunt build --country=co --size=default
+./node_modules/.bin/grunt build --country=mx --size=default
+./node_modules/.bin/grunt build --country=ve --size=default
+./node_modules/.bin/grunt build --country=pe --size=default
+./node_modules/.bin/grunt build --country=uy --size=default
 
-grunt build --country=ar --size=large
-grunt build --country=br --size=large
-grunt build --country=cl --size=large
-grunt build --country=co --size=large
-grunt build --country=mx --size=large
-grunt build --country=ve --size=large
-grunt build --country=pe --size=large
-grunt build --country=uy --size=large
+./node_modules/.bin/grunt build --country=ar --size=large
+./node_modules/.bin/grunt build --country=br --size=large
+./node_modules/.bin/grunt build --country=cl --size=large
+./node_modules/.bin/grunt build --country=co --size=large
+./node_modules/.bin/grunt build --country=mx --size=large
+./node_modules/.bin/grunt build --country=ve --size=large
+./node_modules/.bin/grunt build --country=pe --size=large
+./node_modules/.bin/grunt build --country=uy --size=large
 
+./node_modules/.bin/grunt build --country=ar --size=default,large
+./node_modules/.bin/grunt build --country=br --size=default,large
+./node_modules/.bin/grunt build --country=cl --size=default,large
+./node_modules/.bin/grunt build --country=co --size=default,large
+./node_modules/.bin/grunt build --country=mx --size=default,large
+./node_modules/.bin/grunt build --country=ve --size=default,large
+./node_modules/.bin/grunt build --country=pe --size=default,large
+./node_modules/.bin/grunt build --country=uy --size=default,large
 
-grunt build --country=ar --size=default,large
-grunt build --country=br --size=default,large
-grunt build --country=cl --size=default,large
-grunt build --country=co --size=default,large
-grunt build --country=mx --size=default,large
-grunt build --country=ve --size=default,large
-grunt build --country=pe --size=default,large
-grunt build --country=uy --size=default,large
+./node_modules/.bin/grunt dist
 
-grunt dist
-
-grunt images --country=ar
-grunt images --country=br
-grunt images --country=cl
-grunt images --country=co
-grunt images --country=mx
-grunt images --country=ve
-grunt images --country=pe
-grunt images --country=uy
+./node_modules/.bin/grunt images --country=ar
+./node_modules/.bin/grunt images --country=br
+./node_modules/.bin/grunt images --country=cl
+./node_modules/.bin/grunt images --country=co
+./node_modules/.bin/grunt images --country=mx
+./node_modules/.bin/grunt images --country=ve
+./node_modules/.bin/grunt images --country=pe
+./node_modules/.bin/grunt images --country=uy

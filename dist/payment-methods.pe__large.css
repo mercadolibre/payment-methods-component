@@ -26,17 +26,27 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa,
-.paymentmethod-visa.paymentmethod-large,
-.paymentmethod-debvisa.paymentmethod-large   {
+.paymentmethod-visa.paymentmethod-large {
     background-position: 0 -50px;
 }
 
+.paymentmethod-debvisa {
+    background-position: 0 -1248px;
+}
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -1249px;
+}
+
 .paymentmethod-master,
-.paymentmethod-debmaster,
-.paymentmethod-master.paymentmethod-large,
-.paymentmethod-debmaster.paymentmethod-large  {
+.paymentmethod-master.paymentmethod-large {
     background-position: 0 -100px;
+}
+
+.paymentmethod-debmaster {
+    background-position: 0 -1147px;
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -1149px;
 }
 
 .paymentmethod-amex,

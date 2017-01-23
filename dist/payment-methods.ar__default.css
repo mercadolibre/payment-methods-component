@@ -26,17 +26,27 @@
 }
 
 .paymentmethod-visa,
-.paymentmethod-debvisa,
-.paymentmethod-visa.paymentmethod-large,
-.paymentmethod-debvisa.paymentmethod-large   {
+.paymentmethod-visa.paymentmethod-large {
     background-position: 0 -50px;
 }
 
+.paymentmethod-debvisa {
+    background-position: 0 -1248px;
+}
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -1249px;
+}
+
 .paymentmethod-master,
-.paymentmethod-debmaster,
-.paymentmethod-master.paymentmethod-large,
-.paymentmethod-debmaster.paymentmethod-large  {
+.paymentmethod-master.paymentmethod-large {
     background-position: 0 -100px;
+}
+
+.paymentmethod-debmaster {
+    background-position: 0 -1147px;
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -1149px;
 }
 
 .paymentmethod-amex,
@@ -79,7 +89,15 @@
 
 .paymentmethod-cabal,
 .paymentmethod-cabal.paymentmethod-large {
-	background-position: 0 -500px;
+    background-position: 0 -500px;
+}
+
+.paymentmethod-debcabal {
+    background-position: 0px -1297px;
+}
+
+.paymentmethod-debcabal.paymentmethod-large {
+    background-position: 0 -1300px;
 }
 
 .paymentmethod-argencard,
@@ -136,19 +154,28 @@
 }
 
 .paymentmethod-consumer_credits{
-	background-position: 0 -1098px; 
+	background-position: 0 -1097px;
 }
 
 .paymentmethod-consumer_credits.paymentmethod-large {
-	background-position: 0 -1103px;
+	background-position: 0 -1098px;
 }
+
+.paymentmethod-maestro {
+    background-position: 0 -1197px;
+}
+
+.paymentmethod-maestro.paymentmethod-large {
+	background-position: 0 -1199px;
+}
+
 
 /* Argentina Sprite for Default Size
 ---------------------------------------------------------------*/
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/ar/payment-methods-default.png');
+    background-image: url('./images/ar/payment-methods-default.png');
 }
 
 /*
@@ -158,7 +185,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.6/ar/payment-methods-default@2x.png');
+        background-image: url('./images/ar/payment-methods-default@2x.png');
         background-size: 72px 1120px;  /* original x1 image size */
     }
 
@@ -177,9 +204,19 @@
     height: 16px;
 }
 
+.paymentmethod-debvisa {
+    width: 58px;
+    height: 13px;
+}
+
 .paymentmethod-master {
     height: 26px;
     width: 29px;
+}
+
+.paymentmethod-debmaster {
+    height: 24px;
+    width: 49px;
 }
 
 .paymentmethod-amex {
@@ -219,6 +256,11 @@
 
 .paymentmethod-cabal {
     height: 17px;
+    width: 17px;
+}
+
+.paymentmethod-debcabal {
+    height: 18px;
     width: 17px;
 }
 
@@ -273,3 +315,7 @@
     width: 74px;
 }
 
+.paymentmethod-maestro {
+    height: 24px;
+    width: 29px;
+}
