@@ -15,7 +15,7 @@
 
    .paymentmethod-large {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.8/ar/payment-methods-large@2x.png');
-        background-size: 116px 1150px;  /* original x1 image size */
+        background-size: 116px 1328px;  /* original x1 image size */
         margin: 5px;
     }
 
@@ -35,12 +35,12 @@
 }
 
 .paymentmethod-debvisa.paymentmethod-large {
-    height: 20px;
+    height: 21px;
     width: 92px;
 }
 
 .paymentmethod-master.paymentmethod-large {
-    height: 35px;
+    height: 36px;
     width: 46px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 25px;
+    height: 26px;
     width: 96px;
 }
 
@@ -65,28 +65,28 @@
 }
 
 .paymentmethod-naranja.paymentmethod-large {
-    height: 29px;
+    height: 30px;
     width: 25px;
 }
 
 .paymentmethod-nativa.paymentmethod-large {
     width: 58px;
-    height: 26px;
+    height: 27px;
 }
 
 .paymentmethod-tarshop.paymentmethod-large {
     width: 42px;
-    height: 26px;
+    height: 27px;
 }
 
 .paymentmethod-cencosud.paymentmethod-large {
     width: 41px;
-    height: 26px;
+    height: 27px;
 }
 
 .paymentmethod-cabal.paymentmethod-large {
-    width: 26px;
-    height: 26px;
+    width: 27px;
+    height: 28px;
 }
 
 .paymentmethod-debcabal.paymentmethod-large {
@@ -121,17 +121,17 @@
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
-    height: 32px;
+    height: 33px;
     width: 32px;
 }
 
 .paymentmethod-cordial.paymentmethod-large {
-    height: 22px;
+    height: 23px;
     width: 63px;
 }
 
 .paymentmethod-cmr.paymentmethod-large {
-    height: 30px;
+    height: 31px;
     width: 42px;
 }
 
