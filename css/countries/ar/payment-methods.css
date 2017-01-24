@@ -32,7 +32,7 @@
 }
 
 .paymentmethod-debcabal {
-    background-position: 0px -1297px;
+    background-position: 0px -1298px;
 }
 
 .paymentmethod-debcabal.paymentmethod-large {
@@ -71,20 +71,22 @@
 
 .paymentmethod-cargavirtual,
 .paymentmethod-cargavirtual.paymentmethod-large {
-	background-position: 0 -850px;
+	background-position: 0 -849px;
 }
+
 .paymentmethod-cordial,
 .paymentmethod-cordial.paymentmethod-large {
 	background-position: 0 -900px;
 }
+
 .paymentmethod-cmr,
 .paymentmethod-cmr.paymentmethod-large {
-	background-position: 0 -950px;
+	background-position: 0 -949px;
 }
 
 .paymentmethod-cordobesa,
 .paymentmethod-cordobesa.paymentmethod-large {
-	background-position: 0 -1000px;
+	background-position: 0px -998px;
 }
 
 .paymentmethod-mercadopago_cc,

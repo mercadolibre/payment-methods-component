@@ -27,11 +27,11 @@
 
 .paymentmethod-visa,
 .paymentmethod-visa.paymentmethod-large {
-    background-position: 0 -50px;
+    background-position: 0 -49px;
 }
 
 .paymentmethod-debvisa {
-    background-position: 0 -1248px;
+    background-position: 0px -1248px;
 }
 .paymentmethod-debvisa.paymentmethod-large {
     background-position: 0 -1249px;
@@ -43,7 +43,7 @@
 }
 
 .paymentmethod-debmaster {
-    background-position: 0 -1147px;
+    background-position: 0 -1148px;
 }
 .paymentmethod-debmaster.paymentmethod-large {
     background-position: 0 -1149px;

@@ -15,7 +15,7 @@
 
    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.8/ar/payment-methods-default@2x.png');
-        background-size: 72px 1120px;  /* original x1 image size */
+        background-size: 72px 1316px;  /* original x1 image size */
     }
 
 }
@@ -35,7 +35,7 @@
 
 .paymentmethod-debvisa {
     width: 58px;
-    height: 13px;
+    height: 16px;
 }
 
 .paymentmethod-master {
@@ -44,7 +44,7 @@
 }
 
 .paymentmethod-debmaster {
-    height: 24px;
+    height: 26px;
     width: 49px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .paymentmethod-debcabal {
-    height: 18px;
+    height: 17px;
     width: 17px;
 }
 
@@ -145,6 +145,6 @@
 }
 
 .paymentmethod-maestro {
-    height: 24px;
+    height: 25px;
     width: 30px;
 }
