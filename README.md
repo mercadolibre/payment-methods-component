@@ -2,6 +2,7 @@ Payment Methods Component
 =====================================
 
 MercadoPago Payment Methods Logos, Sprites and CSS sorted by countries and sizes.
+[View the demo](https://mercadolibre.github.io/payment-methods-component)
 
 ## Usage
 
