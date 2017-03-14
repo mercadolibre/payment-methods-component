@@ -1,0 +1,232 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-account_money {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 42px;
+  height: 18px;
+}
+.icon-amex {
+  background-image: url(sprite.png);
+  background-position: -34px -72px;
+  width: 14px;
+  height: 18px;
+}
+.icon-argencard {
+  background-image: url(sprite.png);
+  background-position: -62px -72px;
+  width: 14px;
+  height: 18px;
+}
+.icon-bapropagos {
+  background-image: url(sprite.png);
+  background-position: 0px -54px;
+  width: 32px;
+  height: 18px;
+}
+.icon-cabal {
+  background-image: url(sprite.png);
+  background-position: -48px -72px;
+  width: 14px;
+  height: 18px;
+}
+.icon-cencosud {
+  background-image: url(sprite.png);
+  background-position: -82px -36px;
+  width: 20px;
+  height: 18px;
+}
+.icon-cmr {
+  background-image: url(sprite.png);
+  background-position: -82px -18px;
+  width: 20px;
+  height: 18px;
+}
+.icon-consumer_credits {
+  background-image: url(sprite.png);
+  background-position: 0px -18px;
+  width: 42px;
+  height: 18px;
+}
+.icon-cordial {
+  background-image: url(sprite.png);
+  background-position: 0px -36px;
+  width: 38px;
+  height: 18px;
+}
+.icon-cordobesa {
+  background-image: url(sprite.png);
+  background-position: -38px -36px;
+  width: 36px;
+  height: 18px;
+}
+.icon-debcabal {
+  background-image: url(sprite.png);
+  background-position: -106px 0px;
+  width: 12px;
+  height: 18px;
+}
+.icon-diners {
+  background-image: url(sprite.png);
+  background-position: -42px 0px;
+  width: 40px;
+  height: 18px;
+}
+.icon-maestro {
+  background-image: url(sprite.png);
+  background-position: -82px -54px;
+  width: 18px;
+  height: 18px;
+}
+.icon-master {
+  background-image: url(sprite.png);
+  background-position: -64px -54px;
+  width: 18px;
+  height: 18px;
+}
+.icon-naranja {
+  background-image: url(sprite.png);
+  background-position: -90px -72px;
+  width: 14px;
+  height: 18px;
+}
+.icon-nativa {
+  background-image: url(sprite.png);
+  background-position: -32px -54px;
+  width: 32px;
+  height: 18px;
+}
+.icon-pagofacil {
+  background-image: url(sprite.png);
+  background-position: -18px -72px;
+  width: 16px;
+  height: 18px;
+}
+.icon-rapipago {
+  background-image: url(sprite.png);
+  background-position: -42px -18px;
+  width: 38px;
+  height: 18px;
+}
+.icon-redlink {
+  background-image: url(sprite.png);
+  background-position: -76px -72px;
+  width: 14px;
+  height: 18px;
+}
+.icon-tarshop {
+  background-image: url(sprite.png);
+  background-position: 0px -72px;
+  width: 18px;
+  height: 18px;
+}
+.icon-visa {
+  background-image: url(sprite.png);
+  background-position: -82px 0px;
+  width: 24px;
+  height: 18px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-account_money {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-amex {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-argencard {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-bapropagos {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-cabal {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-cencosud {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-cmr {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-consumer_credits {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-cordial {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-cordobesa {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-debcabal {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-diners {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-maestro {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-master {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-naranja {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-nativa {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-pagofacil {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-rapipago {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-redlink {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-tarshop {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+  .icon-visa {
+    background-image: url(sprite@2x.png);
+    background-size: 118px 90px;
+  }
+}

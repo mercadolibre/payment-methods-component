@@ -1,0 +1,102 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-account_money {
+  background-image: url(sprite.png);
+  background-position: 0px -18px;
+  width: 42px;
+  height: 18px;
+}
+.icon-amex {
+  background-image: url(sprite.png);
+  background-position: -70px -18px;
+  width: 14px;
+  height: 18px;
+}
+.icon-cmr {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 46px;
+  height: 18px;
+}
+.icon-diners {
+  background-image: url(sprite.png);
+  background-position: -46px 0px;
+  width: 40px;
+  height: 18px;
+}
+.icon-khipu {
+  background-image: url(sprite.png);
+  background-position: -46px -18px;
+  width: 24px;
+  height: 18px;
+}
+.icon-master {
+  background-image: url(sprite.png);
+  background-position: -44px -36px;
+  width: 18px;
+  height: 18px;
+}
+.icon-visa {
+  background-image: url(sprite.png);
+  background-position: 0px -36px;
+  width: 24px;
+  height: 18px;
+}
+.icon-webpay {
+  background-image: url(sprite.png);
+  background-position: -24px -36px;
+  width: 20px;
+  height: 18px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-account_money {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-amex {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-cmr {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-diners {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-khipu {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-master {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-visa {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+  .icon-webpay {
+    background-image: url(sprite@2x.png);
+    background-size: 86px 54px;
+  }
+}

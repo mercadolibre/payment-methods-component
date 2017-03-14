@@ -1,14 +1,7 @@
-# OS or Editor folders
-.idea/
-.DS_Store
-.cache
-.project
-.settings
-nbproject
-thumb.db
-experiment
 node_modules
-npm-debug.log
-temp
-build
-doc
+*.log
+*.log.*
+deploy-*
+.version.json
+.idea
+.DS_Store

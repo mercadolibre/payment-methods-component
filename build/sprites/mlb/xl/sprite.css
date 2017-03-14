@@ -1,0 +1,122 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-account_money {
+  background-image: url(sprite.png);
+  background-position: -132px 0px;
+  width: 110px;
+  height: 48px;
+}
+.icon-amex {
+  background-image: url(sprite.png);
+  background-position: -42px -144px;
+  width: 34px;
+  height: 48px;
+}
+.icon-bolbradesco {
+  background-image: url(sprite.png);
+  background-position: 0px -144px;
+  width: 42px;
+  height: 48px;
+}
+.icon-diners {
+  background-image: url(sprite.png);
+  background-position: -132px -48px;
+  width: 106px;
+  height: 48px;
+}
+.icon-elo {
+  background-image: url(sprite.png);
+  background-position: -178px -96px;
+  width: 46px;
+  height: 48px;
+}
+.icon-giftcard {
+  background-image: url(sprite.png);
+  background-position: 0px -48px;
+  width: 114px;
+  height: 48px;
+}
+.icon-hipercard {
+  background-image: url(sprite.png);
+  background-position: -66px -96px;
+  width: 62px;
+  height: 48px;
+}
+.icon-master {
+  background-image: url(sprite.png);
+  background-position: -128px -96px;
+  width: 50px;
+  height: 48px;
+}
+.icon-melicard {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 132px;
+  height: 48px;
+}
+.icon-visa {
+  background-image: url(sprite.png);
+  background-position: 0px -96px;
+  width: 66px;
+  height: 48px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-account_money {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-amex {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-bolbradesco {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-diners {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-elo {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-giftcard {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-hipercard {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-master {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-melicard {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+  .icon-visa {
+    background-image: url(sprite@2x.png);
+    background-size: 242px 192px;
+  }
+}
