@@ -1,0 +1,126 @@
+[class^="paymentmethod-"] {
+    font-size: 40px;
+}
+
+[class^="paymentmethod-"]:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/ar/svg/payment-methods.svg");
+    background-repeat: no-repeat;
+    background-size: 2.29845em 15em;
+}
+
+
+.paymentmethod-xs {
+    font-size: 18px;
+}
+
+.paymentmethod-s {
+    font-size: 24px;
+}
+
+.paymentmethod-m {
+    font-size: 32px;
+}
+
+.paymentmethod-l {
+    font-size: 36px;
+}
+
+.paymentmethod-xl {
+    font-size: 48px;
+}
+
+
+
+.paymentmethod-argencard.svg:before {
+    background-position: 0em 0em;
+    width: 0.773875em;
+    height: 1em;
+}
+
+.paymentmethod-cabal.svg:before {
+    background-position: 0em -1em;
+    width: 0.7390749999999999em;
+    height: 1em;
+}
+
+.paymentmethod-cencosud.svg:before {
+    background-position: 0em -2em;
+    width: 1.126075em;
+    height: 1em;
+}
+
+.paymentmethod-cmr.svg:before {
+    background-position: 0em -3em;
+    width: 1.08em;
+    height: 1em;
+}
+
+.paymentmethod-cordial.svg:before {
+    background-position: 0em -4em;
+    width: 2.1396em;
+    height: 1em;
+}
+
+.paymentmethod-cordobesa.svg:before {
+    background-position: 0em -5em;
+    width: 2.0466249999999997em;
+    height: 1em;
+}
+
+.paymentmethod-diners.svg:before {
+    background-position: 0em -6em;
+    width: 2.219275em;
+    height: 1em;
+}
+
+.paymentmethod-maestro.svg:before {
+    background-position: 0em -7em;
+    width: 1.02345em;
+    height: 1em;
+}
+
+.paymentmethod-naranja.svg:before {
+    background-position: 0em -8em;
+    width: 0.7457em;
+    height: 1em;
+}
+
+.paymentmethod-nativa.svg:before {
+    background-position: 0em -9em;
+    width: 1.717925em;
+    height: 1em;
+}
+
+.paymentmethod-pagofacil.svg:before {
+    background-position: 0em -10em;
+    width: 0.8251em;
+    height: 1em;
+}
+
+.paymentmethod-rapipago.svg:before {
+    background-position: 0em -11em;
+    width: 2.101625em;
+    height: 1em;
+}
+
+.paymentmethod-redlink.svg:before {
+    background-position: 0em -12em;
+    width: 0.82495em;
+    height: 1em;
+}
+
+.paymentmethod-undefined.svg:before {
+    background-position: 0em -13em;
+    width: 2.29845em;
+    height: 1em;
+}
+
+.paymentmethod-visa.svg:before {
+    background-position: 0em -14em;
+    width: 1.3545em;
+    height: 1em;
+}
+

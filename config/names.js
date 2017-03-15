@@ -1,5 +1,5 @@
 const NAMES = {
-    mla: {
+    ar: {
         visa: 'visa',
         master: 'mastercard',
         amex: 'american-express',
@@ -22,7 +22,7 @@ const NAMES = {
         cmr: 'cmr',
         consumer_credits: 'mercadocredito'
     },
-    mlb: {
+    br: {
         visa: 'visa',
         master: 'mastercard',
         hipercard: 'hipercard',
@@ -34,7 +34,7 @@ const NAMES = {
         bolbradesco: 'boleto',
         account_money: 'mercadopago'
     },
-    mlc: {
+    cl: {
         visa: 'visa',
         master: 'mastercard',
         amex: 'american-express',

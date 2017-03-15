@@ -1,0 +1,54 @@
+.paymentmethod-account_money {
+    background-position: 0px -32px;
+    width: 74px;
+}
+.paymentmethod-amex {
+    background-position: -124px -32px;
+    width: 22px;
+}
+.paymentmethod-cmr {
+    background-position: 0px 0px;
+    width: 80px;
+}
+.paymentmethod-diners {
+    background-position: -80px 0px;
+    width: 70px;
+}
+.paymentmethod-khipu {
+    background-position: 0px -64px;
+    width: 40px;
+}
+.paymentmethod-master {
+    background-position: -40px -64px;
+    width: 34px;
+}
+.paymentmethod-visa {
+    background-position: -80px -32px;
+    width: 44px;
+}
+.paymentmethod-webpay {
+    background-position: -74px -64px;
+    width: 34px;
+}
+
+/*
+ * Default sprite.
+ */
+
+[class^='paymentmethod-'] {
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/cl/png/payment-methods-m.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 96px;
+}
+
+/*
+ * Retina sprite.
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    [class^='paymentmethod-'] {
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/cl/png/payment-methods-m@2x.png');
+        background-size: 150px 96px;
+    }
+}

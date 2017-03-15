@@ -1,0 +1,32 @@
+/*
+ * Payment methods component.
+ */
+
+{{#each sprites}}
+.paymentmethod-{{{name}}} {
+    background-position: {{px.offset_x}} {{px.offset_y}};
+    width: {{px.width}};
+}
+{{/each}}
+
+/*
+ * Default sprite.
+ */
+
+[class^='paymentmethod-'] {
+    background-image: url('{{{spritesheet.escaped_image}}}');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: {{{spritesheet.px.height}}};
+}
+
+/*
+ * Retina sprite.
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    [class^='paymentmethod-'] {
+        background-image: url('{{{retina_spritesheet.escaped_image}}}');
+        background-size: {{{spritesheet.px.width}}} {{{spritesheet.px.height}}};
+    }
+}
