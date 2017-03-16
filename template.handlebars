@@ -4,13 +4,13 @@
 
 {{#each sprites}}
 .paymentmethod-{{{name}}} {
-    background-position: {{px.offset_x}} {{px.offset_y}};
+    background-position: {{add_1 offset_x}}px {{px.offset_y}};
     width: {{px.width}};
 }
 {{/each}}
 
 /*
- * Default sprite.
+ * Default.
  */
 
 [class^='paymentmethod-'] {
@@ -18,10 +18,11 @@
     background-repeat: no-repeat;
     display: inline-block;
     height: {{{spritesheet.px.height}}};
+    padding: 0 1px;
 }
 
 /*
- * Retina sprite.
+ * Retina.
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {

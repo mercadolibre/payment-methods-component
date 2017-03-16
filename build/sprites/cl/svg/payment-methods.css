@@ -6,9 +6,10 @@
     content:' ';
     vertical-align:middle;
     display: inline-block;
-    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/cl/svg/payment-methods.svg");
+    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/svg/payment-methods.svg");
     background-repeat: no-repeat;
-    background-size: 2.298775em 5em;
+    background-size: 12.525em 1em;
+    height: 1em;
 }
 
 
@@ -34,33 +35,43 @@
 
 
 
-.paymentmethod-diners.svg:before {
+.paymentmethod-account_money:before {
     background-position: 0em 0em;
-    width: 2.219275em;
-    height: 1em;
-}
-
-.paymentmethod-khipu.svg:before {
-    background-position: 0em -1em;
-    width: 1.250725em;
-    height: 1em;
-}
-
-.paymentmethod-undefined.svg:before {
-    background-position: 0em -2em;
     width: 2.298775em;
-    height: 1em;
 }
 
-.paymentmethod-visa.svg:before {
-    background-position: 0em -3em;
+.paymentmethod-amex:before {
+    background-position: -2.3em 0em;
+    width: 0.7em;
+}
+
+.paymentmethod-cmr:before {
+    background-position: -3em 0em;
+    width: 2.4936em;
+}
+
+.paymentmethod-diners:before {
+    background-position: -5.5em 0em;
+    width: 2.219275em;
+}
+
+.paymentmethod-khipu:before {
+    background-position: -7.725em 0em;
+    width: 1.250725em;
+}
+
+.paymentmethod-master:before {
+    background-position: -9em 0em;
+    width: 1.02585em;
+}
+
+.paymentmethod-visa:before {
+    background-position: -10.05em 0em;
     width: 1.3545em;
-    height: 1em;
 }
 
-.paymentmethod-webpay.svg:before {
-    background-position: 0em -4em;
+.paymentmethod-webpay:before {
+    background-position: -11.425em 0em;
     width: 1.0811em;
-    height: 1em;
 }
 

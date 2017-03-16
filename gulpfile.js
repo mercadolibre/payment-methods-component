@@ -7,6 +7,7 @@ const debug = require('gulp-debug');
 const rename = require('gulp-rename');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
+const nunjucks = require('gulp-nunjucks');
 const remoteSrc = require('gulp-remote-src');
 const svgSprites = require('gulp-svg-sprites');
 const spritesmith = require('gulp.spritesmith');
@@ -58,9 +59,9 @@ gulp.task('build:logos', () => {
                         // Generate sprite
                         remoteSrc(logos, { base: 'https://' })
                             .pipe(rename((path) => {
-                                let id = path.basename.replace('.svg', '');
-                                let name = config.paymentMethods.names[site][id];
-                                path.basename = `${name}.svg`;
+                                path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
+                                    return path.basename === config.paymentMethods.names[site][key];
+                                })[0];
                             }))
                             .pipe(svgSprites({
                                 afterTransform: (data) => {
@@ -94,12 +95,14 @@ gulp.task('build:logos', () => {
                                 preview: false,
                                 common: 'paymentmethod-',
                                 svgId: 'paymentmethod-%f',
-                                svgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/${site}/svg/payment-methods.svg`,
+                                svgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/svg/payment-methods.svg`,
+                                // svgPath: `payment-methods.svg`,
                                 baseSize: 40,
                                 cssFile: `${site}/svg/payment-methods.css`,
                                 svg: {
                                     sprite: `${site}/svg/payment-methods.svg`
-                                }
+                                },
+                                layout: 'horizontal'
                             }))
                             .pipe(gulp.dest('build/sprites'));
 
@@ -184,11 +187,20 @@ gulp.task('build:sprites', () => {
                         .pipe(spritesmith({
                             retinaSrcFilter: `build/png/${site}/${size}/*@2x.png`,
                             retinaImgName: `payment-methods-${size}@2x.png`,
-                            retinaImgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/${site}/png/payment-methods-${size}@2x.png`,
+                            retinaImgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/png/payment-methods-${size}@2x.png`,
+                            // retinaImgPath: `payment-methods-${size}@2x.png`,
                             cssName: `payment-methods-${size}.css`,
                             imgName: `payment-methods-${size}.png`,
-                            imgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/${site}/png/payment-methods-${size}.png`,
-                            cssTemplate: 'template.handlebars'
+                            imgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/png/payment-methods-${size}.png`,
+                            // imgPath: `payment-methods-${size}.png`,
+                            cssTemplate: 'template.handlebars',
+                            algorithm: 'left-right',
+                            padding: 4,
+                            cssHandlebarsHelpers: {
+                                add_1: (num) => {
+                                    return num + 1;
+                                }
+                            }
                         }))
                         .pipe(gulp.dest(`build/sprites/${site}/png`));
                 });
@@ -204,8 +216,8 @@ gulp.task('swift', () => {
         password: 'PoYlvEFb46',
         container: 'statics',
         friendlyUrl: 'payment-methods-component',
-        folder: 'build/sprites',
-        version: '2.0.0-develop.1'
+        folder: 'dist',
+        version: '2.0.0-develop.7'
     });
 });
 
@@ -228,13 +240,25 @@ gulp.task('dist:svg', () => {
         .pipe(gulp.dest('dist'))
 });
 
-gulp.task('dist:styles', function() {
+gulp.task('dist:styles', () => {
     gulp.src('build/sprites/**/*.css')
         .pipe(cssnano())
         .pipe(rename((path) => {
             path.extname = ".min.css"
         }))
         .pipe(gulp.dest('dist'))
+});
+
+gulp.task('dist:html', () => {
+    gulp.src('src/templates/base.html')
+        .pipe(nunjucks.compile({
+            sites: ['ar'],
+            sizes: ['m'],
+            names: (() => {
+                return Object.keys(config.paymentMethods.names.ar);
+            })()
+        }))
+        .pipe(gulp.dest('dist/templates'))
 });
 
 gulp.task('dist', ['dist:png', 'dist:svg', 'dist:styles']);

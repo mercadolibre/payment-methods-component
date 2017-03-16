@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Payment methods component</title>
+        {% for site in sites %}
+            {% for size in sizes %}
+                <link rel="stylesheet" href="https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/{{ site }}/png/payment-methods-{{ size }}.min.css">
+                {# <link rel="stylesheet" href="../{{ site }}/png/payment-methods-{{ size }}.min.css"> #}
+            {% endfor %}
+        {% endfor %}
+    </head>
+    <body>
+        {% for name in names %}
+            <span class="paymentmethod-{{ name }}"></span>
+        {% endfor %}
+    </body>
+</html>

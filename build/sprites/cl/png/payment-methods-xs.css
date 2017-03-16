@@ -1,54 +1,55 @@
 .paymentmethod-account_money {
-    background-position: 0px -18px;
+    background-position: -163px 0px;
     width: 42px;
 }
 .paymentmethod-amex {
-    background-position: -70px -18px;
+    background-position: 1px 0px;
     width: 14px;
 }
 .paymentmethod-cmr {
-    background-position: 0px 0px;
+    background-position: -209px 0px;
     width: 46px;
 }
 .paymentmethod-diners {
-    background-position: -46px 0px;
+    background-position: -119px 0px;
     width: 40px;
 }
 .paymentmethod-khipu {
-    background-position: -46px -18px;
+    background-position: -63px 0px;
     width: 24px;
 }
 .paymentmethod-master {
-    background-position: -44px -36px;
+    background-position: -17px 0px;
     width: 18px;
 }
 .paymentmethod-visa {
-    background-position: 0px -36px;
+    background-position: -91px 0px;
     width: 24px;
 }
 .paymentmethod-webpay {
-    background-position: -24px -36px;
+    background-position: -39px 0px;
     width: 20px;
 }
 
 /*
- * Default sprite.
+ * Default.
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/cl/png/payment-methods-xs.png');
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/png/payment-methods-xs.png');
     background-repeat: no-repeat;
     display: inline-block;
-    height: 54px;
+    height: 18px;
+    padding: 0 1px;
 }
 
 /*
- * Retina sprite.
+ * Retina.
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/cl/png/payment-methods-xs@2x.png');
-        background-size: 86px 54px;
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/png/payment-methods-xs@2x.png');
+        background-size: 256px 18px;
     }
 }

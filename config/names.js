@@ -20,7 +20,8 @@ const NAMES = {
         cordial: 'cordial',
         cordobesa: 'cordobesa',
         cmr: 'cmr',
-        consumer_credits: 'mercadocredito'
+        consumer_credits: 'mercadocredito',
+        cargavirtual: 'recargavirtual'
     },
     br: {
         visa: 'visa',

@@ -6,9 +6,10 @@
     content:' ';
     vertical-align:middle;
     display: inline-block;
-    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.1/br/svg/payment-methods.svg");
+    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/br/svg/payment-methods.svg");
     background-repeat: no-repeat;
-    background-size: 2.3924em 6em;
+    background-size: 16em 1em;
+    height: 1em;
 }
 
 
@@ -34,39 +35,53 @@
 
 
 
-.paymentmethod-diners.svg:before {
+.paymentmethod-account_money:before {
     background-position: 0em 0em;
-    width: 2.219275em;
-    height: 1em;
-}
-
-.paymentmethod-elo.svg:before {
-    background-position: 0em -1em;
-    width: 0.973625em;
-    height: 1em;
-}
-
-.paymentmethod-giftcard.svg:before {
-    background-position: 0em -2em;
-    width: 2.3924em;
-    height: 1em;
-}
-
-.paymentmethod-hipercard.svg:before {
-    background-position: 0em -3em;
-    width: 1.32105em;
-    height: 1em;
-}
-
-.paymentmethod-undefined.svg:before {
-    background-position: 0em -4em;
     width: 2.298775em;
-    height: 1em;
 }
 
-.paymentmethod-visa.svg:before {
-    background-position: 0em -5em;
+.paymentmethod-amex:before {
+    background-position: -2.3em 0em;
+    width: 0.7em;
+}
+
+.paymentmethod-bolbradesco:before {
+    background-position: -3em 0em;
+    width: 0.899025em;
+}
+
+.paymentmethod-diners:before {
+    background-position: -3.9em 0em;
+    width: 2.219275em;
+}
+
+.paymentmethod-elo:before {
+    background-position: -6.125em 0em;
+    width: 0.973625em;
+}
+
+.paymentmethod-giftcard:before {
+    background-position: -7.1em 0em;
+    width: 2.3924em;
+}
+
+.paymentmethod-hipercard:before {
+    background-position: -9.5em 0em;
+    width: 1.32105em;
+}
+
+.paymentmethod-master:before {
+    background-position: -10.825em 0em;
+    width: 1.02585em;
+}
+
+.paymentmethod-melicard:before {
+    background-position: -11.875em 0em;
+    width: 2.738125em;
+}
+
+.paymentmethod-visa:before {
+    background-position: -14.625em 0em;
     width: 1.3545em;
-    height: 1em;
 }
 
