@@ -156,7 +156,7 @@ Stuff that are coming on future versions:
 - Style guide for logo grouping on some countries
 - Generic payment type logos
 
-## Maintained by
+## Maintained by
 
 - Gastón André (gaston.andre@mercadolibre.com)
 - Ivan Pianciola (ivan.pianciola@mercadolibre.com)
@@ -164,16 +164,16 @@ Stuff that are coming on future versions:
 - Santiago Barchetta (santiago.barchetta@mercadolibre.com)
 - Samuel Bustamante (samuel.bustamante@mercadolibre.com)
 
-## Thanks to
+## Thanks to
 
 - Nati Devalle (@taly)
 - Guille Paz (@pazguille)
 
-## Credits
+## Credits
 
 ![MercadoLibre](http://secure.mlstatic.com/org-img/chico/img/logo-mercadolibre-new.png)
 
-## License
+## License
 Licensed under the MIT license.
 
 Copyright (c) 2016 [MercadoLibre](http://github.com/mercadolibre).
