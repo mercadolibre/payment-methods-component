@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.6.9
+ * @version: 1.7.0
  */
 
 /* Common Structure
@@ -150,7 +150,9 @@
 	background-position: 0px -998px;
 }
 
-.paymentmethod-mercadopago_cc,
+.paymentmethod-mercadopago_cc {
+    background-position: 0 -1047px;
+}
 .paymentmethod-mercadopago_cc.paymentmethod-large {
 	background-position: 0 -1049px;
 }
@@ -171,12 +173,28 @@
 	background-position: 0 -1199px;
 }
 
+.paymentmethod-365 {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-365.paymentmethod-large {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-nevada {
+    background-position: 0 -1396px;
+}
+
+.paymentmethod-nevada.paymentmethod-large {
+	background-position: 0 -1393px;
+}
+
 /* Argentina Sprite for Large Size
 ---------------------------------------------------------------*/
 
 
 .paymentmethod-large{
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.0/ar/payment-methods-large.png');
     margin: 5px;
 }
 
@@ -187,8 +205,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-large@2x.png');
-        background-size: 116px 1328px;  /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.0/ar/payment-methods-large@2x.png');
+        background-size: 116px 1420px;  /* original x1 image size */
         margin: 5px;
     }
 
@@ -228,7 +246,7 @@
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 26px;
+    height: 28px;
     width: 96px;
 }
 
@@ -279,7 +297,7 @@
 }
 
 .paymentmethod-rapipago.paymentmethod-large {
-    height: 16px;
+    height: 18px;
     width: 86px;
 }
 
@@ -290,7 +308,7 @@
 
 .paymentmethod-bapropagos.paymentmethod-large {
     width: 82px;
-    height: 26px;
+    height: 28px;
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
@@ -314,16 +332,26 @@
 }
 
 .paymentmethod-mercadopago_cc.paymentmethod-large {
-    height: 26px;
+    height: 27px;
     width: 38px;
 }
 
 .paymentmethod-consumer_credits.paymentmethod-large {
-    height: 31px;
+    height: 32px;
     width: 116px;
 }
 
 .paymentmethod-maestro.paymentmethod-large {
-    height: 37px;
+    height: 38px;
     width: 44px;
+}
+
+.paymentmethod-365.paymentmethod-large {
+    height: 16px;
+    width: 116px;
+}
+
+.paymentmethod-nevada.paymentmethod-large {
+    height: 28px;
+    width: 38px;
 }

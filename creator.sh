@@ -27,11 +27,11 @@
 
 ./node_modules/.bin/grunt dist
 
-./node_modules/.bin/grunt images --country=ar
-./node_modules/.bin/grunt images --country=br
-./node_modules/.bin/grunt images --country=cl
-./node_modules/.bin/grunt images --country=co
-./node_modules/.bin/grunt images --country=mx
-./node_modules/.bin/grunt images --country=ve
-./node_modules/.bin/grunt images --country=pe
-./node_modules/.bin/grunt images --country=uy
+# ./node_modules/.bin/grunt images --country=ar
+# ./node_modules/.bin/grunt images --country=br
+# ./node_modules/.bin/grunt images --country=cl
+# ./node_modules/.bin/grunt images --country=co
+# ./node_modules/.bin/grunt images --country=mx
+# ./node_modules/.bin/grunt images --country=ve
+# ./node_modules/.bin/grunt images --country=pe
+# ./node_modules/.bin/grunt images --country=uy

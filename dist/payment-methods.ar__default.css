@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.6.9
+ * @version: 1.7.0
  */
 
 /* Common Structure
@@ -150,7 +150,9 @@
 	background-position: 0px -998px;
 }
 
-.paymentmethod-mercadopago_cc,
+.paymentmethod-mercadopago_cc {
+    background-position: 0 -1047px;
+}
 .paymentmethod-mercadopago_cc.paymentmethod-large {
 	background-position: 0 -1049px;
 }
@@ -171,13 +173,29 @@
 	background-position: 0 -1199px;
 }
 
+.paymentmethod-365 {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-365.paymentmethod-large {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-nevada {
+    background-position: 0 -1396px;
+}
+
+.paymentmethod-nevada.paymentmethod-large {
+	background-position: 0 -1393px;
+}
+
 
 /* Argentina Sprite for Default Size
 ---------------------------------------------------------------*/
 
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.0/ar/payment-methods-default.png');
 }
 
 /*
@@ -187,8 +205,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-default@2x.png');
-        background-size: 72px 1316px;  /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.0/ar/payment-methods-default@2x.png');
+        background-size: 72px 1416px;  /* original x1 image size */
     }
 
 }
@@ -213,7 +231,7 @@
 
 .paymentmethod-master {
     height: 26px;
-    width: 29px;
+    width: 30px;
 }
 
 .paymentmethod-debmaster {
@@ -305,11 +323,11 @@
     width: 26px;
 }
 .paymentmethod-cordobesa {
-    height: 9px;
+    height: 10px;
     width: 40px;
 }
 .paymentmethod-mercadopago_cc {
-    height: 19px;
+    height: 20px;
     width: 30px;
 }
 .paymentmethod-consumer_credits {
@@ -320,4 +338,14 @@
 .paymentmethod-maestro {
     height: 25px;
     width: 30px;
+}
+
+.paymentmethod-365 {
+    height: 10px;
+    width: 73px;
+}
+
+.paymentmethod-nevada {
+    height: 20px;
+    width: 25px;
 }
