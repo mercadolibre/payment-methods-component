@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.6.9
+ * @version: develop/1.7.0-1
  */
 
 /* Common Structure
@@ -62,33 +62,34 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
 .paymentmethod-diners,
-.paymentmethod-diners.paymentmethod-large { 
-    background-position: 0 -200px; 
+.paymentmethod-diners.paymentmethod-large {
+    background-position: 0 -199px;
 }
 
 .paymentmethod-abitab,
-.paymentmethod-abitab.paymentmethod-large  { 
-	background-position: 0 -250px; 
+.paymentmethod-abitab.paymentmethod-large  {
+	background-position: 0 -250px;
 }
 
 .paymentmethod-oca,
-.paymentmethod-oca.paymentmethod-large  { 
-	background-position: 0 -300px; 
+.paymentmethod-oca.paymentmethod-large  {
+	background-position: 0 -299px;
 }
 .paymentmethod-redpagos,
-.paymentmethod-redpagos.paymentmethod-large  { 
-	background-position: 0 -350px; 
+.paymentmethod-redpagos.paymentmethod-large  {
+	background-position: 0 -350px;
 }
 
 .paymentmethod-lider,
-.paymentmethod-lider.paymentmethod-large  { 
-	background-position: 0 -400px; 
+.paymentmethod-lider.paymentmethod-large  {
+	background-position: 0 -400px;
 }
+
 /* Uruguay Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/uy/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/uy/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 /*
@@ -98,7 +99,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/uy/payment-methods-default@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/uy/payment-methods-default@2x.png');
         background-size: 72px 418px; /* original x1 image size */
         height: 16px; /* most common height */
     }
@@ -116,7 +117,7 @@
 
 .paymentmethod-visa {
     width: 39px;
-    height: 12px;
+    height: 13px;
 }
 
 .paymentmethod-master {
@@ -125,7 +126,7 @@
 }
 
 .paymentmethod-diners {
-    height: 16px;
+    height: 17px;
     width: 60px;
 }
 
@@ -151,7 +152,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/uy/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/uy/payment-methods-large.png');
     height: 26px;
     margin: 5px;
 }
@@ -162,7 +163,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/uy/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/uy/payment-methods-large@2x.png');
         background-size: 116px 430px; /* original x1 image size */
         height: 26px;
         margin: 5px;
@@ -180,7 +181,7 @@
 }
 
 .paymentmethod-visa.paymentmethod-large {
-    height: 20px;
+    height: 21px;
     width: 61px;
 }
 
@@ -190,7 +191,7 @@
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 25px;
+    height: 28px;
     width: 96px;
 }
 
@@ -200,7 +201,7 @@
 }
 
 .paymentmethod-oca.paymentmethod-large {
-    height: 14px;
+    height: 15px;
     width: 70px;
 }
 .paymentmethod-redpagos.paymentmethod-large {

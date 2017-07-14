@@ -3,7 +3,7 @@
 
 
 .paymentmethod-large{
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/ar/payment-methods-large.png');
     margin: 5px;
 }
 
@@ -14,7 +14,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.6.9/ar/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/ar/payment-methods-large@2x.png');
         background-size: 116px 1328px;  /* original x1 image size */
         margin: 5px;
     }
@@ -55,7 +55,7 @@
 }
 
 .paymentmethod-diners.paymentmethod-large {
-    height: 26px;
+    height: 28px;
     width: 96px;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .paymentmethod-rapipago.paymentmethod-large {
-    height: 16px;
+    height: 18px;
     width: 86px;
 }
 
@@ -117,7 +117,7 @@
 
 .paymentmethod-bapropagos.paymentmethod-large {
     width: 82px;
-    height: 26px;
+    height: 28px;
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
@@ -141,7 +141,7 @@
 }
 
 .paymentmethod-mercadopago_cc.paymentmethod-large {
-    height: 26px;
+    height: 27px;
     width: 38px;
 }
 
@@ -151,6 +151,16 @@
 }
 
 .paymentmethod-maestro.paymentmethod-large {
-    height: 37px;
+    height: 38px;
     width: 44px;
+}
+
+.paymentmethod-365.paymentmethod-large {
+    height: 16px;
+    width: 116px;
+}
+
+.paymentmethod-nevada.paymentmethod-large {
+    height: 28px;
+    width: 38px;
 }
