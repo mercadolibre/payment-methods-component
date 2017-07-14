@@ -15,7 +15,7 @@
 
    .paymentmethod-large {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/ar/payment-methods-large@2x.png');
-        background-size: 116px 1328px;  /* original x1 image size */
+        background-size: 116px 1420px;  /* original x1 image size */
         margin: 5px;
     }
 
@@ -146,7 +146,7 @@
 }
 
 .paymentmethod-consumer_credits.paymentmethod-large {
-    height: 31px;
+    height: 32px;
     width: 116px;
 }
 

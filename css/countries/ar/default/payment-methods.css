@@ -15,7 +15,7 @@
 
    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.0-1/ar/payment-methods-default@2x.png');
-        background-size: 72px 1316px;  /* original x1 image size */
+        background-size: 72px 1416px;  /* original x1 image size */
     }
 
 }
@@ -132,7 +132,7 @@
     width: 26px;
 }
 .paymentmethod-cordobesa {
-    height: 9px;
+    height: 10px;
     width: 40px;
 }
 .paymentmethod-mercadopago_cc {
