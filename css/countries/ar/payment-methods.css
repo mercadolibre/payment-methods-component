@@ -89,7 +89,9 @@
 	background-position: 0px -998px;
 }
 
-.paymentmethod-mercadopago_cc,
+.paymentmethod-mercadopago_cc {
+    background-position: 0 -1047px;
+}
 .paymentmethod-mercadopago_cc.paymentmethod-large {
 	background-position: 0 -1049px;
 }
@@ -108,4 +110,20 @@
 
 .paymentmethod-maestro.paymentmethod-large {
 	background-position: 0 -1199px;
+}
+
+.paymentmethod-365 {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-365.paymentmethod-large {
+	background-position: 0 -1346px;
+}
+
+.paymentmethod-nevada {
+    background-position: 0 -1396px;
+}
+
+.paymentmethod-nevada.paymentmethod-large {
+	background-position: 0 -1393px;
 }
