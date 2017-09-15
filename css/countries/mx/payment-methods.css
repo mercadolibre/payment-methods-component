@@ -1,53 +1,67 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
 .paymentmethod-bancomer,
-.paymentmethod-bancomer.paymentmethod-large  { 
-    background-position: 0 -300px; 
+.paymentmethod-bancomer.paymentmethod-large  {
+    background-position: 0 -299px;
 }
 
 .paymentmethod-banamex,
-.paymentmethod-banamex.paymentmethod-large  { 
-	background-position: 0 -350px; 
+.paymentmethod-banamex.paymentmethod-large  {
+	background-position: 0 -350px;
 }
 
 .paymentmethod-hsbc,
-.paymentmethod-hsbc.paymentmethod-large  { 
-	background-position: 0 -400px; 
+.paymentmethod-hsbc.paymentmethod-large  {
+	background-position: 0 -399px;
 }
 
 .paymentmethod-serfin,
-.paymentmethod-serfin.paymentmethod-large  { 
-	background-position: 0 -450px; 
+.paymentmethod-serfin.paymentmethod-large  {
+	background-position: 0 -450px;
 }
 
 .paymentmethod-oxxo,
-.paymentmethod-oxxo.paymentmethod-large  { 
-	background-position: 0 -500px; 
+.paymentmethod-oxxo.paymentmethod-large  {
+	background-position: 0 -499px;
 }
 .paymentmethod-mercadopagocard,
-.paymentmethod-mercadopagocard.paymentmethod-large  { 
-	background-position: 0 -550px;
+.paymentmethod-mercadopagocard.paymentmethod-large  {
+	background-position: 0 -549px;
 }
 .paymentmethod-banorte,
-.paymentmethod-banorte.paymentmethod-large  { 
-	background-position: 0 -600px;
+.paymentmethod-banorte.paymentmethod-large  {
+	background-position: 0 -599px;
 }
 .paymentmethod-ixe,
-.paymentmethod-ixe.paymentmethod-large  { 
+.paymentmethod-ixe.paymentmethod-large  {
 	background-position: 0 -650px;
 }
 
 .paymentmethod-debvisa,
-.paymentmethod-debvisa.paymentmethod-large  { 
+.paymentmethod-debvisa.paymentmethod-large  {
 	background-position: 0 -700px;
 }
 
 .paymentmethod-debmaster,
-.paymentmethod-debmaster.paymentmethod-large  { 
-	background-position: 0 -750px;
+.paymentmethod-debmaster.paymentmethod-large  {
+	background-position: 0 -749px;
 }
 
 .paymentmethod-gestopago,
-.paymentmethod-gestopago.paymentmethod-large  { 
-	background-position: 0 -800px;
+.paymentmethod-gestopago.paymentmethod-large  {
+	background-position: 0 -798px;
+}
+
+.paymentmethod-7-eleven {
+  background-position: 0 -858px;
+}
+.paymentmethod-7-eleven.paymentmethod-large  {
+  background-position: 0 -864px;
+}
+
+.paymentmethod-telecomm {
+  background-position: 0 -905px;
+}
+.paymentmethod-telecomm.paymentmethod-large  {
+	background-position: 0 -918px;
 }

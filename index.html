@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.0">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.0">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.1">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.1">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.7.0</h1>
+		<h1>Payment Methods 1.7.1</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -158,6 +158,8 @@
 				<li class="paymentmethod-debmaster">Mastercard débito</li>
 				<li class="paymentmethod-bitcoin">Bitcoin</li>
 				<li class="paymentmethod-gestopago">Gestopago</li>
+				<li class="paymentmethod-7-eleven">7 Eleven</li>
+				<li class="paymentmethod-telecomm">Telecomm</li>
 			</ul>
 		</div>
 
@@ -411,6 +413,8 @@
 				<li class="paymentmethod-debmaster paymentmethod-large">Mastercard débito</li>
 				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
 				<li class="paymentmethod-gestopago paymentmethod-large">Gestopago</li>
+				<li class="paymentmethod-7-eleven paymentmethod-large">7 Eleven</li>
+				<li class="paymentmethod-telecomm paymentmethod-large">Telecomm</li>
 			</ul>
 		</div>
 
@@ -548,9 +552,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.0");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.0");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.0");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.1");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.1");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.1");
 	}
 
 	function showDemo(j) {
