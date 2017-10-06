@@ -74,7 +74,10 @@
 	background-position: 0 -849px;
 }
 
-.paymentmethod-cordial,
+.paymentmethod-cordial {
+  background-position: 0 -898px;
+}
+
 .paymentmethod-cordial.paymentmethod-large {
 	background-position: 0 -900px;
 }
