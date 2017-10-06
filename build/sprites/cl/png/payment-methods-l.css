@@ -1,5 +1,5 @@
 .paymentmethod-account_money {
-    background-position: -303px 0px;
+    background-position: -373px 0px;
     width: 82px;
 }
 .paymentmethod-amex {
@@ -7,11 +7,11 @@
     width: 26px;
 }
 .paymentmethod-cmr {
-    background-position: -389px 0px;
+    background-position: -459px 0px;
     width: 90px;
 }
 .paymentmethod-diners {
-    background-position: -219px 0px;
+    background-position: -289px 0px;
     width: 80px;
 }
 .paymentmethod-khipu {
@@ -21,6 +21,10 @@
 .paymentmethod-master {
     background-position: -29px 0px;
     width: 38px;
+}
+.paymentmethod-servipag {
+    background-position: -219px 0px;
+    width: 66px;
 }
 .paymentmethod-visa {
     background-position: -165px 0px;
@@ -36,8 +40,9 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/png/payment-methods-l.png');
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-l.png');
     background-repeat: no-repeat;
+    box-sizing: content-box;
     display: inline-block;
     height: 36px;
     padding: 0 1px;
@@ -49,7 +54,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/png/payment-methods-l@2x.png');
-        background-size: 480px 36px;
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-l@2x.png');
+        background-size: 550px 36px;
     }
 }

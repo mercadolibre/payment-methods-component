@@ -6,9 +6,9 @@
     content:' ';
     vertical-align:middle;
     display: inline-block;
-    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/ar/svg/payment-methods.svg");
+    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/ar/svg/payment-methods.svg");
     background-repeat: no-repeat;
-    background-size: 28.725em 1em;
+    background-size: 35.65em 1em;
     height: 1em;
 }
 
@@ -90,53 +90,68 @@
     width: 0.694875em;
 }
 
-.paymentmethod-diners:before {
+.paymentmethod-debmaster:before {
     background-position: -15.775em 0em;
+    width: 1.9090250000000002em;
+}
+
+.paymentmethod-debvisa:before {
+    background-position: -17.7em 0em;
+    width: 2.23325em;
+}
+
+.paymentmethod-diners:before {
+    background-position: -19.95em 0em;
     width: 2.219275em;
 }
 
 .paymentmethod-maestro:before {
-    background-position: -18em 0em;
+    background-position: -22.175em 0em;
     width: 1.02345em;
 }
 
 .paymentmethod-master:before {
-    background-position: -19.025em 0em;
+    background-position: -23.2em 0em;
     width: 1.02585em;
 }
 
+.paymentmethod-mercadopago_cc:before {
+    background-position: -24.25em 0em;
+    width: 2.738125em;
+}
+
 .paymentmethod-naranja:before {
-    background-position: -20.075em 0em;
+    background-position: -27em 0em;
     width: 0.7457em;
 }
 
 .paymentmethod-nativa:before {
-    background-position: -20.825em 0em;
+    background-position: -27.75em 0em;
     width: 1.717925em;
 }
 
 .paymentmethod-pagofacil:before {
-    background-position: -22.55em 0em;
+    background-position: -29.475em 0em;
     width: 0.8251em;
 }
 
 .paymentmethod-rapipago:before {
-    background-position: -23.4em 0em;
+    background-position: -30.325em 0em;
     width: 2.101625em;
 }
 
 .paymentmethod-redlink:before {
-    background-position: -25.525em 0em;
+    background-position: -32.45em 0em;
     width: 0.82495em;
 }
 
 .paymentmethod-tarshop:before {
-    background-position: -26.35em 0em;
+    background-position: -33.275em 0em;
     width: 0.9834250000000001em;
 }
 
 .paymentmethod-visa:before {
-    background-position: -27.35em 0em;
+    background-position: -34.275em 0em;
     width: 1.3545em;
 }
 

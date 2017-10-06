@@ -12,6 +12,9 @@ const remoteSrc = require('gulp-remote-src');
 const svgSprites = require('gulp-svg-sprites');
 const spritesmith = require('gulp.spritesmith');
 
+// Dist
+// ----------------------------------------------------------------------------
+
 gulp.task('build:logos', () => {
     https.get(config.uiLogos, (res) => {
         let body = '';
@@ -40,6 +43,7 @@ gulp.task('build:logos', () => {
                     // On end
                     res.on('end', () => {
                         let items = JSON.parse(body);
+
                         let logos = items.map((item) => {
                             let name = config.paymentMethods.names[site][item.id];
 
@@ -50,9 +54,11 @@ gulp.task('build:logos', () => {
                                     return logo.svg.url;
                                 } else {
                                     // Value of name not defined.
+                                    console.log(item);
                                 }
                             } else {
                                 // Key of name not defined.
+                                console.log(item);
                             }
                         });
 
@@ -95,7 +101,7 @@ gulp.task('build:logos', () => {
                                 preview: false,
                                 common: 'paymentmethod-',
                                 svgId: 'paymentmethod-%f',
-                                svgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/svg/payment-methods.svg`,
+                                svgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/svg/payment-methods.svg`,
                                 // svgPath: `payment-methods.svg`,
                                 baseSize: 40,
                                 cssFile: `${site}/svg/payment-methods.css`,
@@ -187,11 +193,11 @@ gulp.task('build:sprites', () => {
                         .pipe(spritesmith({
                             retinaSrcFilter: `build/png/${site}/${size}/*@2x.png`,
                             retinaImgName: `payment-methods-${size}@2x.png`,
-                            retinaImgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/png/payment-methods-${size}@2x.png`,
+                            retinaImgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/png/payment-methods-${size}@2x.png`,
                             // retinaImgPath: `payment-methods-${size}@2x.png`,
                             cssName: `payment-methods-${size}.css`,
                             imgName: `payment-methods-${size}.png`,
-                            imgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/${site}/png/payment-methods-${size}.png`,
+                            imgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/png/payment-methods-${size}.png`,
                             // imgPath: `payment-methods-${size}.png`,
                             cssTemplate: 'template.handlebars',
                             algorithm: 'left-right',
@@ -209,21 +215,7 @@ gulp.task('build:sprites', () => {
     });
 });
 
-gulp.task('swift', () => {
-    swift({
-        department: 'ui',
-        user: 'app_ui-logo',
-        password: 'PoYlvEFb46',
-        container: 'statics',
-        friendlyUrl: 'payment-methods-component',
-        folder: 'dist',
-        version: '2.0.0-develop.7'
-    });
-});
-
-gulp.task('config', () => {
-    console.log(JSON.stringify(config, null, '    '));
-});
+gulp.task('build', ['build:logos', 'build:sprites']);
 
 // Dist
 // ----------------------------------------------------------------------------
@@ -261,4 +253,23 @@ gulp.task('dist:html', () => {
         .pipe(gulp.dest('dist/templates'))
 });
 
-gulp.task('dist', ['dist:png', 'dist:svg', 'dist:styles']);
+gulp.task('dist', ['dist:png', 'dist:svg', 'dist:styles', 'dist:html']);
+
+// Others
+// ----------------------------------------------------------------------------
+
+gulp.task('swift', () => {
+    swift({
+        department: 'ui',
+        user: 'app_ui-logo',
+        password: 'PoYlvEFb46',
+        container: 'statics',
+        friendlyUrl: 'payment-methods-component',
+        folder: 'dist',
+        version: '2.0.1'
+    });
+});
+
+gulp.task('config', () => {
+    console.log(JSON.stringify(config, null, '    '));
+});

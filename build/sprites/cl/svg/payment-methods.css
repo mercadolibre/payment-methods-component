@@ -6,9 +6,9 @@
     content:' ';
     vertical-align:middle;
     display: inline-block;
-    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/cl/svg/payment-methods.svg");
+    background-image: url("https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/svg/payment-methods.svg");
     background-repeat: no-repeat;
-    background-size: 12.525em 1em;
+    background-size: 14.375em 1em;
     height: 1em;
 }
 
@@ -65,13 +65,18 @@
     width: 1.02585em;
 }
 
-.paymentmethod-visa:before {
+.paymentmethod-servipag:before {
     background-position: -10.05em 0em;
+    width: 1.828925em;
+}
+
+.paymentmethod-visa:before {
+    background-position: -11.9em 0em;
     width: 1.3545em;
 }
 
 .paymentmethod-webpay:before {
-    background-position: -11.425em 0em;
+    background-position: -13.275em 0em;
     width: 1.0811em;
 }
 

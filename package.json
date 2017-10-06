@@ -1,6 +1,6 @@
 {
   "name": "payment-methods-component",
-  "version": "2.0.0-develop.7",
+  "version": "2.0.1",
   "engines": {
     "node": "6.9"
   },

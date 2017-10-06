@@ -1,13 +1,13 @@
 .paymentmethod-account_money {
-    background-position: -553px 0px;
+    background-position: -635px 0px;
     width: 42px;
 }
 .paymentmethod-amex {
-    background-position: -33px 0px;
+    background-position: -51px 0px;
     width: 14px;
 }
 .paymentmethod-argencard {
-    background-position: -87px 0px;
+    background-position: -69px 0px;
     width: 14px;
 }
 .paymentmethod-bapropagos {
@@ -15,7 +15,7 @@
     width: 32px;
 }
 .paymentmethod-cabal {
-    background-position: -51px 0px;
+    background-position: -33px 0px;
     width: 14px;
 }
 .paymentmethod-cencosud {
@@ -27,23 +27,31 @@
     width: 20px;
 }
 .paymentmethod-consumer_credits {
-    background-position: -507px 0px;
+    background-position: -589px 0px;
     width: 42px;
 }
 .paymentmethod-cordial {
-    background-position: -379px 0px;
+    background-position: -417px 0px;
     width: 38px;
 }
 .paymentmethod-cordobesa {
-    background-position: -339px 0px;
+    background-position: -377px 0px;
     width: 36px;
 }
 .paymentmethod-debcabal {
     background-position: 1px 0px;
     width: 12px;
 }
+.paymentmethod-debmaster {
+    background-position: -339px 0px;
+    width: 34px;
+}
+.paymentmethod-debvisa {
+    background-position: -545px 0px;
+    width: 40px;
+}
 .paymentmethod-diners {
-    background-position: -463px 0px;
+    background-position: -501px 0px;
     width: 40px;
 }
 .paymentmethod-maestro {
@@ -54,8 +62,12 @@
     background-position: -147px 0px;
     width: 18px;
 }
+.paymentmethod-mercadopago_cc {
+    background-position: -681px 0px;
+    width: 50px;
+}
 .paymentmethod-naranja {
-    background-position: -69px 0px;
+    background-position: -15px 0px;
     width: 14px;
 }
 .paymentmethod-nativa {
@@ -67,11 +79,11 @@
     width: 16px;
 }
 .paymentmethod-rapipago {
-    background-position: -421px 0px;
+    background-position: -459px 0px;
     width: 38px;
 }
 .paymentmethod-redlink {
-    background-position: -15px 0px;
+    background-position: -87px 0px;
     width: 14px;
 }
 .paymentmethod-tarshop {
@@ -88,8 +100,9 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/ar/png/payment-methods-xs.png');
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/ar/png/payment-methods-xs.png');
     background-repeat: no-repeat;
+    box-sizing: content-box;
     display: inline-block;
     height: 18px;
     padding: 0 1px;
@@ -101,7 +114,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/ar/png/payment-methods-xs@2x.png');
-        background-size: 596px 18px;
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/ar/png/payment-methods-xs@2x.png');
+        background-size: 732px 18px;
     }
 }

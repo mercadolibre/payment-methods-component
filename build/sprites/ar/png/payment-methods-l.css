@@ -1,9 +1,9 @@
 .paymentmethod-account_money {
-    background-position: -1027px 0px;
+    background-position: -1183px 0px;
     width: 82px;
 }
 .paymentmethod-amex {
-    background-position: -27px 0px;
+    background-position: -87px 0px;
     width: 26px;
 }
 .paymentmethod-argencard {
@@ -27,23 +27,31 @@
     width: 40px;
 }
 .paymentmethod-consumer_credits {
-    background-position: -941px 0px;
+    background-position: -1097px 0px;
     width: 82px;
 }
 .paymentmethod-cordial {
-    background-position: -775px 0px;
+    background-position: -847px 0px;
     width: 78px;
 }
 .paymentmethod-cordobesa {
-    background-position: -617px 0px;
+    background-position: -689px 0px;
     width: 74px;
 }
 .paymentmethod-debcabal {
     background-position: 1px 0px;
     width: 24px;
 }
+.paymentmethod-debmaster {
+    background-position: -617px 0px;
+    width: 68px;
+}
+.paymentmethod-debvisa {
+    background-position: -1013px 0px;
+    width: 80px;
+}
 .paymentmethod-diners {
-    background-position: -857px 0px;
+    background-position: -929px 0px;
     width: 80px;
 }
 .paymentmethod-maestro {
@@ -54,8 +62,12 @@
     background-position: -297px 0px;
     width: 38px;
 }
+.paymentmethod-mercadopago_cc {
+    background-position: -1269px 0px;
+    width: 98px;
+}
 .paymentmethod-naranja {
-    background-position: -87px 0px;
+    background-position: -27px 0px;
     width: 26px;
 }
 .paymentmethod-nativa {
@@ -67,7 +79,7 @@
     width: 30px;
 }
 .paymentmethod-rapipago {
-    background-position: -695px 0px;
+    background-position: -767px 0px;
     width: 76px;
 }
 .paymentmethod-redlink {
@@ -88,8 +100,9 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/ar/png/payment-methods-l.png');
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/ar/png/payment-methods-l.png');
     background-repeat: no-repeat;
+    box-sizing: content-box;
     display: inline-block;
     height: 36px;
     padding: 0 1px;
@@ -101,7 +114,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/ar/png/payment-methods-l@2x.png');
-        background-size: 1110px 36px;
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/ar/png/payment-methods-l@2x.png');
+        background-size: 1368px 36px;
     }
 }

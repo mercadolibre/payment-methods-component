@@ -44,8 +44,9 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/br/png/payment-methods-m.png');
+    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-m.png');
     background-repeat: no-repeat;
+    box-sizing: content-box;
     display: inline-block;
     height: 32px;
     padding: 0 1px;
@@ -57,7 +58,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.0-develop.7/br/png/payment-methods-m@2x.png');
+        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-m@2x.png');
         background-size: 544px 32px;
     }
 }

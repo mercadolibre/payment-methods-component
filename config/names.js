@@ -21,7 +21,10 @@ const NAMES = {
         cordobesa: 'cordobesa',
         cmr: 'cmr',
         consumer_credits: 'mercadocredito',
-        cargavirtual: 'recargavirtual'
+        cargavirtual: 'recargavirtual',
+        mercadopago_cc: 'cobranded',
+        debvisa: 'visa-debito',
+        debmaster: 'mastercard-debito'
     },
     br: {
         visa: 'visa',
@@ -43,7 +46,8 @@ const NAMES = {
         diners: 'diners',
         account_money: 'mercadopago',
         webpay: 'webpay',
-        khipu: 'khipu'
+        khipu: 'khipu',
+        servipag: 'servipag'
     }
 };
 
