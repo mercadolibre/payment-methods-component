@@ -1,0 +1,179 @@
+/**
+ * Payment Methods Logos
+ * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
+ * @description: common component for each country's payment methods logos.
+ * @version: 1.7.2
+ */
+
+/* Common Structure
+---------------------------------------------------------------*/
+
+[class*='paymentmethod'] {
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+    text-indent: 100%;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+/* Common Payment Methods to all Contries
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money {
+    background-position: 0 0;
+}
+
+.paymentmethod-visa,
+.paymentmethod-visa.paymentmethod-large {
+    background-position: 0 -49px;
+}
+
+.paymentmethod-debvisa {
+    background-position: 0px -1248px;
+}
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -1249px;
+}
+
+.paymentmethod-master,
+.paymentmethod-master.paymentmethod-large {
+    background-position: 0 -100px;
+}
+
+.paymentmethod-debmaster {
+    background-position: 0 -1148px;
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -1149px;
+}
+
+.paymentmethod-amex,
+.paymentmethod-amex.paymentmethod-large{
+    background-position: 0 -150px;
+}
+
+.paymentmethod-bitcoin,
+.paymentmethod-bitcoin.paymentmethod-large{
+    background-position: 0 -250px;
+}
+
+/* Sprite position for Brazil Logos
+---------------------------------------------------------------*/
+.paymentmethod-diners,
+.paymentmethod-diners.paymentmethod-large { 
+    background-position: 0 -200px; 
+}
+
+.paymentmethod-hipercard,
+.paymentmethod-hipercard.paymentmethod-large { 
+	background-position: 0 -300px; 
+}
+
+.paymentmethod-elo,
+.paymentmethod-elo.paymentmethod-large { 
+	background-position: 0 -350px; 
+}
+
+.paymentmethod-melicard,
+.paymentmethod-melicard.paymentmethod-large { 
+	background-position: 0 -400px; 
+}
+
+.paymentmethod-bolbradesco,
+.paymentmethod-bolbradesco.paymentmethod-large,
+.paymentmethod-itau,
+.paymentmethod-itau.paymentmethod-large { 
+	background-position: 0 -450px; 
+}
+
+.paymentmethod-giftcard,
+.paymentmethod-giftcard.paymentmethod-large { 
+	background-position: 0 -500px; 
+}
+/* Brazil Sprite for Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-large {
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/br/payment-methods-large.png');
+    height: 25px; /* most common height */
+    margin: 5px;
+}
+
+
+/*
+ * Retina logo for small screens
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+
+.paymentmethod-large {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/br/payment-methods-large@2x.png');
+        background-size: 116px 524px; /* original x1 image size */
+        height: 27px; /* most common height */
+        margin: 5px;
+    }
+
+}
+
+
+/* Brazil Large Size
+---------------------------------------------------------------*/
+
+.paymentmethod-account_money.paymentmethod-large {
+    height: 31px;
+    width: 116px;
+}
+
+.paymentmethod-visa.paymentmethod-large {
+    height: 21px;
+    width: 63px;
+}
+
+.paymentmethod-master.paymentmethod-large {
+    height: 35px;
+    width: 46px;
+}
+
+.paymentmethod-amex.paymentmethod-large {
+    height: 27px;
+    width: 26px;
+}
+
+.paymentmethod-bitcoin.paymentmethod-large {
+    height: 25px;
+    width: 96px;
+}
+
+.paymentmethod-hipercard.paymentmethod-large {
+    width: 56px;
+}
+
+.paymentmethod-diners.paymentmethod-large {
+    height: 26px;
+    width: 96px;
+}
+
+.paymentmethod-elo.paymentmethod-large {
+    height: 19px;
+    width: 30px;
+}
+
+.paymentmethod-melicard.paymentmethod-large {
+    height: 24px;
+    width: 34px;
+}
+
+.paymentmethod-bolbradesco.paymentmethod-large,
+.paymentmethod-bolbradesco.paymentmethod-large,
+.paymentmethod-itau.paymentmethod-large,
+.paymentmethod-itau.paymentmethod-large {
+    height: 25px;
+    width: 34px;
+}
+
+.paymentmethod-giftcard.paymentmethod-large {
+    height: 24px;
+    width: 97px;
+}
