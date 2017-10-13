@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.2
+ * @version: 1.7.3
  */
 
 /* Common Structure
@@ -197,7 +197,7 @@
 
 
 .paymentmethod-large{
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/ar/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.3/ar/payment-methods-large.png');
     margin: 5px;
 }
 
@@ -208,7 +208,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
    .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/ar/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.3/ar/payment-methods-large@2x.png');
         background-size: 116px 1420px;  /* original x1 image size */
         margin: 5px;
     }
@@ -310,8 +310,8 @@
 }
 
 .paymentmethod-bapropagos.paymentmethod-large {
-    width: 82px;
-    height: 28px;
+    width: 86px;
+    height: 36px;
 }
 
 .paymentmethod-cargavirtual.paymentmethod-large {
