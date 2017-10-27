@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.3">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.3">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.4">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.4">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.7.3</h1>
+		<h1>Payment Methods 1.7.4</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -118,6 +118,7 @@
 				<li class="paymentmethod-maestro">Maestro</li>
 				<li class="paymentmethod-patagonia365">patagonia365</li>
 				<li class="paymentmethod-nevada">Nevada</li>
+				<li class="paymentmethod-cobroexpress">Cobro Express</li>
 			</ul>
 		</div>
 
@@ -373,6 +374,7 @@
 			<li class="paymentmethod-maestro paymentmethod-large">Maestro</li>
 			<li class="paymentmethod-patagonia365 paymentmethod-large">patagonia365</li>
 			<li class="paymentmethod-nevada paymentmethod-large">Nevada</li>
+			<li class="paymentmethod-cobroexpress paymentmethod-large">Cobro Express</li>
 		</ul>
 	</div>
 
@@ -552,9 +554,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.3");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.3");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.3");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.4");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.4");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.4");
 	}
 
 	function showDemo(j) {
