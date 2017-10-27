@@ -130,3 +130,11 @@
 .paymentmethod-nevada.paymentmethod-large {
 	background-position: 0 -1393px;
 }
+
+.paymentmethod-cobroexpress {
+    background-position: 0 -1448px;
+}
+
+.paymentmethod-cobroexpress.paymentmethod-large {
+	background-position: 0 -1444px;
+}
