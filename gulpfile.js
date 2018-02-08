@@ -169,7 +169,8 @@ gulp.task('dist:html', () => {
             sizes: ['m'],
             names: (() => {
                 return Object.keys(config.paymentMethods.names.ar);
-            })()
+            })(),
+            version: config.version
         }))
         .pipe(gulp.dest('dist/templates'))
 });

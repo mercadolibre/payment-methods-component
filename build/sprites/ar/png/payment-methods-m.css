@@ -31,8 +31,8 @@
     width: 35px;
 }
 .paymentmethod-cobroexpress {
-    background-position: -1264px 0px;
-    width: 116px;
+    background-position: -1172px 0px;
+    width: 84px;
 }
 .paymentmethod-consumer_credits {
     background-position: -1016px 0px;
@@ -71,7 +71,7 @@
     width: 33px;
 }
 .paymentmethod-mercadopago_cc {
-    background-position: -1172px 0px;
+    background-position: -1260px 0px;
     width: 88px;
 }
 .paymentmethod-naranja {
@@ -123,6 +123,6 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
         background-image: url('payment-methods-m@2x.png');
-        background-size: 1381px 32px;
+        background-size: 1349px 32px;
     }
 }
