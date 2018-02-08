@@ -1,38 +1,46 @@
 .paymentmethod-account_money {
-    background-position: -257px 0px;
-    width: 56px;
+    background-position: -196px 0px;
+    width: 32px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
-    width: 18px;
+    width: 10px;
 }
 .paymentmethod-cmr {
-    background-position: -317px 0px;
-    width: 60px;
+    background-position: -232px 0px;
+    width: 35px;
 }
 .paymentmethod-diners {
-    background-position: -199px 0px;
-    width: 54px;
+    background-position: -161px 0px;
+    width: 31px;
 }
 .paymentmethod-khipu {
-    background-position: -81px 0px;
-    width: 30px;
+    background-position: -86px 0px;
+    width: 18px;
+}
+.paymentmethod-magna {
+    background-position: -13px 0px;
+    width: 14px;
 }
 .paymentmethod-master {
-    background-position: -21px 0px;
-    width: 26px;
+    background-position: -49px 0px;
+    width: 14px;
+}
+.paymentmethod-presto {
+    background-position: -31px 0px;
+    width: 14px;
 }
 .paymentmethod-servipag {
-    background-position: -151px 0px;
-    width: 44px;
+    background-position: -131px 0px;
+    width: 26px;
 }
 .paymentmethod-visa {
-    background-position: -115px 0px;
-    width: 32px;
+    background-position: -108px 0px;
+    width: 19px;
 }
 .paymentmethod-webpay {
-    background-position: -51px 0px;
-    width: 26px;
+    background-position: -67px 0px;
+    width: 15px;
 }
 
 /*
@@ -40,11 +48,11 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-s.png');
+    background-image: url('payment-methods-s.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
-    height: 24px;
+    height: 14px;
     padding: 0 1px;
 }
 
@@ -54,7 +62,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-s@2x.png');
-        background-size: 378px 24px;
+        background-image: url('payment-methods-s@2x.png');
+        background-size: 268px 14px;
     }
 }

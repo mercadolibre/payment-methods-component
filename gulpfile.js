@@ -28,10 +28,15 @@ gulp.task('build:logos', () => {
         res.on('end', () => {
             let uiLogos = JSON.parse(body);
 
-            Object.keys(config.paymentMethods.urls).forEach((site) => {
+            Object.keys(config.paymentMethods.urls).forEach(site => {
+
+            config.paymentMethods.marketplaces.forEach(marketplace => {
+                let url = `${config.paymentMethods.urls[site]}${marketplace ? `?marketplace=${marketplace}` : ''}`;
+
+                console.log(url);
 
                 // Get data.
-                https.get(config.paymentMethods.urls[site], (res) => {
+                https.get(url, (res) => {
                     let body = '';
 
                     // Set utf-8 encoding
@@ -44,123 +49,46 @@ gulp.task('build:logos', () => {
                     res.on('end', () => {
                         let items = JSON.parse(body);
 
+                        console.log(`\n--------- ${site.toUpperCase()} ----------`);
+
                         let logos = items.map((item) => {
                             let name = config.paymentMethods.names[site][item.id];
 
                             if (name) {
-                                let logo = uiLogos.logos[name];
+                                let logo = uiLogos[name];
 
                                 if (logo) {
-                                    return logo.svg.url;
+                                    let logoDefault = `${name}.png`;
+                                    let logoRetina = `${name}@2x.png`;
+
+                                    config.sizes.forEach(size => {
+                                        // Download default.
+                                        remoteSrc(logoDefault, { base: logo.png[size].default.url.replace(logoDefault, '') })
+                                            .pipe(rename((path) => {
+                                                path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
+                                                    return path.basename === config.paymentMethods.names[site][key];
+                                                })[0];
+                                            }))
+                                            .pipe(gulp.dest(`build/png/${site}/${size}`));
+
+                                        // Download retina.
+                                        remoteSrc(logoRetina, { base: logo.png[size].retina.url.replace(logoRetina, '') })
+                                            .pipe(rename((path) => {
+                                                path.basename = `${Object.keys(config.paymentMethods.names[site]).filter((key) => {
+                                                    return path.basename === `${config.paymentMethods.names[site][key]}@2x`;
+                                                })[0]}@2x`;
+                                            }))
+                                            .pipe(gulp.dest(`build/png/${site}/${size}`));
+                                    });
+                                    console.log(`[Defined]     - ${item.id}`);
                                 } else {
                                     // Value of name not defined.
-                                    console.log(item);
+                                    console.log(`[Not defined] - ${item.id}`);
                                 }
                             } else {
                                 // Key of name not defined.
-                                console.log(item);
+                                console.log(`[Not defined] - ${item.id}`);
                             }
-                        });
-
-                        // Generate sprite
-                        remoteSrc(logos, { base: 'https://' })
-                            .pipe(rename((path) => {
-                                path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
-                                    return path.basename === config.paymentMethods.names[site][key];
-                                })[0];
-                            }))
-                            .pipe(svgSprites({
-                                afterTransform: (data) => {
-                                    data.sizes = [
-                                        {
-                                            "name": "xs",
-                                            "size": 18
-                                        },
-                                        {
-                                            "name": "s",
-                                            "size": 24
-                                        },
-                                        {
-                                            "name": "m",
-                                            "size": 32
-                                        },
-                                        {
-                                            "name": "l",
-                                            "size": 36
-                                        },
-                                        {
-                                            "name": "xl",
-                                            "size": 48
-                                        }
-                                    ];
-                                    return data;
-                                },
-                                templates: {
-                                    css: fs.readFileSync(`template.css`, 'utf-8')
-                                },
-                                preview: false,
-                                common: 'paymentmethod-',
-                                svgId: 'paymentmethod-%f',
-                                svgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/svg/payment-methods.svg`,
-                                // svgPath: `payment-methods.svg`,
-                                baseSize: 40,
-                                cssFile: `${site}/svg/payment-methods.css`,
-                                svg: {
-                                    sprite: `${site}/svg/payment-methods.svg`
-                                },
-                                layout: 'horizontal'
-                            }))
-                            .pipe(gulp.dest('build/sprites'));
-
-                        Object.keys(uiLogos.sizes).forEach((size) => {
-                            let logosDefault = items.map((item) => {
-                                let name = config.paymentMethods.names[site][item.id];
-
-                                if (name) {
-                                    let logo = uiLogos.logos[name];
-
-                                    if (logo) {
-                                        return logo.png[size].default.url.replace('http2.mlstatic.com/ui/ui-logos/2.0.0-develop.2/png/', '');
-                                    } else {
-                                        // Value of name not defined.
-                                    }
-                                } else {
-                                    // Key of name not defined.
-                                }
-                            });
-                            let logosRetina = items.map((item) => {
-                                let name = config.paymentMethods.names[site][item.id];
-
-                                if (name) {
-                                    let logo = uiLogos.logos[name];
-
-                                    if (logo) {
-                                        return logo.png[size].retina.url.replace('http2.mlstatic.com/ui/ui-logos/2.0.0-develop.2/png/', '');
-                                    } else {
-                                        // Value of name not defined.
-                                    }
-                                } else {
-                                    // Key of name not defined.
-                                }
-                            });
-
-                            // Download default.
-                            remoteSrc(logosDefault, { base: 'https://http2.mlstatic.com/ui/ui-logos/2.0.0-develop.2/png/' })
-                                .pipe(rename((path) => {
-                                    path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
-                                        return path.basename === config.paymentMethods.names[site][key];
-                                    })[0];
-                                }))
-                                .pipe(gulp.dest(`build/png/${site}`));
-
-                            // Download retina.
-                            remoteSrc(logosRetina, { base: 'https://http2.mlstatic.com/ui/ui-logos/2.0.0-develop.2/png/' })
-                                .pipe(rename((path) => {
-                                    path.basename = `${Object.keys(config.paymentMethods.names[site]).filter((key) => {
-                                        return path.basename === `${config.paymentMethods.names[site][key]}@2x`;
-                                    })[0]}@2x`;
-                                }))
-                                .pipe(gulp.dest(`build/png/${site}`));
                         });
                     });
 
@@ -168,6 +96,7 @@ gulp.task('build:logos', () => {
                 }).on('error', (e) => {
                     console.error(e);
                 });
+            });
             });
         });
     });
@@ -188,17 +117,15 @@ gulp.task('build:sprites', () => {
             let uiLogos = JSON.parse(body);
 
             Object.keys(config.paymentMethods.urls).forEach((site) => {
-                Object.keys(uiLogos.sizes).forEach((size) => {
+                config.sizes.forEach(size => {
                     gulp.src(`build/png/${site}/${size}/*.png`)
                         .pipe(spritesmith({
                             retinaSrcFilter: `build/png/${site}/${size}/*@2x.png`,
                             retinaImgName: `payment-methods-${size}@2x.png`,
-                            retinaImgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/png/payment-methods-${size}@2x.png`,
-                            // retinaImgPath: `payment-methods-${size}@2x.png`,
+                            retinaImgPath: `payment-methods-${size}@2x.png`,
                             cssName: `payment-methods-${size}.css`,
                             imgName: `payment-methods-${size}.png`,
-                            imgPath: `https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/${site}/png/payment-methods-${size}.png`,
-                            // imgPath: `payment-methods-${size}.png`,
+                            imgPath: `payment-methods-${size}.png`,
                             cssTemplate: 'template.handlebars',
                             algorithm: 'left-right',
                             padding: 4,
@@ -226,12 +153,6 @@ gulp.task('dist:png', () => {
         .pipe(gulp.dest('dist'))
 });
 
-gulp.task('dist:svg', () => {
-    gulp.src('build/sprites/**/*.svg')
-        .pipe(imagemin())
-        .pipe(gulp.dest('dist'))
-});
-
 gulp.task('dist:styles', () => {
     gulp.src('build/sprites/**/*.css')
         .pipe(cssnano())
@@ -253,7 +174,7 @@ gulp.task('dist:html', () => {
         .pipe(gulp.dest('dist/templates'))
 });
 
-gulp.task('dist', ['dist:png', 'dist:svg', 'dist:styles', 'dist:html']);
+gulp.task('dist', ['dist:png', 'dist:styles', 'dist:html']);
 
 // Others
 // ----------------------------------------------------------------------------
@@ -266,10 +187,6 @@ gulp.task('swift', () => {
         container: 'statics',
         friendlyUrl: 'payment-methods-component',
         folder: 'dist',
-        version: '2.0.1'
+        version: config.version
     });
-});
-
-gulp.task('config', () => {
-    console.log(JSON.stringify(config, null, '    '));
 });

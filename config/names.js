@@ -2,7 +2,7 @@ const NAMES = {
     ar: {
         visa: 'visa',
         master: 'mastercard',
-        amex: 'american-express',
+        amex: 'amex',
         naranja: 'naranja',
         nativa: 'nativa',
         tarshop: 'tarjeta-shopping',
@@ -14,8 +14,8 @@ const NAMES = {
         maestro: 'maestro',
         debcabal: 'cabal-debito',
         rapipago: 'rapipago',
-        redlink: 'redlink',
-        bapropagos: 'provincianet',
+        redlink: 'link',
+        bapropagos: 'provincia-net',
         account_money: 'mercadopago',
         cordial: 'cordial',
         cordobesa: 'cordobesa',
@@ -24,30 +24,34 @@ const NAMES = {
         cargavirtual: 'recargavirtual',
         mercadopago_cc: 'cobranded',
         debvisa: 'visa-debito',
-        debmaster: 'mastercard-debito'
+        debmaster: 'mastercard-debito',
+        cobroexpress: 'cobroexpress',
+        cargavirtual: 'cargavirtual'
     },
     br: {
         visa: 'visa',
         master: 'mastercard',
         hipercard: 'hipercard',
-        amex: 'american-express',
+        amex: 'amex',
         diners: 'diners',
         elo: 'elo',
         melicard: 'cobranded',
-        giftcard: 'giftcard',
+        giftcard: 'giftcard-mercado-livre',
         bolbradesco: 'boleto',
         account_money: 'mercadopago'
     },
     cl: {
         visa: 'visa',
         master: 'mastercard',
-        amex: 'american-express',
+        amex: 'amex',
         cmr: 'cmr-visa-mastercard',
         diners: 'diners',
         account_money: 'mercadopago',
         webpay: 'webpay',
         khipu: 'khipu',
-        servipag: 'servipag'
+        servipag: 'servipag',
+        magna: 'magna',
+        presto: 'presto'
     }
 };
 

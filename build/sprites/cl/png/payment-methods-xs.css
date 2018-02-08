@@ -1,37 +1,45 @@
 .paymentmethod-account_money {
-    background-position: -201px 0px;
-    width: 42px;
+    background-position: -242px 0px;
+    width: 41px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
-    width: 14px;
+    width: 13px;
 }
 .paymentmethod-cmr {
-    background-position: -247px 0px;
-    width: 46px;
+    background-position: -287px 0px;
+    width: 45px;
 }
 .paymentmethod-diners {
-    background-position: -157px 0px;
+    background-position: -198px 0px;
     width: 40px;
 }
 .paymentmethod-khipu {
-    background-position: -63px 0px;
-    width: 24px;
+    background-position: -106px 0px;
+    width: 23px;
+}
+.paymentmethod-magna {
+    background-position: -16px 0px;
+    width: 18px;
 }
 .paymentmethod-master {
-    background-position: -17px 0px;
+    background-position: -60px 0px;
+    width: 18px;
+}
+.paymentmethod-presto {
+    background-position: -38px 0px;
     width: 18px;
 }
 .paymentmethod-servipag {
-    background-position: -119px 0px;
-    width: 34px;
+    background-position: -161px 0px;
+    width: 33px;
 }
 .paymentmethod-visa {
-    background-position: -91px 0px;
+    background-position: -133px 0px;
     width: 24px;
 }
 .paymentmethod-webpay {
-    background-position: -39px 0px;
+    background-position: -82px 0px;
     width: 20px;
 }
 
@@ -40,7 +48,7 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-xs.png');
+    background-image: url('payment-methods-xs.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
@@ -54,7 +62,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-xs@2x.png');
-        background-size: 294px 18px;
+        background-image: url('payment-methods-xs@2x.png');
+        background-size: 333px 18px;
     }
 }

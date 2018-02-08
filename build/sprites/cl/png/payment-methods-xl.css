@@ -1,37 +1,45 @@
 .paymentmethod-account_money {
-    background-position: -483px 0px;
-    width: 110px;
+    background-position: -587px 0px;
+    width: 111px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
     width: 34px;
 }
 .paymentmethod-cmr {
-    background-position: -597px 0px;
+    background-position: -702px 0px;
     width: 120px;
 }
 .paymentmethod-diners {
-    background-position: -373px 0px;
-    width: 106px;
+    background-position: -476px 0px;
+    width: 107px;
 }
 .paymentmethod-khipu {
-    background-position: -147px 0px;
+    background-position: -251px 0px;
     width: 60px;
 }
-.paymentmethod-master {
+.paymentmethod-magna {
     background-position: -37px 0px;
-    width: 50px;
+    width: 48px;
+}
+.paymentmethod-master {
+    background-position: -142px 0px;
+    width: 49px;
+}
+.paymentmethod-presto {
+    background-position: -89px 0px;
+    width: 49px;
 }
 .paymentmethod-servipag {
-    background-position: -281px 0px;
+    background-position: -384px 0px;
     width: 88px;
 }
 .paymentmethod-visa {
-    background-position: -211px 0px;
-    width: 66px;
+    background-position: -315px 0px;
+    width: 65px;
 }
 .paymentmethod-webpay {
-    background-position: -91px 0px;
+    background-position: -195px 0px;
     width: 52px;
 }
 
@@ -40,7 +48,7 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-xl.png');
+    background-image: url('payment-methods-xl.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
@@ -54,7 +62,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-xl@2x.png');
-        background-size: 718px 48px;
+        background-image: url('payment-methods-xl@2x.png');
+        background-size: 823px 48px;
     }
 }

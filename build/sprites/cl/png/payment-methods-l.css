@@ -1,38 +1,46 @@
 .paymentmethod-account_money {
-    background-position: -373px 0px;
-    width: 82px;
+    background-position: -448px 0px;
+    width: 83px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
-    width: 26px;
+    width: 25px;
 }
 .paymentmethod-cmr {
-    background-position: -459px 0px;
+    background-position: -535px 0px;
     width: 90px;
 }
 .paymentmethod-diners {
-    background-position: -289px 0px;
+    background-position: -364px 0px;
     width: 80px;
 }
 .paymentmethod-khipu {
-    background-position: -115px 0px;
-    width: 46px;
+    background-position: -192px 0px;
+    width: 45px;
+}
+.paymentmethod-magna {
+    background-position: -28px 0px;
+    width: 36px;
 }
 .paymentmethod-master {
-    background-position: -29px 0px;
-    width: 38px;
+    background-position: -108px 0px;
+    width: 37px;
+}
+.paymentmethod-presto {
+    background-position: -68px 0px;
+    width: 36px;
 }
 .paymentmethod-servipag {
-    background-position: -219px 0px;
+    background-position: -294px 0px;
     width: 66px;
 }
 .paymentmethod-visa {
-    background-position: -165px 0px;
-    width: 50px;
+    background-position: -241px 0px;
+    width: 49px;
 }
 .paymentmethod-webpay {
-    background-position: -71px 0px;
-    width: 40px;
+    background-position: -149px 0px;
+    width: 39px;
 }
 
 /*
@@ -40,7 +48,7 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-l.png');
+    background-image: url('payment-methods-l.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
@@ -54,7 +62,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/cl/png/payment-methods-l@2x.png');
-        background-size: 550px 36px;
+        background-image: url('payment-methods-l@2x.png');
+        background-size: 626px 36px;
     }
 }

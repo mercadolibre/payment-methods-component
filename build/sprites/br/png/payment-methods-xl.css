@@ -1,6 +1,6 @@
 .paymentmethod-account_money {
-    background-position: -433px 0px;
-    width: 110px;
+    background-position: -436px 0px;
+    width: 111px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
@@ -8,35 +8,35 @@
 }
 .paymentmethod-bolbradesco {
     background-position: -37px 0px;
-    width: 42px;
+    width: 43px;
 }
 .paymentmethod-diners {
-    background-position: -323px 0px;
-    width: 106px;
+    background-position: -325px 0px;
+    width: 107px;
 }
 .paymentmethod-elo {
-    background-position: -83px 0px;
-    width: 46px;
+    background-position: -84px 0px;
+    width: 47px;
 }
 .paymentmethod-giftcard {
-    background-position: -547px 0px;
+    background-position: -551px 0px;
     width: 114px;
 }
 .paymentmethod-hipercard {
-    background-position: -187px 0px;
-    width: 62px;
+    background-position: -188px 0px;
+    width: 64px;
 }
 .paymentmethod-master {
-    background-position: -133px 0px;
-    width: 50px;
+    background-position: -135px 0px;
+    width: 49px;
 }
 .paymentmethod-melicard {
-    background-position: -665px 0px;
+    background-position: -669px 0px;
     width: 132px;
 }
 .paymentmethod-visa {
-    background-position: -253px 0px;
-    width: 66px;
+    background-position: -256px 0px;
+    width: 65px;
 }
 
 /*
@@ -44,7 +44,7 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-xl.png');
+    background-image: url('payment-methods-xl.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
@@ -58,7 +58,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-xl@2x.png');
-        background-size: 798px 48px;
+        background-image: url('payment-methods-xl@2x.png');
+        background-size: 802px 48px;
     }
 }

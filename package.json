@@ -1,6 +1,6 @@
 {
   "name": "payment-methods-component",
-  "version": "2.0.1",
+  "version": "2.1.4",
   "engines": {
     "node": "6.9"
   },
@@ -24,5 +24,11 @@
     "gulp-rename": "1.2.2",
     "gulp.spritesmith": "^6.3.0",
     "ui-swift": "2.3.0"
+  },
+  "scripts": {
+    "build:logos": "./node_modules/.bin/gulp build:logos",
+    "build:sprite": "./node_modules/.bin/gulp build:sprites",
+    "dist": "./node_modules/.bin/gulp dist",
+    "swift": "./node_modules/.bin/gulp swift"
   }
 }

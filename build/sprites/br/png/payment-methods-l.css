@@ -1,42 +1,42 @@
 .paymentmethod-account_money {
-    background-position: -335px 0px;
-    width: 82px;
+    background-position: -333px 0px;
+    width: 83px;
 }
 .paymentmethod-amex {
     background-position: 1px 0px;
-    width: 26px;
+    width: 25px;
 }
 .paymentmethod-bolbradesco {
-    background-position: -29px 0px;
+    background-position: -28px 0px;
     width: 32px;
 }
 .paymentmethod-diners {
-    background-position: -251px 0px;
+    background-position: -249px 0px;
     width: 80px;
 }
 .paymentmethod-elo {
-    background-position: -65px 0px;
-    width: 34px;
+    background-position: -64px 0px;
+    width: 35px;
 }
 .paymentmethod-giftcard {
-    background-position: -421px 0px;
+    background-position: -420px 0px;
     width: 86px;
 }
 .paymentmethod-hipercard {
-    background-position: -145px 0px;
+    background-position: -144px 0px;
     width: 48px;
 }
 .paymentmethod-master {
     background-position: -103px 0px;
-    width: 38px;
+    width: 37px;
 }
 .paymentmethod-melicard {
-    background-position: -511px 0px;
-    width: 98px;
+    background-position: -510px 0px;
+    width: 99px;
 }
 .paymentmethod-visa {
-    background-position: -197px 0px;
-    width: 50px;
+    background-position: -196px 0px;
+    width: 49px;
 }
 
 /*
@@ -44,7 +44,7 @@
  */
 
 [class^='paymentmethod-'] {
-    background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-l.png');
+    background-image: url('payment-methods-l.png');
     background-repeat: no-repeat;
     box-sizing: content-box;
     display: inline-block;
@@ -58,7 +58,7 @@
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     [class^='paymentmethod-'] {
-        background-image: url('https://http2.mlstatic.com/ui/payment-methods-component/2.0.1/br/png/payment-methods-l@2x.png');
+        background-image: url('payment-methods-l@2x.png');
         background-size: 610px 36px;
     }
 }
