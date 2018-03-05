@@ -1,0 +1,56 @@
+.paymentmethod-abitab {
+    background-position: -338px 0px;
+    width: 95px;
+}
+.paymentmethod-account_money {
+    background-position: -548px 0px;
+    width: 111px;
+}
+.paymentmethod-diners {
+    background-position: -437px 0px;
+    width: 107px;
+}
+.paymentmethod-lider {
+    background-position: 1px 0px;
+    width: 45px;
+}
+.paymentmethod-master {
+    background-position: -48px 0px;
+    width: 49px;
+}
+.paymentmethod-oca {
+    background-position: -170px 0px;
+    width: 76px;
+}
+.paymentmethod-redpagos {
+    background-position: -250px 0px;
+    width: 84px;
+}
+.paymentmethod-visa {
+    background-position: -101px 0px;
+    width: 65px;
+}
+
+/*
+ * Default.
+ */
+
+[class^='paymentmethod-'] {
+    background-image: url('payment-methods-xl.png');
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 48px;
+    padding: 0 1px;
+}
+
+/*
+ * Retina.
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    [class^='paymentmethod-'] {
+        background-image: url('payment-methods-xl@2x.png');
+        background-size: 660px 48px;
+    }
+}

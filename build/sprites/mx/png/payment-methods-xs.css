@@ -1,0 +1,64 @@
+.paymentmethod-account_money {
+    background-position: -176px 0px;
+    width: 41px;
+}
+.paymentmethod-amex {
+    background-position: 1px 0px;
+    width: 13px;
+}
+.paymentmethod-banamex {
+    background-position: -327px 0px;
+    width: 62px;
+}
+.paymentmethod-bancomer {
+    background-position: -272px 0px;
+    width: 51px;
+}
+.paymentmethod-debmaster {
+    background-position: -94px 0px;
+    width: 34px;
+}
+.paymentmethod-debvisa {
+    background-position: -132px 0px;
+    width: 40px;
+}
+.paymentmethod-master {
+    background-position: -16px 0px;
+    width: 18px;
+}
+.paymentmethod-oxxo {
+    background-position: -38px 0px;
+    width: 24px;
+}
+.paymentmethod-serfin {
+    background-position: -221px 0px;
+    width: 47px;
+}
+.paymentmethod-visa {
+    background-position: -66px 0px;
+    width: 24px;
+}
+
+/*
+ * Default.
+ */
+
+[class^='paymentmethod-'] {
+    background-image: url('payment-methods-xs.png');
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 18px;
+    padding: 0 1px;
+}
+
+/*
+ * Retina.
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    [class^='paymentmethod-'] {
+        background-image: url('payment-methods-xs@2x.png');
+        background-size: 390px 18px;
+    }
+}

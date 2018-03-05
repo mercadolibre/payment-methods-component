@@ -1,0 +1,48 @@
+.paymentmethod-account_money {
+    background-position: -121px 0px;
+    width: 111px;
+}
+.paymentmethod-banesco {
+    background-position: -351px 0px;
+    width: 112px;
+}
+.paymentmethod-master {
+    background-position: 1px 0px;
+    width: 49px;
+}
+.paymentmethod-mercantil {
+    background-position: -236px 0px;
+    width: 111px;
+}
+.paymentmethod-provincial {
+    background-position: -467px 0px;
+    width: 130px;
+}
+.paymentmethod-visa {
+    background-position: -52px 0px;
+    width: 65px;
+}
+
+/*
+ * Default.
+ */
+
+[class^='paymentmethod-'] {
+    background-image: url('payment-methods-xl.png');
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    display: inline-block;
+    height: 48px;
+    padding: 0 1px;
+}
+
+/*
+ * Retina.
+ */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    [class^='paymentmethod-'] {
+        background-image: url('payment-methods-xl@2x.png');
+        background-size: 598px 48px;
+    }
+}

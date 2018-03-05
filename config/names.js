@@ -52,6 +52,44 @@ const NAMES = {
         servipag: 'servipag',
         magna: 'magna',
         presto: 'presto'
+    },
+    mx: {
+        visa: 'visa',
+        amex: 'amex',
+        master: 'mastercard',
+        debmaster: 'mastercard-debito',
+        debvisa: 'visa-debito',
+        serfin: 'santander',
+        oxxo: 'oxxo',
+        account_money: 'mercadopago',
+        bancomer: 'bancomer',
+        banamex: 'citibanamex'
+    },
+    pe: {
+        debvisa: 'visa-debito',
+        visa: 'visa',
+        account_money: 'mercadopago',
+        pagoefectivo_atm: 'pagoefectivo',
+        master: 'mastercard',
+        amex: 'amex'
+    },
+    uy: {
+        visa: 'visa',
+        oca: 'oca',
+        master: 'mastercard',
+        diners: 'diners',
+        lider: 'lider',
+        account_money: 'mercadopago',
+        abitab: 'abitab',
+        redpagos: 'redpagos'
+    },
+    ve: {
+        visa: 'visa',
+        master: 'mastercard',
+        provincial: 'bbva-provincial',
+        mercantil: 'mercantil',
+        account_money: 'mercadopago',
+        banesco: 'banesco'
     }
 };
 
