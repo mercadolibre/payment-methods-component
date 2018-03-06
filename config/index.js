@@ -21,7 +21,7 @@ const CONFIG = {
         },
         marketplaces: [undefined, 'MELI', 'NONE']
     },
-    uiLogos: 'https://http2.mlstatic.com/ui/ui-logos/2.1.5/logos.json',
+    uiLogos: 'https://http2.mlstatic.com/ui/ui-logos/2.2.1/logos.json',
     sizes: sizes
 };
 

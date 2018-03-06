@@ -16,6 +16,7 @@ const spritesmith = require('gulp.spritesmith');
 // ----------------------------------------------------------------------------
 
 gulp.task('build:logos', () => {
+    // Get data.
     https.get(config.uiLogos, (res) => {
         let body = '';
 
@@ -29,76 +30,79 @@ gulp.task('build:logos', () => {
             let uiLogos = JSON.parse(body);
 
             Object.keys(config.paymentMethods.urls).forEach(site => {
+                config.paymentMethods.marketplaces.forEach(marketplace => {
+                    let url = `${config.paymentMethods.urls[site]}${marketplace ? `?marketplace=${marketplace}` : ''}`;
 
-            config.paymentMethods.marketplaces.forEach(marketplace => {
-                let url = `${config.paymentMethods.urls[site]}${marketplace ? `?marketplace=${marketplace}` : ''}`;
+                    console.log(url);
 
-                console.log(url);
+                    // Get data.
+                    https.get(url, (res) => {
+                        let body = '';
 
-                // Get data.
-                https.get(url, (res) => {
-                    let body = '';
+                        // Set utf-8 encoding
+                        res.setEncoding('utf-8');
 
-                    // Set utf-8 encoding
-                    res.setEncoding('utf-8');
+                        // Body response
+                        res.on('data', (data) => body += data);
 
-                    // Body response
-                    res.on('data', (data) => body += data);
+                        // On end
+                        res.on('end', () => {
+                            let items = JSON.parse(body);
 
-                    // On end
-                    res.on('end', () => {
-                        let items = JSON.parse(body);
+                            console.log(`\n--------- ${site.toUpperCase()} ----------`);
 
-                        console.log(`\n--------- ${site.toUpperCase()} ----------`);
+                            let logos = items.map((item) => {
+                                let name = config.paymentMethods.names[site][item.id];
 
-                        let logos = items.map((item) => {
-                            let name = config.paymentMethods.names[site][item.id];
+                                if (name) {
+                                    let logo = uiLogos[name];
 
-                            if (name) {
-                                let logo = uiLogos[name];
+                                    if (logo) {
+                                        let logoDefault = `${name}.png`;
+                                        let logoRetina = `${name}@2x.png`;
 
-                                if (logo) {
-                                    let logoDefault = `${name}.png`;
-                                    let logoRetina = `${name}@2x.png`;
+                                        config.sizes.forEach(size => {
+                                            // Download default.
+                                            remoteSrc(logoDefault, { base: logo.png[size].default.url.replace(logoDefault, '') })
+                                                .pipe(rename((path) => {
+                                                    path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
+                                                        return path.basename === config.paymentMethods.names[site][key];
+                                                    })[0];
+                                                }))
+                                                .pipe(gulp.dest(`build/png/${site}/${size}`));
 
-                                    config.sizes.forEach(size => {
-                                        // Download default.
-                                        remoteSrc(logoDefault, { base: logo.png[size].default.url.replace(logoDefault, '') })
-                                            .pipe(rename((path) => {
-                                                path.basename = Object.keys(config.paymentMethods.names[site]).filter((key) => {
-                                                    return path.basename === config.paymentMethods.names[site][key];
-                                                })[0];
-                                            }))
-                                            .pipe(gulp.dest(`build/png/${site}/${size}`));
-
-                                        // Download retina.
-                                        remoteSrc(logoRetina, { base: logo.png[size].retina.url.replace(logoRetina, '') })
-                                            .pipe(rename((path) => {
-                                                path.basename = `${Object.keys(config.paymentMethods.names[site]).filter((key) => {
-                                                    return path.basename === `${config.paymentMethods.names[site][key]}@2x`;
-                                                })[0]}@2x`;
-                                            }))
-                                            .pipe(gulp.dest(`build/png/${site}/${size}`));
-                                    });
-                                    console.log(`[Defined]     - ${item.id}`);
+                                            // Download retina.
+                                            remoteSrc(logoRetina, { base: logo.png[size].retina.url.replace(logoRetina, '') })
+                                                .pipe(rename((path) => {
+                                                    path.basename = `${Object.keys(config.paymentMethods.names[site]).filter((key) => {
+                                                        return path.basename === `${config.paymentMethods.names[site][key]}@2x`;
+                                                    })[0]}@2x`;
+                                                }))
+                                                .pipe(gulp.dest(`build/png/${site}/${size}`));
+                                        });
+                                        console.log(`[Defined]     - ${item.id}`);
+                                    } else {
+                                        // Value of name not defined.
+                                        console.log(`[Not defined] - ${item.id}`);
+                                    }
                                 } else {
-                                    // Value of name not defined.
+                                    // Key of name not defined.
                                     console.log(`[Not defined] - ${item.id}`);
                                 }
-                            } else {
-                                // Key of name not defined.
-                                console.log(`[Not defined] - ${item.id}`);
-                            }
+                            });
                         });
-                    });
 
-                // Error
-                }).on('error', (e) => {
-                    console.error(e);
+                    // Error
+                    }).on('error', (e) => {
+                        console.error(e);
+                    });
                 });
             });
-            });
         });
+
+    // Error
+    }).on('error', (e) => {
+        console.error(e);
     });
 });
 
