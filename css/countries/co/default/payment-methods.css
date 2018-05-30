@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.5/co/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/co/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 /*
@@ -10,15 +10,12 @@
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-
-[class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.5/co/payment-methods-default@2x.png');
-        background-size: 72px 466px; /* original x1 image size */
+    [class*='paymentmethod'] {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/co/payment-methods-default@2x.png');
+        background-size: 72px 716px; /* original x1 image size */
         height: 16px; 
     }
-
 }
-
 
 /* Colombia Default Size
 ---------------------------------------------------------------*/
@@ -69,4 +66,56 @@
 .paymentmethod-codensa {
     height: 16px;
     width: 26px;
+}
+
+.paymentmethod-baloto {
+    height: 23px;
+    width: 28px;
+}
+
+.paymentmethod-baloto_ser {
+    height: 21px;
+    width: 30px;
+}
+
+.paymentmethod-baloto_472 {
+    height: 27px;
+    width: 21px;
+}
+
+/* Narrow */
+
+.paymentmethod-efecty-narrow {
+    height: 28px;
+    width: 25px;
+}
+
+.paymentmethod-davivienda-narrow {
+    height: 21px;
+    width: 23px;
+}
+
+.paymentmethod-pse-narrow {
+    height: 20px;
+    width: 47px;
+}
+
+.paymentmethod-codensa-narrow {
+    height: 17px;
+    width: 26px;
+}
+
+.paymentmethod-baloto-narrow {
+    height: 23px;
+    width: 28px;
+}
+
+.paymentmethod-baloto_ser-narrow {
+    height: 21px;
+    width: 30px;
+}
+
+.paymentmethod-baloto_472-narrow {
+    height: 27px;
+    width: 21px;
 }

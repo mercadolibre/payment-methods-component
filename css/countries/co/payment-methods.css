@@ -25,3 +25,55 @@
 .paymentmethod-codensa.paymentmethod-large { 
 	background-position: 0 -450px; 
 }
+
+.paymentmethod-baloto,
+.paymentmethod-baloto.paymentmethod-large { 
+	background-position: 0 -492px;
+}
+
+.paymentmethod-baloto_ser,
+.paymentmethod-baloto_ser.paymentmethod-large { 
+	background-position: 0 -544px; 
+}
+
+.paymentmethod-baloto_472,
+.paymentmethod-baloto_472.paymentmethod-large { 
+	background-position: 0 -589px; 
+}
+
+/* Narrow */
+
+.paymentmethod-efecty-narrow,
+.paymentmethod-efecty-narrow.paymentmethod-large { 
+	background-position: 0 -639px; 
+}
+
+.paymentmethod-davivienda-narrow,
+.paymentmethod-davivienda-narrow.paymentmethod-large { 
+	background-position: 0 -695px; 
+}
+
+.paymentmethod-pse-narrow,
+.paymentmethod-pse-narrow.paymentmethod-large { 
+	background-position: 0 -399px; 
+}
+
+.paymentmethod-codensa-narrow,
+.paymentmethod-codensa-narrow.paymentmethod-large { 
+	background-position: 0 -449px; 
+}
+
+.paymentmethod-baloto-narrow,
+.paymentmethod-baloto-narrow.paymentmethod-large { 
+	background-position: 0 -492px;
+}
+
+.paymentmethod-baloto_ser-narrow,
+.paymentmethod-baloto_ser-narrow.paymentmethod-large { 
+	background-position: 0 -544px; 
+}
+
+.paymentmethod-baloto_472-narrow,
+.paymentmethod-baloto_472-narrow.paymentmethod-large { 
+	background-position: 0 -589px; 
+}
