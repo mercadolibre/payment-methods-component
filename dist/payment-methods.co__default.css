@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.2
+ * @version: 1.7.6
  */
 
 /* Common Structure
@@ -86,11 +86,63 @@
 .paymentmethod-codensa.paymentmethod-large { 
 	background-position: 0 -450px; 
 }
+
+.paymentmethod-baloto,
+.paymentmethod-baloto.paymentmethod-large { 
+	background-position: 0 -492px;
+}
+
+.paymentmethod-baloto_ser,
+.paymentmethod-baloto_ser.paymentmethod-large { 
+	background-position: 0 -544px; 
+}
+
+.paymentmethod-baloto_472,
+.paymentmethod-baloto_472.paymentmethod-large { 
+	background-position: 0 -589px; 
+}
+
+/* Narrow */
+
+.paymentmethod-efecty-narrow,
+.paymentmethod-efecty-narrow.paymentmethod-large { 
+	background-position: 0 -639px; 
+}
+
+.paymentmethod-davivienda-narrow,
+.paymentmethod-davivienda-narrow.paymentmethod-large { 
+	background-position: 0 -695px; 
+}
+
+.paymentmethod-pse-narrow,
+.paymentmethod-pse-narrow.paymentmethod-large { 
+	background-position: 0 -399px; 
+}
+
+.paymentmethod-codensa-narrow,
+.paymentmethod-codensa-narrow.paymentmethod-large { 
+	background-position: 0 -449px; 
+}
+
+.paymentmethod-baloto-narrow,
+.paymentmethod-baloto-narrow.paymentmethod-large { 
+	background-position: 0 -492px;
+}
+
+.paymentmethod-baloto_ser-narrow,
+.paymentmethod-baloto_ser-narrow.paymentmethod-large { 
+	background-position: 0 -544px; 
+}
+
+.paymentmethod-baloto_472-narrow,
+.paymentmethod-baloto_472-narrow.paymentmethod-large { 
+	background-position: 0 -589px; 
+}
 /* Colombia Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/co/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/co/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 /*
@@ -98,15 +150,12 @@
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-
-[class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.2/co/payment-methods-default@2x.png');
-        background-size: 72px 466px; /* original x1 image size */
+    [class*='paymentmethod'] {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/co/payment-methods-default@2x.png');
+        background-size: 72px 716px; /* original x1 image size */
         height: 16px; 
     }
-
 }
-
 
 /* Colombia Default Size
 ---------------------------------------------------------------*/
@@ -157,4 +206,56 @@
 .paymentmethod-codensa {
     height: 16px;
     width: 26px;
+}
+
+.paymentmethod-baloto {
+    height: 23px;
+    width: 28px;
+}
+
+.paymentmethod-baloto_ser {
+    height: 21px;
+    width: 30px;
+}
+
+.paymentmethod-baloto_472 {
+    height: 27px;
+    width: 21px;
+}
+
+/* Narrow */
+
+.paymentmethod-efecty-narrow {
+    height: 28px;
+    width: 25px;
+}
+
+.paymentmethod-davivienda-narrow {
+    height: 21px;
+    width: 23px;
+}
+
+.paymentmethod-pse-narrow {
+    height: 20px;
+    width: 47px;
+}
+
+.paymentmethod-codensa-narrow {
+    height: 17px;
+    width: 26px;
+}
+
+.paymentmethod-baloto-narrow {
+    height: 23px;
+    width: 28px;
+}
+
+.paymentmethod-baloto_ser-narrow {
+    height: 21px;
+    width: 30px;
+}
+
+.paymentmethod-baloto_472-narrow {
+    height: 27px;
+    width: 21px;
 }
