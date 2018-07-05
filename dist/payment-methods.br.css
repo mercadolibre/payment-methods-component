@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.6
+ * @version: 1.7.7
  */
 
 /* Common Structure
@@ -92,11 +92,17 @@
 .paymentmethod-giftcard.paymentmethod-large { 
 	background-position: 0 -500px; 
 }
+
+.paymentmethod-pec,
+.paymentmethod-pec.paymentmethod-large { 
+	background-position: 0 -553px; 
+}
+
 /* Brazil Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/br/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/br/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -105,13 +111,11 @@
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-
-[class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/br/payment-methods-default@2x.png');
-        background-size: 84px 516px; /* original x1 image size */
+    [class*='paymentmethod'] {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/br/payment-methods-default@2x.png');
+        background-size: 84px 569px; /* original x1 image size */
         height: 16px;
     }
-
 }
 
 
@@ -169,11 +173,15 @@
     width: 84px;
 }
 
+.paymentmethod-pec {
+    height: 16px;
+    width: 52px;
+}
 /* Brazil Sprite for Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/br/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/br/payment-methods-large.png');
     height: 25px; /* most common height */
     margin: 5px;
 }
@@ -184,14 +192,12 @@
  */
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-
-.paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.6/br/payment-methods-large@2x.png');
-        background-size: 116px 524px; /* original x1 image size */
+    .paymentmethod-large {
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/br/payment-methods-large@2x.png');
+        background-size: 116px 580px; /* original x1 image size */
         height: 27px; /* most common height */
         margin: 5px;
     }
-
 }
 
 
@@ -253,4 +259,9 @@
 .paymentmethod-giftcard.paymentmethod-large {
     height: 24px;
     width: 97px;
+}
+
+.paymentmethod-pec.paymentmethod-large {
+    height: 27px;
+    width: 80px;
 }

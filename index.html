@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.6">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.6">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.7">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.7">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.7.6</h1>
+		<h1>Payment Methods 1.7.7</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -137,6 +137,7 @@
 				<li class="paymentmethod-itau">Boleto Itaú</li>
 				<li class="paymentmethod-bitcoin">Bitcoin</li>
 				<li class="paymentmethod-giftcard">Giftcard</li>
+				<li class="paymentmethod-pec">Caixa</li>
 			</ul>
 		</div>
 
@@ -396,6 +397,7 @@
 				<li class="paymentmethod-itau paymentmethod-large">Boleto Itaú</li>
 				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
 				<li class="paymentmethod-giftcard paymentmethod-large">Giftcard</li>
+				<li class="paymentmethod-pec paymentmethod-large">Caixa</li>
 		</ul>
 	</div>
 
@@ -560,9 +562,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.6");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.6");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.6");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.7");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.7");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.7");
 	}
 
 	function showDemo(j) {
