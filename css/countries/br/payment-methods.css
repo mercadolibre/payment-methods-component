@@ -31,3 +31,8 @@
 .paymentmethod-giftcard.paymentmethod-large { 
 	background-position: 0 -500px; 
 }
+
+.paymentmethod-pec,
+.paymentmethod-pec.paymentmethod-large { 
+	background-position: 0 -553px; 
+}
