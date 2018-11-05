@@ -129,6 +129,14 @@
   	background-position: 0 -602px;
   }
 
+  .paymentmethod-oxxo.paymentmethod-large  {
+    background-position: 0 -502px;
+  }
+
+  .paymentmethod-ixe.paymentmethod-large  {
+  	background-position: 0 -654px;
+  }
+
   .paymentmethod-mercadopagocard.paymentmethod-large  {
   	background-position: 0 -552px;
   }
@@ -158,22 +166,22 @@
   }
 
   .paymentmethod-k.paymentmethod-large {
-      background-position: 0 -1020px;
+      background-position: 0 -1024px;
   }
 
   .paymentmethod-circle_k.paymentmethod-large {
-      background-position: 0 -1070px;
+      background-position: 0 -1074px;
   }
 
   .paymentmethod-farmacias.paymentmethod-large {
-      background-position: 0 -1120px;
+      background-position: 0 -1124px;
   }
 
   .paymentmethod-casa_ley.paymentmethod-large {
-      background-position: 0 -1168px;
+      background-position: 0 -1172px;
   }
 
   .paymentmethod-chedraui.paymentmethod-large {
-      background-position: 0 -1218px;
+      background-position: 0 -1222px;
   }
 }

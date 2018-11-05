@@ -190,6 +190,14 @@
   	background-position: 0 -602px;
   }
 
+  .paymentmethod-oxxo.paymentmethod-large  {
+    background-position: 0 -502px;
+  }
+
+  .paymentmethod-ixe.paymentmethod-large  {
+  	background-position: 0 -654px;
+  }
+
   .paymentmethod-mercadopagocard.paymentmethod-large  {
   	background-position: 0 -552px;
   }
@@ -217,13 +225,33 @@
   .paymentmethod-extra.paymentmethod-large {
       background-position: 0 -973px;
   }
+
+  .paymentmethod-k.paymentmethod-large {
+      background-position: 0 -1024px;
+  }
+
+  .paymentmethod-circle_k.paymentmethod-large {
+      background-position: 0 -1074px;
+  }
+
+  .paymentmethod-farmacias.paymentmethod-large {
+      background-position: 0 -1124px;
+  }
+
+  .paymentmethod-casa_ley.paymentmethod-large {
+      background-position: 0 -1172px;
+  }
+
+  .paymentmethod-chedraui.paymentmethod-large {
+      background-position: 0 -1222px;
+  }
 }
 
 /* Mexico Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8-3/mx/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8/mx/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 
@@ -234,7 +262,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8-3/mx/payment-methods-default@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8/mx/payment-methods-default@2x.png');
         background-size: 72px 1256px;  /* original x1 image size */
         height: 16px; /* most common height */
     }
@@ -369,7 +397,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8-3/mx/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8/mx/payment-methods-large.png');
     margin: 5px;
 }
 /*
@@ -379,7 +407,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8-3/mx/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/develop/1.7.8/mx/payment-methods-large@2x.png');
         background-size: 117px 1265px;  /* original x1 image size */
     }
 
