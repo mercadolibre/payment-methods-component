@@ -1,8 +1,10 @@
 /* Sprite position for Mexico Logos
 ---------------------------------------------------------------*/
-.paymentmethod-bancomer,
+.paymentmethod-bancomer {
+  background-position: 0 -299px;
+}
 .paymentmethod-bancomer.paymentmethod-large  {
-    background-position: 0 -299px;
+    background-position: 0 -300px;
 }
 
 .paymentmethod-banamex,
@@ -24,32 +26,43 @@
 .paymentmethod-oxxo.paymentmethod-large  {
 	background-position: 0 -499px;
 }
+
 .paymentmethod-mercadopagocard,
 .paymentmethod-mercadopagocard.paymentmethod-large  {
 	background-position: 0 -549px;
 }
-.paymentmethod-banorte,
-.paymentmethod-banorte.paymentmethod-large  {
+
+.paymentmethod-banorte {
 	background-position: 0 -599px;
 }
+.paymentmethod-banorte.paymentmethod-large  {
+	background-position: 0 -600px;
+}
+
 .paymentmethod-ixe,
 .paymentmethod-ixe.paymentmethod-large  {
 	background-position: 0 -650px;
 }
 
-.paymentmethod-debvisa,
+.paymentmethod-debvisa {
+  background-position: 0 -700px;
+}
 .paymentmethod-debvisa.paymentmethod-large  {
 	background-position: 0 -700px;
 }
 
-.paymentmethod-debmaster,
+.paymentmethod-debmaster {
+  background-position: 0 -749px;
+}
 .paymentmethod-debmaster.paymentmethod-large  {
-	background-position: 0 -749px;
+	background-position: 0 -750px;
 }
 
-.paymentmethod-gestopago,
+.paymentmethod-gestopago {
+  background-position: 0 -798px;
+}
 .paymentmethod-gestopago.paymentmethod-large  {
-	background-position: 0 -798px;
+	background-position: 0 -800px;
 }
 
 .paymentmethod-7-eleven {
@@ -63,5 +76,112 @@
   background-position: 0 -905px;
 }
 .paymentmethod-telecomm.paymentmethod-large  {
-	background-position: 0 -918px;
+	background-position: 0 -920px;
+}
+
+
+/****************/
+
+.paymentmethod-extra {
+  background-position: 0 -954px;
+}
+.paymentmethod-extra.paymentmethod-large {
+    background-position: 0 -970px;
+}
+
+.paymentmethod-k {
+  background-position: 0 -1005px;
+}
+.paymentmethod-k.paymentmethod-large {
+  background-position: 0 -1020px;
+}
+
+.paymentmethod-circle_k {
+  background-position: 0 -1056px;
+}
+.paymentmethod-circle_k.paymentmethod-large {
+  background-position: 0 -1070px;
+}
+
+.paymentmethod-farmacias {
+  background-position: 0 -1105px;
+}
+.paymentmethod-farmacias.paymentmethod-large {
+  background-position: 0 -1120px;
+}
+
+.paymentmethod-casa_ley {
+  background-position: 0 -1156px;
+}
+.paymentmethod-casa_ley.paymentmethod-large {
+  background-position: 0 -1168px;
+}
+
+.paymentmethod-chedraui {
+  background-position: 0 -1206px;
+}
+.paymentmethod-chedraui.paymentmethod-large {
+  background-position: 0 -1218px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .paymentmethod-banorte.paymentmethod-large  {
+  	background-position: 0 -602px;
+  }
+
+  .paymentmethod-oxxo.paymentmethod-large  {
+    background-position: 0 -502px;
+  }
+
+  .paymentmethod-ixe.paymentmethod-large  {
+  	background-position: 0 -654px;
+  }
+
+  .paymentmethod-mercadopagocard.paymentmethod-large  {
+  	background-position: 0 -552px;
+  }
+
+  .paymentmethod-debvisa.paymentmethod-large  {
+  	background-position: 0 -703px;
+  }
+
+  .paymentmethod-debmaster.paymentmethod-large  {
+  	background-position: 0 -752px;
+  }
+
+  .paymentmethod-gestopago.paymentmethod-large  {
+  	background-position: 0 -802px;
+  }
+
+  .paymentmethod-7-eleven.paymentmethod-large  {
+    background-position: 0 -868px;
+  }
+
+  .paymentmethod-telecomm.paymentmethod-large  {
+  	background-position: 0 -924px;
+  }
+
+  .paymentmethod-extra.paymentmethod-large {
+      background-position: 0 -973px;
+  }
+
+  .paymentmethod-k.paymentmethod-large {
+      background-position: 0 -1024px;
+  }
+
+  .paymentmethod-circle_k.paymentmethod-large {
+      background-position: 0 -1074px;
+  }
+
+  .paymentmethod-farmacias.paymentmethod-large {
+      background-position: 0 -1124px;
+  }
+
+  .paymentmethod-casa_ley.paymentmethod-large {
+      background-position: 0 -1172px;
+  }
+
+  .paymentmethod-chedraui.paymentmethod-large {
+      background-position: 0 -1222px;
+  }
 }

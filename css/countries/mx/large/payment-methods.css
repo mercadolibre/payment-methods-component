@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/mx/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/mx/payment-methods-large.png');
     margin: 5px;
 }
 /*
@@ -12,8 +12,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.7/mx/payment-methods-large@2x.png');
-        background-size: 116px 939px;  /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/mx/payment-methods-large@2x.png');
+        background-size: 117px 1265px;  /* original x1 image size */
     }
 
 }
@@ -77,7 +77,7 @@
 }
 
 .paymentmethod-banorte.paymentmethod-large {
-    height: 18px;
+    height: 20px;
     width: 117px;
 }
 .paymentmethod-ixe.paymentmethod-large {
@@ -100,12 +100,44 @@
     width: 116px;
 }
 
-.paymentmethod-7-eleven.paymentmethod-large  {
+.paymentmethod-7-eleven.paymentmethod-large {
   height: 26px;
   width: 32px;
 }
 
-.paymentmethod-telecomm.paymentmethod-large  {
+.paymentmethod-telecomm.paymentmethod-large {
   height: 20px;
-  width: 114px;
+  width: 86px;
+}
+
+/****************/
+
+.paymentmethod-extra.paymentmethod-large {
+  height: 28px;
+  width: 84px;
+}
+
+.paymentmethod-k.paymentmethod-large {
+  height: 28px;
+  width: 28px;
+}
+
+.paymentmethod-circle_k.paymentmethod-large {
+  height: 28px;
+  width: 70px;
+}
+
+.paymentmethod-farmacias.paymentmethod-large {
+  height: 26px;
+  width: 68px;
+}
+
+.paymentmethod-casa_ley.paymentmethod-large {
+  height: 28px;
+  width: 46px;
+}
+
+.paymentmethod-chedraui.paymentmethod-large {
+  height: 12px;
+  width: 116px;
 }
