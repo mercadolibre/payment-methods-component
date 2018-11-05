@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.7">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.7">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.8">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.8">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.7.7</h1>
+		<h1>Payment Methods 1.7.8</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -162,6 +162,13 @@
 				<li class="paymentmethod-gestopago">Gestopago</li>
 				<li class="paymentmethod-7-eleven">7 Eleven</li>
 				<li class="paymentmethod-telecomm">Telecomm</li>
+				<!-- -->
+				<li class="paymentmethod-extra">Extra</li>
+				<li class="paymentmethod-k">K</li>
+				<li class="paymentmethod-circle_k">Circle K</li>
+				<li class="paymentmethod-farmacias">Farmacias</li>
+				<li class="paymentmethod-casa_ley">Casa Ley</li>
+				<li class="paymentmethod-chedraui">Chedraui</li>
 			</ul>
 		</div>
 
@@ -422,6 +429,13 @@
 				<li class="paymentmethod-gestopago paymentmethod-large">Gestopago</li>
 				<li class="paymentmethod-7-eleven paymentmethod-large">7 Eleven</li>
 				<li class="paymentmethod-telecomm paymentmethod-large">Telecomm</li>
+				<!-- -->
+				<li class="paymentmethod-extra paymentmethod-large">Extra</li>
+				<li class="paymentmethod-k paymentmethod-large">K</li>
+				<li class="paymentmethod-circle_k paymentmethod-large">Circle K</li>
+				<li class="paymentmethod-farmacias paymentmethod-large">Farmacias</li>
+				<li class="paymentmethod-casa_ley paymentmethod-large">Casa Ley</li>
+				<li class="paymentmethod-chedraui paymentmethod-large">Chedraui</li>
 			</ul>
 		</div>
 
@@ -562,9 +576,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.7");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.7");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.7");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.8");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.8");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.8");
 	}
 
 	function showDemo(j) {
