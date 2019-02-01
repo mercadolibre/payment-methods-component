@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.8
+ * @version: 1.7.9
  */
 
 /* Common Structure
@@ -70,11 +70,26 @@
 .paymentmethod-debvisa.paymentmethod-large {
     background-position: 0 -300px; 
 }
+.paymentmethod-debmaster {
+    background-position: 0 -337px
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -339px;
+}
+
+.paymentmethod-diners {
+    background-position: 0 -382px
+}
+.paymentmethod-diners.paymentmethod-large {
+    background-position: 0 -393px;
+}
+
+
 /* Venezuela Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/pe/payment-methods-default.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/pe/payment-methods-default.png');
     height: 16px; /* most common height */
 }
 /*
@@ -84,8 +99,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 [class*='paymentmethod'] {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/pe/payment-methods-default@2x.png');
-        background-size: 72px 350px; /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/pe/payment-methods-default@2x.png');
+        background-size: 72px 417px; /* original x1 image size */
         height: 16px; /* most common height */
     }
 
@@ -118,5 +133,15 @@
 }
 .paymentmethod-debvisa{
     height: 13px;
+    width: 59px;
+}
+
+.paymentmethod-debmaster {
+    height: 24px;
+    width: 59px;
+}
+
+.paymentmethod-diners {
+    height: 17px;
     width: 59px;
 }

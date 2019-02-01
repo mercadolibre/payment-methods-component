@@ -23,3 +23,11 @@
 .paymentmethod-lider.paymentmethod-large  {
 	background-position: 0 -400px;
 }
+
+.paymentmethod-debvisa {
+    background-position: 0 -430px;
+}
+
+.paymentmethod-debvisa.paymentmethod-large {
+    background-position: 0 -443px;
+}
