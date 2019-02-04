@@ -3,6 +3,7 @@
 
 .paymentmethod-large {
     background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/uy/payment-methods-large.png');
+    background-size: 116px 506px; /* original x1 image size */
     height: 26px;
     margin: 5px;
 }
@@ -31,7 +32,7 @@
 }
 
 .paymentmethod-visa.paymentmethod-large {
-    height: 21px;
+    height: 22px;
     width: 61px;
 }
 

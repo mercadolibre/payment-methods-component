@@ -63,52 +63,72 @@
 ---------------------------------------------------------------*/
 .paymentmethod-diners,
 .paymentmethod-diners.paymentmethod-large {
-    background-position: 0 -199px;
+	background-position: 0 -199px;
 }
 
 .paymentmethod-abitab,
-.paymentmethod-abitab.paymentmethod-large  {
+.paymentmethod-abitab.paymentmethod-large {
 	background-position: 0 -250px;
 }
 
 .paymentmethod-oca,
-.paymentmethod-oca.paymentmethod-large  {
+.paymentmethod-oca.paymentmethod-large {
 	background-position: 0 -299px;
 }
+
 .paymentmethod-redpagos,
-.paymentmethod-redpagos.paymentmethod-large  {
+.paymentmethod-redpagos.paymentmethod-large {
 	background-position: 0 -350px;
 }
 
 .paymentmethod-lider,
-.paymentmethod-lider.paymentmethod-large  {
+.paymentmethod-lider.paymentmethod-large {
 	background-position: 0 -400px;
 }
 
 .paymentmethod-debvisa {
-    background-position: 0 -430px;
+	background-position: 0 -442px;
 }
 
 .paymentmethod-debvisa.paymentmethod-large {
-    background-position: 0 -443px;
+	background-position: 0 -456px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.paymentmethod-debvisa {
+		background-position: 0px -435px;
+	}
+
+	.paymentmethod-debvisa.paymentmethod-large {
+		background-position: 0px -442px;
+	}
 }
 /* Uruguay Sprite for Default Size
 ---------------------------------------------------------------*/
 
 [class*='paymentmethod'] {
     background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/uy/payment-methods-default.png');
-    height: 16px; /* most common height */
+    background-size: 72px 480px;
+    height: 16px;
+    /* most common height */
 }
+
 /*
  * Retina logo for small screens
  */
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
 
-[class*='paymentmethod'] {
+    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/uy/payment-methods-default@2x.png');
-        background-size: 72px 469px; /* original x1 image size */
-        height: 16px; /* most common height */
+        background-size: 72px 469px;
+        /* original x1 image size */
+        height: 16px;
+        /* most common height */
     }
 
 }
@@ -118,13 +138,13 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
-    height: 19px;
+    height: 21px;
     width: 72px;
 }
 
 .paymentmethod-visa {
     width: 39px;
-    height: 13px;
+    height: 16px;
 }
 
 .paymentmethod-master {
@@ -143,18 +163,21 @@
 }
 
 .paymentmethod-oca {
-    height: 9px;
+    height: 11px;
     width: 44px;
 }
+
 .paymentmethod-redpagos {
     height: 13px;
     width: 62px;
 }
+
 .paymentmethod-lider {
     height: 18px;
     width: 24px;
 }
+
 .paymentmethod-debvisa {
-    height: 30px;
+    height: 20px;
     width: 60px;
 }

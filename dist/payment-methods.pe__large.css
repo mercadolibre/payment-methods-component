@@ -71,20 +71,35 @@
     background-position: 0 -300px; 
 }
 .paymentmethod-debmaster {
-    background-position: 0 -337px
+    background-position: 0 -352px
 }
 .paymentmethod-debmaster.paymentmethod-large {
-    background-position: 0 -339px;
+    background-position: 0 -346px;
 }
 
 .paymentmethod-diners {
-    background-position: 0 -382px
+    background-position: 0 -397px;
 }
 .paymentmethod-diners.paymentmethod-large {
-    background-position: 0 -393px;
+    background-position: 0 -405px;
 }
 
-
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.paymentmethod-diners {
+        background-position: 0 -382px;
+    }
+    .paymentmethod-diners.paymentmethod-large {
+        background-position: 0 -393px;
+    }
+    .paymentmethod-debmaster {
+        background-position: 0 -337px
+    }
+    .paymentmethod-debmaster.paymentmethod-large {
+        background-position: 0 -338px;
+    }
+}
 /* Venezuela Sprite for Large Size
 ---------------------------------------------------------------*/
 
