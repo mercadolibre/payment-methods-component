@@ -3,18 +3,25 @@
 
 [class*='paymentmethod'] {
     background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/uy/payment-methods-default.png');
-    height: 16px; /* most common height */
+    background-size: 72px 480px;
+    height: 16px;
+    /* most common height */
 }
+
 /*
  * Retina logo for small screens
  */
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
 
-[class*='paymentmethod'] {
+    [class*='paymentmethod'] {
         background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/uy/payment-methods-default@2x.png');
-        background-size: 72px 469px; /* original x1 image size */
-        height: 16px; /* most common height */
+        background-size: 72px 469px;
+        /* original x1 image size */
+        height: 16px;
+        /* most common height */
     }
 
 }
@@ -24,13 +31,13 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-account_money {
-    height: 19px;
+    height: 21px;
     width: 72px;
 }
 
 .paymentmethod-visa {
     width: 39px;
-    height: 13px;
+    height: 16px;
 }
 
 .paymentmethod-master {
@@ -49,18 +56,21 @@
 }
 
 .paymentmethod-oca {
-    height: 9px;
+    height: 11px;
     width: 44px;
 }
+
 .paymentmethod-redpagos {
     height: 13px;
     width: 62px;
 }
+
 .paymentmethod-lider {
     height: 18px;
     width: 24px;
 }
+
 .paymentmethod-debvisa {
-    height: 30px;
+    height: 20px;
     width: 60px;
 }

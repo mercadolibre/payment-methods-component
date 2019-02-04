@@ -2,32 +2,45 @@
 ---------------------------------------------------------------*/
 .paymentmethod-diners,
 .paymentmethod-diners.paymentmethod-large {
-    background-position: 0 -199px;
+	background-position: 0 -199px;
 }
 
 .paymentmethod-abitab,
-.paymentmethod-abitab.paymentmethod-large  {
+.paymentmethod-abitab.paymentmethod-large {
 	background-position: 0 -250px;
 }
 
 .paymentmethod-oca,
-.paymentmethod-oca.paymentmethod-large  {
+.paymentmethod-oca.paymentmethod-large {
 	background-position: 0 -299px;
 }
+
 .paymentmethod-redpagos,
-.paymentmethod-redpagos.paymentmethod-large  {
+.paymentmethod-redpagos.paymentmethod-large {
 	background-position: 0 -350px;
 }
 
 .paymentmethod-lider,
-.paymentmethod-lider.paymentmethod-large  {
+.paymentmethod-lider.paymentmethod-large {
 	background-position: 0 -400px;
 }
 
 .paymentmethod-debvisa {
-    background-position: 0 -430px;
+	background-position: 0 -442px;
 }
 
 .paymentmethod-debvisa.paymentmethod-large {
-    background-position: 0 -443px;
+	background-position: 0 -456px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.paymentmethod-debvisa {
+		background-position: 0px -435px;
+	}
+
+	.paymentmethod-debvisa.paymentmethod-large {
+		background-position: 0px -442px;
+	}
 }
