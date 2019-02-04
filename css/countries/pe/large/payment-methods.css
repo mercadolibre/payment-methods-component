@@ -2,7 +2,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/pe/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/pe/payment-methods-large.png');
     height: 26px;
     margin: 5px;
 }
@@ -13,8 +13,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/pe/payment-methods-large@2x.png');
-        background-size: 116px 350px; /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/pe/payment-methods-large@2x.png');
+        background-size: 116px 432px; /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -53,4 +53,14 @@
 .paymentmethod-debvisa.paymentmethod-large {
     height: 20px;
     width: 92px;
+}
+
+.paymentmethod-debmaster.paymentmethod-large {
+    height: 36px;
+    width: 92px;
+}
+
+.paymentmethod-diners.paymentmethod-large {
+    height: 26px;
+    width: 95px;
 }

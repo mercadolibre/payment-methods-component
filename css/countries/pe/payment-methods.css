@@ -9,3 +9,17 @@
 .paymentmethod-debvisa.paymentmethod-large {
     background-position: 0 -300px; 
 }
+.paymentmethod-debmaster {
+    background-position: 0 -337px
+}
+.paymentmethod-debmaster.paymentmethod-large {
+    background-position: 0 -339px;
+}
+
+.paymentmethod-diners {
+    background-position: 0 -382px
+}
+.paymentmethod-diners.paymentmethod-large {
+    background-position: 0 -393px;
+}
+
