@@ -2,12 +2,12 @@
 ---------------------------------------------------------------*/
 .paymentmethod-pagoefectivo, [class*='paymentmethod-pagoefectivo'],
 .paymentmethod-pagoefectivo.paymentmethod-large ,[class*='paymentmethod-pagoefectivo'].paymentmethod-large{
-    background-position: 0 -250px; 
+    background-position: 0 -250px;
 }
 
 .paymentmethod-debvisa,
 .paymentmethod-debvisa.paymentmethod-large {
-    background-position: 0 -300px; 
+    background-position: 0 -300px;
 }
 .paymentmethod-debmaster {
     background-position: 0 -352px
@@ -21,6 +21,12 @@
 }
 .paymentmethod-diners.paymentmethod-large {
     background-position: 0 -405px;
+}
+.paymentmethod-amex {
+  background-position: 0 -152px;
+}
+.paymentmethod-amex.paymentmethod-large{
+    background-position: 0 -150px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5),
@@ -37,5 +43,9 @@
     }
     .paymentmethod-debmaster.paymentmethod-large {
         background-position: 0 -338px;
+    }
+    .paymentmethod-amex,
+    .paymentmethod-amex.paymentmethod-large{
+        background-position: 0 -150px;
     }
 }
