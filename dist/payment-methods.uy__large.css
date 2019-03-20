@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.8
+ * @version: 1.8.0
  */
 
 /* Common Structure
@@ -63,33 +63,54 @@
 ---------------------------------------------------------------*/
 .paymentmethod-diners,
 .paymentmethod-diners.paymentmethod-large {
-    background-position: 0 -199px;
+	background-position: 0 -199px;
 }
 
 .paymentmethod-abitab,
-.paymentmethod-abitab.paymentmethod-large  {
+.paymentmethod-abitab.paymentmethod-large {
 	background-position: 0 -250px;
 }
 
 .paymentmethod-oca,
-.paymentmethod-oca.paymentmethod-large  {
+.paymentmethod-oca.paymentmethod-large {
 	background-position: 0 -299px;
 }
+
 .paymentmethod-redpagos,
-.paymentmethod-redpagos.paymentmethod-large  {
+.paymentmethod-redpagos.paymentmethod-large {
 	background-position: 0 -350px;
 }
 
 .paymentmethod-lider,
-.paymentmethod-lider.paymentmethod-large  {
+.paymentmethod-lider.paymentmethod-large {
 	background-position: 0 -400px;
 }
 
+.paymentmethod-debvisa {
+	background-position: 0 -442px;
+}
+
+.paymentmethod-debvisa.paymentmethod-large {
+	background-position: 0 -456px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+	.paymentmethod-debvisa {
+		background-position: 0px -435px;
+	}
+
+	.paymentmethod-debvisa.paymentmethod-large {
+		background-position: 0px -442px;
+	}
+}
 /* Uruguay Sprite for Large Size
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/uy/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.8.0/uy/payment-methods-large.png');
+    background-size: 116px 506px; /* original x1 image size */
     height: 26px;
     margin: 5px;
 }
@@ -100,8 +121,8 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.8/uy/payment-methods-large@2x.png');
-        background-size: 116px 430px; /* original x1 image size */
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.8.0/uy/payment-methods-large@2x.png');
+        background-size: 116px 486px; /* original x1 image size */
         height: 26px;
         margin: 5px;
     }
@@ -118,7 +139,7 @@
 }
 
 .paymentmethod-visa.paymentmethod-large {
-    height: 21px;
+    height: 22px;
     width: 61px;
 }
 
@@ -148,4 +169,9 @@
 .paymentmethod-lider.paymentmethod-large {
     height: 30px;
     width: 41px;
+}
+
+.paymentmethod-debvisa.paymentmethod-large {
+    height: 30px;
+    width: 94px;
 }

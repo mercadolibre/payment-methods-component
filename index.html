@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.7.8">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.7.8">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.8.0">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.8.0">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.7.8</h1>
+		<h1>Payment Methods 1.8.0</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -211,6 +211,8 @@
 				<li class="paymentmethod-master">Mastercard</li>
 				<li class="paymentmethod-pagoefectivo">Pagoefectivo</li>
 				<li class="paymentmethod-debvisa">Visa Débito</li>
+				<li class="paymentmethod-diners">Diners</li>
+				<li class="paymentmethod-debmaster">Mastercard Débito</li>
 			</ul>
 		</div>
 		<div class="ch-box-lite country-box uy" style="display: none">
@@ -224,6 +226,7 @@
 				<li class="paymentmethod-oca">Oca</li>
 				<li class="paymentmethod-redpagos">Red Pagos</li>
 				<li class="paymentmethod-lider">Lider</li>
+				<li class="paymentmethod-debvisa">Visa Débito</li>
 			</ul>
 		</div>
 
@@ -478,6 +481,8 @@
 				<li class="paymentmethod-master paymentmethod-large">Mastercard</li>
 				<li class="paymentmethod-pagoefectivo paymentmethod-large">Pagoefectivo</li>
 				<li class="paymentmethod-debvisa paymentmethod-large">Visa Débito</li>
+				<li class="paymentmethod-diners paymentmethod-large">Diners</li>
+				<li class="paymentmethod-debmaster paymentmethod-large">Mastercard débito</li>
 			</ul>
 		</div>
 		<div class="ch-box-lite country-box uy" style="display: none">
@@ -491,6 +496,7 @@
 				<li class="paymentmethod-oca paymentmethod-large">Oca</li>
 				<li class="paymentmethod-redpagos paymentmethod-large">Red Pagos</li>
 				<li class="paymentmethod-lider paymentmethod-large">Lider</li>
+				<li class="paymentmethod-debvisa paymentmethod-large">Visa Débito</li>
 			</ul>
 		</div>
 		<div class="ch-box-lite country-box cl" style="display: none">
@@ -576,9 +582,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.7.8");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.7.8");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.7.8");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.8.0");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.8.0");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.8.0");
 	}
 
 	function showDemo(j) {
