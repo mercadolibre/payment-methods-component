@@ -2,7 +2,7 @@
  * Payment Methods Logos
  * @authors: ndevalle, ipianciola, gandre, aramos, dudesl, sabustamante
  * @description: common component for each country's payment methods logos.
- * @version: 1.7.9
+ * @version: 1.8.0
  */
 
 /* Common Structure
@@ -103,7 +103,7 @@
 ---------------------------------------------------------------*/
 
 .paymentmethod-large {
-    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/cl/payment-methods-large.png');
+    background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.8.0/cl/payment-methods-large.png');
     height: 26px; /* most common height */
     margin: 5px;
 }
@@ -115,7 +115,7 @@
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
 
 .paymentmethod-large {
-        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.7.9/cl/payment-methods-large@2x.png');
+        background-image: url('https://http2.mlstatic.com/secure/org-img/ui/payment-methods/1.8.0/cl/payment-methods-large@2x.png');
         background-size: 130px 650px; /* original x1 image size */
     }
 
@@ -140,8 +140,8 @@
 }
 
 .paymentmethod-amex.paymentmethod-large {
-    height: 27px;
-    width: 26px;
+    height: 28px;
+    width: 28px;
 }
 
 .paymentmethod-diners.paymentmethod-large {
