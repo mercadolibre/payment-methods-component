@@ -17,8 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/secure/org-img/ch/mesh/2.2/mesh.min.css">
 
 	<!-- Components -->
-	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.8.0">
-	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.8.0">
+	<link rel="stylesheet" id="country-default" type="text/css" href="dist/payment-methods.ar__default.css?version=1.8.1">
+	<link rel="stylesheet" id="country-large" type="text/css" href="dist/payment-methods.ar__large.css?version=1.8.1">
 
 	<style type="text/css">
 		body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 	<header>
-		<h1>Payment Methods 1.8.0</h1>
+		<h1>Payment Methods 1.8.1</h1>
 		<nav>
 			Choose a Country:
 			<select id="country-select">
@@ -138,6 +138,7 @@
 				<li class="paymentmethod-bitcoin">Bitcoin</li>
 				<li class="paymentmethod-giftcard">Giftcard</li>
 				<li class="paymentmethod-pec">Caixa</li>
+				<li class="paymentmethod-caixavirtualcard">Caixa Virtual Card</li>
 			</ul>
 		</div>
 
@@ -408,6 +409,7 @@
 				<li class="paymentmethod-bitcoin paymentmethod-large">Bitcoin</li>
 				<li class="paymentmethod-giftcard paymentmethod-large">Giftcard</li>
 				<li class="paymentmethod-pec paymentmethod-large">Caixa</li>
+				<li class="paymentmethod-caixavirtualcard paymentmethod-large">Caixa Virtual Card</li>
 		</ul>
 	</div>
 
@@ -582,9 +584,9 @@
 
 	function switchCss(i) {
 
-		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.8.0");
-		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.8.0");
-		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.8.0");
+		$("#country").attr("href", "dist/payment-methods."+i+".css?version=1.8.1");
+		$("#country-default").attr("href", "dist/payment-methods."+i+"__default.css?version=1.8.1");
+		$("#country-large").attr("href", "dist/payment-methods."+i+"__large.css?version=1.8.1");
 	}
 
 	function showDemo(j) {
