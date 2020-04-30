@@ -36,3 +36,10 @@
 .paymentmethod-pec.paymentmethod-large { 
 	background-position: 0 -553px; 
 }
+
+.paymentmethod-caixavirtualcard {
+	background-position: 0 -599px; 
+}
+.paymentmethod-caixavirtualcard.paymentmethod-large { 
+	background-position: 0 -607px;
+}
